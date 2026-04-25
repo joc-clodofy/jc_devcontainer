@@ -1,8 +1,10 @@
-# Odoo 19 Devcontainers
+# Odoo 16 Devcontainers
 
 [![Watch the video](https://github.com/mjavint/devcontainers-odoo/blob/main/img/miniatura.png?raw=true)](https://youtu.be/I4vswyVg2K0)
 
 ## Instalación y Configuración
+
+> Nota: para una guia actualizada de onboarding (Linux/macOS), revisa `DEVCONTAINER_GUIDE.md`.
 
 1. Clonar el repositorio
 
@@ -21,19 +23,32 @@ uv sync
 source .venv/bin/activate
 ```
 
-3. Instalar dependencias de odoo
+3. Configurar variables del dev container
 
 ```bash
-uv pip install -r odoo.19.0/requirements.txt
+cp .devcontainer/.env.example .devcontainer/.env
+# Edita ODOO_SERVER con una ruta absoluta local (Linux o macOS)
 ```
 
-4. Configurar el role odoo en la base de datos usando el servicio `pgadmin` instalado.
-   ![pgadmin](https://github.com/mjavint/devcontainers-odoo/blob/main/img/pgadmin.png?raw=true)
-
-5. Iniciar el servidor de odoo
+4. Crear red Docker externa requerida
 
 ```bash
-python odoo.19.0/odoo-bin -c odoo.conf
+docker network create shared-net
+```
+
+5. Instalar dependencias de odoo
+
+```bash
+uv pip install -r odoo.16.0/requirements.txt
+```
+
+6. Configurar el role odoo en la base de datos usando el servicio `pgadmin` instalado.
+   ![pgadmin](https://github.com/mjavint/devcontainers-odoo/blob/main/img/pgadmin.png?raw=true)
+
+7. Iniciar el servidor de odoo
+
+```bash
+python odoo.16.0/odoo-bin -c odoo.conf
 ```
 
 ## Enlaces útiles

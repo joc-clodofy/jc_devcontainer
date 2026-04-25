@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPOS_FILE="${ROOT_DIR}/oca/repositories.txt"
+OCA_DIR="${ROOT_DIR}/oca"
+OCA_BRANCH="${OCA_BRANCH:-17.0}"
+
+if [[ ! -f "${REPOS_FILE}" ]]; then
+  echo "No existe ${REPOS_FILE}" >&2
+  exit 1
+fi
+
+mkdir -p "${OCA_DIR}"
+
+echo "Branch objetivo: ${OCA_BRANCH}"
+echo "Leyendo repositorios desde: ${REPOS_FILE}"
+echo
+
+ok=0
+skip=0
+fail=0
+
+while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
+  line="$(echo "${raw_line}" | sed 's/[[:space:]]*#.*$//' | xargs || true)"
+
+  [[ -z "${line}" ]] && continue
+  [[ "${line}" != oca/* ]] && continue
+  [[ "${line}" == *"clodofy"* ]] && continue
+  [[ "${line}" == "oca/repositories.txt" ]] && continue
+
+  repo_name="${line#oca/}"
+  repo_path="${OCA_DIR}/${repo_name}"
+  repo_url="https://github.com/OCA/${repo_name}.git"
+
+  if [[ -d "${repo_path}/.git" ]]; then
+    echo "[UPDATE] ${repo_name}"
+    if git -C "${repo_path}" fetch --all --prune >/dev/null 2>&1 \
+      && git -C "${repo_path}" checkout "${OCA_BRANCH}" >/dev/null 2>&1 \
+      && git -C "${repo_path}" pull --ff-only origin "${OCA_BRANCH}" >/dev/null 2>&1; then
+      ((ok+=1))
+    else
+      echo "  fallo al actualizar ${repo_name} en rama ${OCA_BRANCH}"
+      ((fail+=1))
+    fi
+    continue
+  fi
+
+  if [[ -d "${repo_path}" ]]; then
+    echo "[SKIP] ${repo_name} (directorio existe pero no es git)"
+    ((skip+=1))
+    continue
+  fi
+
+  echo "[CLONE] ${repo_name}"
+  if git clone --branch "${OCA_BRANCH}" --single-branch "${repo_url}" "${repo_path}" >/dev/null 2>&1; then
+    ((ok+=1))
+  else
+    echo "  no se pudo clonar ${repo_name} en rama ${OCA_BRANCH}"
+    ((fail+=1))
+  fi
+done < "${REPOS_FILE}"
+
+echo
+echo "Resumen: OK=${ok} SKIP=${skip} FAIL=${fail}"
+[[ "${fail}" -eq 0 ]]

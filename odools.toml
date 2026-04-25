@@ -1,10 +1,11 @@
 [[config]]
-name = "17.0"
+name = "16.0"
 odoo_path = "${workspaceFolder}/odoo"
 python_path = "${workspaceFolder}/.venv/bin/python"
 [[config.diagnostic_filters]]
 paths = [ "**/oca*/*", "**/odoo*/*",]
 path_type = "in"
+
 
 
 

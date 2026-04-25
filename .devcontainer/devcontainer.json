@@ -46,5 +46,7 @@
     }
   ],
   "remoteUser": "odoo",
-  "containerUser": "odoo"
+  "containerUser": "odoo",
+  "postCreateCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt",
+  "postAttachCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt"
 }

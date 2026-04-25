@@ -1,5 +1,5 @@
 [project]
-name = "odoo"
+name = "odoo_17"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
     "pycountry",
     "pandas",
     "gTTS",
-    "schwifty",
+    "schwifty==2024.4.0",
     "xmlsig",
     "nox",
     "num2words",
@@ -41,6 +41,16 @@ dependencies = [
     "click-odoo-contrib",
     "xmltodict",
     "suds",
+    "prestapyt>=0.11.1",
+    "pypdf2>=3.0.1",
+    "werkzeug>=3.1.8",
+    "reportlab==4.1.0",
+    "babel==2.9.1",
+    "passlib==1.7.3",
+    "fpdf2>=2.8.7",
+    "decorator==4.4.2",
+    "unidecode>=1.4.0",
+    "polib==1.1.0",
 ]
 
 [tool.setuptools.dynamic]

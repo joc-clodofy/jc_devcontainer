@@ -17,3 +17,11 @@ custom
 *.conf
 *.toml
 *.lock
+
+# Devcontainer local-only files
+.devcontainer/.env
+.devcontainer/nginx/ssl/cert.pem
+.devcontainer/nginx/ssl/key.pem
+
+# Nested repositories not tracked in this repo
+migration/
