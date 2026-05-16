@@ -22,6 +22,16 @@ ok=0
 skip=0
 fail=0
 
+branch_exists_remote() {
+  local repo_path="$1"
+  git -C "${repo_path}" show-ref --verify --quiet "refs/remotes/origin/${OCA_BRANCH}"
+}
+
+default_remote_branch() {
+  local repo_path="$1"
+  git -C "${repo_path}" symbolic-ref --short refs/remotes/origin/HEAD 2>/dev/null | sed 's#^origin/##'
+}
+
 while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
   line="$(echo "${raw_line}" | sed 's/[[:space:]]*#.*$//' | xargs || true)"
 
@@ -33,15 +43,37 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
   repo_name="${line#oca/}"
   repo_path="${OCA_DIR}/${repo_name}"
   repo_url="https://github.com/OCA/${repo_name}.git"
+  if [[ "${repo_name}" == "design-themes" ]]; then
+    repo_url="https://github.com/odoo/${repo_name}.git"
+  fi
 
   if [[ -d "${repo_path}/.git" ]]; then
     echo "[UPDATE] ${repo_name}"
-    if git -C "${repo_path}" fetch --all --prune >/dev/null 2>&1 \
-      && git -C "${repo_path}" checkout "${OCA_BRANCH}" >/dev/null 2>&1 \
-      && git -C "${repo_path}" pull --ff-only origin "${OCA_BRANCH}" >/dev/null 2>&1; then
-      ((ok+=1))
+    if git -C "${repo_path}" fetch --all --prune >/dev/null 2>&1; then
+      if branch_exists_remote "${repo_path}"; then
+        if git -C "${repo_path}" checkout "${OCA_BRANCH}" >/dev/null 2>&1 \
+          && git -C "${repo_path}" pull --ff-only origin "${OCA_BRANCH}" >/dev/null 2>&1; then
+          ((ok+=1))
+        else
+          echo "  fallo al actualizar ${repo_name} en rama ${OCA_BRANCH}"
+          ((fail+=1))
+        fi
+      else
+        fallback_branch="$(default_remote_branch "${repo_path}")"
+        if [[ -z "${fallback_branch}" ]]; then
+          echo "  no existe rama ${OCA_BRANCH} y no se detecto rama por defecto en ${repo_name}"
+          ((fail+=1))
+        elif git -C "${repo_path}" checkout "${fallback_branch}" >/dev/null 2>&1 \
+          && git -C "${repo_path}" pull --ff-only origin "${fallback_branch}" >/dev/null 2>&1; then
+          echo "  rama ${OCA_BRANCH} no existe; actualizado con rama por defecto (${fallback_branch})"
+          ((ok+=1))
+        else
+          echo "  fallo al actualizar ${repo_name} usando rama por defecto (${fallback_branch})"
+          ((fail+=1))
+        fi
+      fi
     else
-      echo "  fallo al actualizar ${repo_name} en rama ${OCA_BRANCH}"
+      echo "  fallo al hacer fetch de ${repo_name}"
       ((fail+=1))
     fi
     continue
@@ -57,8 +89,13 @@ while IFS= read -r raw_line || [[ -n "${raw_line}" ]]; do
   if git clone --branch "${OCA_BRANCH}" --single-branch "${repo_url}" "${repo_path}" >/dev/null 2>&1; then
     ((ok+=1))
   else
-    echo "  no se pudo clonar ${repo_name} en rama ${OCA_BRANCH}"
-    ((fail+=1))
+    if git clone "${repo_url}" "${repo_path}" >/dev/null 2>&1; then
+      echo "  rama ${OCA_BRANCH} no existe; clonado con rama por defecto"
+      ((ok+=1))
+    else
+      echo "  no se pudo clonar ${repo_name}"
+      ((fail+=1))
+    fi
   fi
 done < "${REPOS_FILE}"
 

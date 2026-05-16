@@ -1,0 +1,64 @@
+# Generado por scripts/collect_addon_python_deps.py -w
+# No editar a mano: regenerar tras cambiar manifests o happy.conf.
+# Instalar: uv pip install -r requirements-addons-manifests.txt
+PyYAML
+PyJWT
+aiohttp
+asn1crypto
+beautifulsoup4
+bokeh==3.4.1
+chardet
+cryptography
+dbfread
+deepdiff<8
+easypost==7.15.0
+ebaysdk
+email-validator
+endesive ; python_version >= '3.12'
+endesive<=2.18.5 ; python_version < '3.12'
+geoip2
+geopy
+google-auth
+python-ldap
+lxml
+mako
+mpld3==0.5.10
+numpy-financial<=1.0.0
+numpy>=1.15
+odoo_test_helper
+odoorpc
+ofxparse
+opencv-python
+openpyxl
+openupgradelib
+paramiko<4.0.0
+pdf2image
+phonenumbers
+plaid-python
+plotly==5.22.0
+py3o-formats
+py3o-template
+pyOpenSSL
+pycountry
+pycryptodome
+pygount
+pyserial
+pysftp
+pytesseract
+python-dateutil
+python-stdnum
+pyusb
+pyzbar
+qrcode
+redis
+requests
+roulier
+schwifty==2024.4.0
+sentry_sdk<=1.9.0
+suds-py3
+unidecode
+xlrd
+xlsxwriter
+xmlsec
+xmlsig
+zeep

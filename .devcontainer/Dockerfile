@@ -46,6 +46,7 @@ RUN apt-get update && \
     zsh \
     lsb-release \
     rsync \
+    sassc \
     && apt-get autoremove -yqq
 
 # Install rtlcss
@@ -112,7 +113,10 @@ ARG USER_HOME="/home/$USERNAME"
 
 RUN groupadd -g 1000 $USERNAME -o \
     && useradd -l -md $USER_HOME -s /bin/false -u 1000 -g 1000 $USERNAME \
-    && mkdir -p /var/lib/odoo \
+    && mkdir -p /var/lib/odoo/xdg-data \
+    && mkdir -p "$USER_HOME/.local/share" \
+    && rm -rf "$USER_HOME/.local/share/Odoo" \
+    && ln -sfn /var/lib/odoo "$USER_HOME/.local/share/Odoo" \
     && chown -R $USERNAME /var/lib/odoo \
     && sync
 

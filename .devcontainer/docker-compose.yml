@@ -5,16 +5,24 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      # Si no defines data_dir en tu .conf, Odoo usa appdirs; esto fuerza datos bajo el volumen montado.
+      XDG_DATA_HOME: /var/lib/odoo/xdg-data
+      # Solo aplica cuando NO usas -c/--config (Odoo prioriza -c sobre ODOO_RC).
+      ODOO_RC: /workspace/.devcontainer/odoo-defaults.conf
     volumes:
       - ..:/workspace
       - ../odools.toml:/home/odoo/odools.toml
       - ${ODOO_SERVER}:/workspace/odoo
       # - ${ENTERPRISE_ADDONS}:/workspace/enterprise:ro
+      # Filestore/sessions de Odoo: por defecto van a ~/.local/share/Odoo; el Dockerfile enlaza esa ruta a /var/lib/odoo (este volumen).
       - odoo-data:/var/lib/odoo
     command: sleep infinity
     depends_on:
       - pgdb
-    # Los puertos ya no se exponen directamente, nginx los maneja
+    # 8069 en el host: acceso directo a Odoo y compatibilidad con wkhtmltopdf/report.url en HTTP sin SSL local.
+    ports:
+      - "8069:8069"
     expose:
       - "8069"
       - "8071"

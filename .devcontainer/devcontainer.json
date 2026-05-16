@@ -25,7 +25,6 @@
         "editor.tabSize": 4,
         "terminal.integrated.cursorStyle": "underline",
         "terminal.integrated.cursorBlinking": true,
-        "terminal.integrated.fontFamily": "Cascadia Code NF",
         "terminal.integrated.fontLigatures.enabled": true,
         "terminal.integrated.defaultProfile.linux": "zsh",
         "python.defaultInterpreterPath": ".venv/bin/python",
@@ -47,6 +46,6 @@
   ],
   "remoteUser": "odoo",
   "containerUser": "odoo",
-  "postCreateCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt",
-  "postAttachCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt"
+  "postCreateCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt && uv pip install -r requirements-addons-manifests.txt",
+  "postAttachCommand": "cd /workspace && uv sync --inexact && uv pip install -r odoo/requirements.txt && uv pip install -r requirements-addons-manifests.txt"
 }
