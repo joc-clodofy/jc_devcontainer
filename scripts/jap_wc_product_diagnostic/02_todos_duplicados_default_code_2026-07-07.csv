@@ -1,0 +1,398 @@
+﻿ID producto;Referencia interna;Nombre;Enlazado WC;Origen probable;Stock;Pedidos;Accion recomendada
+1274;0888 200050;"PLACA 1 AGUJA &quot;b&quot; dk 888";NO;legacy;0.0;0;REVISAR
+3174;0888 200050;"PLACA 1 AGUJA ""b"" dk 888";NO;medio;0.0;3;REVISAR (tiene pedidos)
+1300;0888 200060;"PLACA 1 AGUJA &quot;c&quot; dk 888/HIGHLEAD/GOLDEN WHEEL";NO;legacy;0.0;0;REVISAR
+3177;0888 200060;"PLACA 1 AGUJA ""c"" dk 888/HIGHLEAD/GOLDEN WHEEL";NO;medio;0.0;0;REVISAR
+1945;103H7823-0416;"MOTOR MOVIMIENTO &quot;Y&quot; SWF";NO;legacy;0.0;0;REVISAR
+3198;103H7823-0416;"MOTOR MOVIMIENTO ""Y"" SWF";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2109;5.04.112A;"PATA/PRENSATELAS &quot;A&quot; MEC-VAL";NO;medio;0.0;0;REVISAR
+3203;5.04.112A;"PATA/PRENSATELAS ""A"" MEC-VAL";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1624;522080-271538;TOPE GUIA;NO;legacy;0.0;0;REVISAR
+2547;522080-271538;TOPE GUIA;NO;medio;0.0;0;REVISAR
+1564;720;ENGRANE HEMBRA EJE ACOPLAMIENTO RULETA PF-491/591/ZOJE/TTY;NO;legacy;0.0;0;REVISAR
+2137;720;ENGRANE HEMBRA EJE ACOPLAMIENTO RULETA PF-491/591/ZOJE/TTY;NO;medio;0.0;0;REVISAR
+2090;8.01.114;BUJE MEC-VAL CS-87;NO;medio;0.0;0;REVISAR
+3079;8.01.114;BUJE MEC-VAL CS-87;NO;medio;0.0;0;REVISAR
+1434;91-059186-04/004;"DIENTE PF-1293 &quot;B&quot;";NO;legacy;0.0;0;REVISAR
+3182;91-059186-04/004;"DIENTE PF-1293 ""B""";NO;medio;0.0;0;REVISAR
+1483;91-150526-04/001;"PLACA AGUJA PF-491 &quot;B&quot;";NO;legacy;0.0;0;REVISAR
+3183;91-150526-04/001;"PLACA AGUJA PF-491 ""B""";NO;medio;0.0;0;REVISAR
+1404;91-150739-24/001;"PLACA AGUJA PF-591 &quot;B&quot; tty";NO;legacy;0.0;0;REVISAR
+3180;91-150739-24/001;"PLACA AGUJA PF-591 ""B"" tty";NO;medio;0.0;0;REVISAR
+1560;91-150739-24/003;"PLACA AGUJA PEQUEÑA PF-591 &quot;A&quot; tty";NO;legacy;0.0;0;REVISAR
+3185;91-150739-24/003;"PLACA AGUJA PEQUEÑA PF-591 ""A"" tty";NO;medio;0.0;0;REVISAR
+1559;91-150739-24/004;"PLACA AGUJA PF-591 &quot;C&quot; tty";NO;legacy;0.0;0;REVISAR
+3184;91-150739-24/004;"PLACA AGUJA PF-591 ""C"" tty";NO;medio;0.0;0;REVISAR
+3088;C0066;"CUCHILLA VERTICAL KM10&quot;";NO;medio;0.0;0;REVISAR
+3235;C0066;"CUCHILLA VERTICAL KM10""";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2672;CORREADENTADA;"CORREA DENTADA MOTOR &quot;Y&quot; LASER";NO;medio;0.0;0;REVISAR
+3219;CORREADENTADA;"CORREA DENTADA MOTOR ""Y"" LASER";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2885;DUO-HCS3-1201-40;"DUO COMBO HAPPY HCS3.  COMBO ESPECIAL DE DOS CABEZALES DE HCS3, UNIDOS SOBRE UNA BANCADA ESPECIAL. (ESTE TIPO DE COMBO, OFRECE UNA MAYOR VERSATILIDAD Y PRODUCCIÓN, QUE LAS MÁQUINAS DE BORDAR DE DOS CABEZALES CONVENCIONALES) CARACTERISTICAS DE CADA CABEZAL: - MAQUINA DE BORDAR INDUSTRIAL de 12 agujas, CON UN AREA MAX DE BORDADO REAL DE 320X320MM EN BASTIDOR PORTAL (OPCIONAL), de 290x290 en bastidor TUBULAR Y DE 67X290MM CON EL BASTIDOR DE GORRAS. - NUEVO BRAZO, DE TAMAÑO MUCHO MAS PEQUEÑO, QUE PERMITE BORDAR EN ESPACIOS MAS REDUCIDOS. - NUEVO SOPORTE PARA LOS HILOS, QUE PERMITE PONER BOINAS DE HILO CON UNA BASE MAS ANCHA. - VELOCIDAD MAX DE 1.000 PUNTADAS. - NUEVA PANTALLA TACTIL 7&quot; con nuevo sistema de tratamiento de datos, con posibilidad de usar cualquier adaptador wifi por usb, CONEXION LAN incorporada , USB Y USB FRONTAL. - Nuevo sistema de movimiento de bastidor sin vib esperaciones.  - bOBINADOR DE HILO DE CANILLA INCORPORADO E INDEPENDIENTE (NO ES NECESARIO QUE LA MAQUINA ESTE EN MARCHA PARA QUE ESTE TRABAJE). - pOSIBILIDAD DE CREAR TEXTOS CON DISTINTOS ESTILOS DE FUENTES, TAMAÑOS Y FORMAS DESDE EL PANEL. - pOSICIONAMIENTO CON MARCADOR LÁSER TIPO CRUZ. - LUZ LED FRONTAL. - reconocimiento DEL ÁREA DE BORDADO QUE PERMITE EL CENTRAR EL DISEÑO EN EL BASTIDOR CON SOLO PULSAR UN BOTÓN Y TAMBIÉN EVITAR POSIBLES GOLPES DE LA AGUJA EN EL BASTIDOR. - iNCLUYE 100 DISEÑOS EN LA MEMORIA. - edición CON SOFTWARE HAPPY LINK/LAN INCLUIDO. - pOSIBILIDAD DE DISTINTOS TIPOS DE BASTIDORES ESPECIALES (OPCIONAL VEASE EN EL CATALOGO   - Se entrega con: bancada, kits de gorras,  6 juegos dobles de bastidores de 15, 18 y 21 cm y dos de 32X32.";NO;medio;0.0;0;REVISAR
+3225;DUO-HCS3-1201-40;"DUO COMBO HAPPY HCS3.
+
+COMBO ESPECIAL DE DOS CABEZALES DE HCS3, UNIDOS SOBRE UNA BANCADA ESPECIAL. (ESTE TIPO DE COMBO, OFRECE UNA MAYOR VERSATILIDAD Y PRODUCCIÓN, QUE LAS MÁQUINAS DE BORDAR DE DOS CABEZALES CONVENCIONALES)
+CARACTERISTICAS DE CADA CABEZAL:
+- MAQUINA DE BORDAR INDUSTRIAL de 12 agujas, CON UN AREA MAX DE BORDADO REAL DE 320X320MM EN BASTIDOR PORTAL (OPCIONAL), de 290x290 en bastidor TUBULAR Y DE 67X290MM CON EL BASTIDOR DE GORRAS.
+- NUEVO BRAZO, DE TAMAÑO MUCHO MAS PEQUEÑO, QUE PERMITE BORDAR EN ESPACIOS MAS REDUCIDOS.
+- NUEVO SOPORTE PARA LOS HILOS, QUE PERMITE PONER BOINAS DE HILO CON UNA BASE MAS ANCHA.
+- VELOCIDAD MAX DE 1.000 PUNTADAS.
+- NUEVA PANTALLA TACTIL 7"" con nuevo sistema de tratamiento de datos, con posibilidad de usar cualquier adaptador wifi por usb, CONEXION LAN incorporada , USB Y USB FRONTAL.
+- Nuevo sistema de movimiento de bastidor sin vib
+esperaciones. 
+- bOBINADOR DE HILO DE CANILLA INCORPORADO E INDEPENDIENTE (NO ES NECESARIO QUE LA MAQUINA ESTE EN MARCHA PARA QUE ESTE TRABAJE).
+- pOSIBILIDAD DE CREAR TEXTOS CON DISTINTOS ESTILOS DE FUENTES, TAMAÑOS Y FORMAS DESDE EL PANEL.
+- pOSICIONAMIENTO CON MARCADOR LÁSER TIPO CRUZ.
+- LUZ LED FRONTAL.
+- reconocimiento DEL ÁREA DE BORDADO QUE PERMITE EL CENTRAR EL DISEÑO EN EL BASTIDOR CON SOLO PULSAR UN BOTÓN Y TAMBIÉN EVITAR POSIBLES GOLPES DE LA AGUJA EN EL BASTIDOR.
+- iNCLUYE 100 DISEÑOS EN LA MEMORIA.
+- edición CON SOFTWARE HAPPY LINK/LAN INCLUIDO.
+- pOSIBILIDAD DE DISTINTOS TIPOS DE BASTIDORES ESPECIALES (OPCIONAL VEASE EN EL CATALOGO 
+
+- Se entrega con: bancada, kits de gorras,  6 juegos dobles de bastidores de 15, 18 y 21 cm y dos de 32X32.";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2489;EL6001392;RODILLO ALIMENTAC. MAQUINA REBAJAR 50MM GRANO 2;NO;medio;0.0;0;REVISAR
+2491;EL6001392;RODILLO ALIMENTAC. MAQUINA REBAJAR 50MM GRANO 2;NO;medio;0.0;0;REVISAR
+1027;EPM00980;ROTARY SERVOMOTOR EJE X,Y. YASKAWA 200W PARA MÁQUINA HAPPY, MODELO HCU.;NO;legacy;0.0;0;REVISAR
+3166;EPM00980;"ROTARY SERVOMOTOR EJE X,Y.
+YASKAWA 200W PARA MÁQUINA HAPPY, MODELO HCU.";NO;medio;0.0;0;REVISAR
+1664;EPZ01410;"PANEL LCD 10&quot; HAPPY";NO;legacy;0.0;0;REVISAR
+3188;EPZ01410;"PANEL LCD 10"" HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+424;EPZ01480;"PANEL TACTIL 7&apos;&apos; HAPPY HCH/HCS/HCD2/HCR2/HCR3";NO;legacy;0.0;0;REVISAR
+3143;EPZ01480;PANEL TACTIL 7'' HAPPY HCH/HCS/HCD2/HCR2/HCR3;NO;medio;0.0;1;REVISAR (tiene pedidos)
+2431;EPZ01490;"PANTALLA LCD HAPPY 7&quot;";NO;medio;0.0;0;REVISAR
+3212;EPZ01490;"PANTALLA LCD HAPPY 7""";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2225;FC345;"BASTIDOR FAST CLAMPING 3,5&quot;X4&quot;(89X101,5MM)";NO;medio;0.0;0;REVISAR
+3207;FC345;"BASTIDOR FAST CLAMPING 3,5""X4""(89X101,5MM)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2224;FC45;"BASTIDOR FAST CLAMPING 4,5&quot;X4,5&quot; (114X114MM)";NO;medio;0.0;0;REVISAR
+3206;FC45;"BASTIDOR FAST CLAMPING 4,5""X4,5"" (114X114MM)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2226;FC456;"BASTIDOR FAST CLAMPING 4,5&quot;X6&quot; (114,3X152,4MM)";NO;medio;0.0;0;REVISAR
+3208;FC456;"BASTIDOR FAST CLAMPING 4,5""X6"" (114,3X152,4MM)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2223;FC65;"BASTIDOR FAST CLAMPING 6,5&quot;X6,5&quot; (165,1X165,1MM)";NO;medio;0.0;0;REVISAR
+3205;FC65;"BASTIDOR FAST CLAMPING 6,5""X6,5"" (165,1X165,1MM)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+3083;FRA44003;"Cap hold frame ass&apos;y (wide type) HAPPY";NO;medio;0.0;0;REVISAR
+3234;FRA44003;Cap hold frame ass'y (wide type) HAPPY;NO;import reciente;0.0;0;ARCHIVAR (copia import)
+3130;FW-711445;HILO DE LANA FISWOOLY 1000MT;NO;medio;0.0;0;REVISAR
+3131;FW-711445;HILO DE LANA FISWOOLY 1000MT;NO;medio;0.0;0;REVISAR
+2857;HCA04100;"CUCHILLA FIJA HAPPY &quot;B&quot; HCA/HCG/HCM";NO;medio;0.0;0;REVISAR
+3222;HCA04100;"CUCHILLA FIJA HAPPY ""B"" HCA/HCG/HCM";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1360;HCB79210;"MOTOR &quot;Y&quot; HAPPY HCS2";NO;legacy;0.0;0;REVISAR
+3178;HCB79210;"MOTOR ""Y"" HAPPY HCS2";NO;medio;0.0;0;REVISAR
+1088;HCB79600;"POTENCIOMETRO CAMBIO COLOR HCH-HCS2-HCU/HCU2 POTENTIOMETER ASS&apos;Y HAPPY";NO;legacy;0.0;0;REVISAR
+3168;HCB79600;POTENCIOMETRO CAMBIO COLOR HCH-HCS2-HCU/HCU2 POTENTIOMETER ASS'Y HAPPY;NO;medio;0.0;0;REVISAR
+1010;HCB914022;"THREAD HOLDER ASS&apos;Y HAPPY HCS/HCS2";NO;legacy;0.0;0;REVISAR
+3163;HCB914022;THREAD HOLDER ASS'Y HAPPY HCS/HCS2;NO;medio;0.0;0;REVISAR
+1021;HCBU08040;"POSITIONING PLATE ASS&apos;Y-HCS Upgrade Kit A HAPPY";NO;legacy;0.0;0;REVISAR
+3165;HCBU08040;POSITIONING PLATE ASS'Y-HCS Upgrade Kit A HAPPY;NO;medio;0.0;0;REVISAR
+1016;HCBU13020;"LEVER FOR PRESSURE FOOT ASS&apos;Y HAPPY HCH/HCS/HCS2";NO;legacy;0.0;0;REVISAR
+3164;HCBU13020;LEVER FOR PRESSURE FOOT ASS'Y HAPPY HCH/HCS/HCS2;NO;medio;0.0;0;REVISAR
+1009;HCBU14011;"THREAD CATCHER ASS&apos;Y-HCS Upgrade kit a HAPPY";NO;legacy;0.0;0;REVISAR
+3162;HCBU14011;THREAD CATCHER ASS'Y-HCS Upgrade kit a HAPPY;NO;medio;0.0;0;REVISAR
+2314;HCD05A13;"SOPORTE CUCHILLAS HAPPY HCD2 // THREAD CUTTING DEVICE BASE ASS&apos;Y";NO;medio;0.0;0;REVISAR
+3209;HCD05A13;SOPORTE CUCHILLAS HAPPY HCD2 // THREAD CUTTING DEVICE BASE ASS'Y;NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2592;HCD29540;"REAR COVER (10.4 in) HAPPY (SOPORTE LCD 10&quot;)";NO;medio;0.0;0;REVISAR
+3217;HCD29540;"REAR COVER (10.4 in) HAPPY (SOPORTE LCD 10"")";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+3043;HCD29572;"CARCASA FRONTAL PANEL 10&quot; HAPPY";NO;medio;0.0;0;REVISAR
+3233;HCD29572;"CARCASA FRONTAL PANEL 10"" HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1665;HCD72800;"CABLE CONEXIÓN LCD 10&quot; HAPPY";NO;legacy;0.0;0;REVISAR
+3189;HCD72800;"CABLE CONEXIÓN LCD 10"" HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1926;HCD79621;"MODULO CORE 7&quot; PANEL LCD HAPPY";NO;legacy;0.0;0;REVISAR
+3197;HCD79621;"MODULO CORE 7"" PANEL LCD HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1028;HCD79720;DRIVER MOVIMIENTOS X, Y, A. PARA MÁQUINA DE BORDAR HAPPY MODELO HCU. SERVOPACK 200V YASKAWA.;NO;legacy;0.0;0;REVISAR
+3167;HCD79720;"DRIVER MOVIMIENTOS X, Y, A. PARA MÁQUINA DE BORDAR HAPPY MODELO HCU.
+SERVOPACK 200V YASKAWA.";NO;medio;0.0;0;REVISAR
+3137;HCD81022;"LCD ATA CIRCUIT BOARD (Pb FREE) ASSY HAPPY &quot;HCS LCD COLOR&quot;";NO;medio;0.0;0;REVISAR
+3237;HCD81022;"LCD ATA CIRCUIT BOARD (Pb FREE) ASSY HAPPY ""HCS LCD COLOR""";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1125;HCD81092H;"PLACA DE POSICION &quot;L&quot; Y &quot;C&quot; HAPPY HCD2 (TIMING BOARD)";NO;legacy;0.0;0;REVISAR
+3170;HCD81092H;"PLACA DE POSICION ""L"" Y ""C"" HAPPY HCD2 (TIMING BOARD)";NO;medio;0.0;0;REVISAR
+1121;HCD81093;"CONJUNTO PLACA DE POSICION &quot;L&quot; Y &quot;C&quot; HAPPY HCD2 (TIMING BOARD)";NO;legacy;0.0;0;REVISAR
+3169;HCD81093;"CONJUNTO PLACA DE POSICION ""L"" Y ""C"" HAPPY HCD2 (TIMING BOARD)";NO;medio;0.0;0;REVISAR
+2428;HCDU37A41;"BASTIDOR PORTAL &quot;X&quot; HAPPY HCD2-X (400X1200).";NO;medio;0.0;0;REVISAR
+3211;HCDU37A41;"BASTIDOR PORTAL ""X"" HAPPY HCD2-X (400X1200).";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+436;HCHplus-701 S/G;HAPPY HCHplus-701-30 S/G .;NO;legacy;0.0;0;REVISAR
+3146;HCHplus-701 S/G;"HAPPY HCHplus-701-30 S/G
+.";NO;medio;0.0;0;REVISAR
+1287;HCR15B40;"SUJETAHILOS TIPO CLIP happy hcd2/hcr2 moderno/HOLDER ASS&apos;Y (lower)";NO;legacy;0.0;0;REVISAR
+3176;HCR15B40;SUJETAHILOS TIPO CLIP happy hcd2/hcr2 moderno/HOLDER ASS'Y (lower);NO;medio;0.0;0;REVISAR
+2322;HCR16A46;CONJUNTO TENSOR DETECCIÓN DE HILO HAPPY HCR2. (TENSOR NEGRO COMPLETO);NO;medio;0.0;0;REVISAR
+3210;HCR16A46;"CONJUNTO TENSOR DETECCIÓN DE HILO HAPPY HCR2.
+(TENSOR NEGRO COMPLETO)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+455;HCR3-1502-45;"HAPPY HCR3-X1502-45  Máquina de bordar, de 2 cabezas y 15 agujas, con una distancia entre cabezales de 500mm., un campo de bordado de 450x500mm. en plano y de 420x440mm. con bastidor tubular a una velocidad de 1.200rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot; con conexión wifi incorporada para la transferencia bidireccional ente ordenador y máquina de diseños, son necesidad de acceso a internet. - Desde el panel tenemos la posibilidad desde crear albafetos, como combinar 3 diseños en 1, así como una gran capacidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos USB/LAN. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuelas, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  Equipamiento suministrado con la máquina: - Bastidor portal. .-3 juegos de bastidores tubulares a elegir entre varias medidas. -Kit bastidor de gorras.";NO;legacy;0.0;0;REVISAR
+3154;HCR3-1502-45;"HAPPY HCR3-X1502-45
+
+Máquina de bordar, de 2 cabezas y 15 agujas, con una distancia entre cabezales de 500mm., un campo de bordado de 450x500mm. en plano y de 420x440mm. con bastidor tubular a una velocidad de 1.200rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"" con conexión wifi incorporada para la transferencia bidireccional ente ordenador y máquina de diseños, son necesidad de acceso a internet.
+- Desde el panel tenemos la posibilidad desde crear albafetos, como combinar 3 diseños en 1, así como una gran capacidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos USB/LAN.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuelas, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+Equipamiento suministrado con la máquina:
+- Bastidor portal.
+.-3 juegos de bastidores tubulares a elegir entre varias medidas.
+-Kit bastidor de gorras.";NO;medio;0.0;0;REVISAR
+454;HCR3-1502-45 S/G;"HAPPY HCR3-X1502-45 S/G  Máquina de bordar, de 2 cabezas y 15 agujas, con una distancia entre cabezales de 500mm., un campo de bordado de 450x500mm. en plano y de 420x440mm. con bastidor tubular a una velocidad de 1.200rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot; con conexión wifi incorporada para la transferencia bidireccional ente ordenador y máquina de diseños, son necesidad de acceso a internet. - Desde el panel tenemos la posibilidad desde crear albafetos, como combinar 3 diseños en 1, así como una gran capacidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos USB/LAN. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuelas, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  Equipamiento suministrado con la máquina: - Bastidor portal. .-3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3153;HCR3-1502-45 S/G;"HAPPY HCR3-X1502-45 S/G
+
+Máquina de bordar, de 2 cabezas y 15 agujas, con una distancia entre cabezales de 500mm., un campo de bordado de 450x500mm. en plano y de 420x440mm. con bastidor tubular a una velocidad de 1.200rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"" con conexión wifi incorporada para la transferencia bidireccional ente ordenador y máquina de diseños, son necesidad de acceso a internet.
+- Desde el panel tenemos la posibilidad desde crear albafetos, como combinar 3 diseños en 1, así como una gran capacidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos USB/LAN.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuelas, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+Equipamiento suministrado con la máquina:
+- Bastidor portal.
+.-3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+425;HCR3-1504-45;"HAPPY HCR3-1504-45 - Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot; con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. - desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - puertos usb/lan. - 1000 memorias. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: . Bastidor portal . Kit Bastidor de gorras  . 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3144;HCR3-1504-45;"HAPPY HCR3-1504-45
+- Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"" con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+- desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- puertos usb/lan.
+- 1000 memorias.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+. Bastidor portal
+. Kit Bastidor de gorras 
+. 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+426;HCR3-1504-45 S/G;"HAPPY HCR3-1504-45 S/G -Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. -Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. -Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. -Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: -Bastidor portal. - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3145;HCR3-1504-45 S/G;"HAPPY HCR3-1504-45 S/G
+-Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+-Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+-Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+-Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+-Bastidor portal.
+- 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+445;HCR3-1506-45;"HAPPY HCR3-1506-45  - Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot; con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. - desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - puertos usb/lan. - 1000 memorias. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos. -  Equipamiento suministrado con la máquina: - Bastidor portal - Kit bastidor gorras.  - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3148;HCR3-1506-45;"HAPPY HCR3-1506-45 
+- Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"" con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+- desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- puertos usb/lan.
+- 1000 memorias.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+-
+ Equipamiento suministrado con la máquina:
+- Bastidor portal
+- Kit bastidor gorras.
+ - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+444;HCR3-1506-45 S/G;"HAPPY HCR3-1506-45 S/G - Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). - 999 memorias con 40.000.000 de puntadas libres. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot; con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. - desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - puertos usb/lan. - 1000 memorias. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: - Bastidor portal  - 3 juegos de bastidores tubulares a elegir entre varias medidas.u";NO;legacy;0.0;0;REVISAR
+3147;HCR3-1506-45 S/G;"HAPPY HCR3-1506-45 S/G
+- Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 360mm, un campo de bordado de 450x360mm en plano y de 320x320mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+- 999 memorias con 40.000.000 de puntadas libres.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"" con conexión wifi incorporada para la tranferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+- desde el panel tenemos la posibilidad desde crear alfabetos como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- puertos usb/lan.
+- 1000 memorias.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+- Bastidor portal
+ - 3 juegos de bastidores tubulares a elegir entre varias medidas.u";NO;medio;0.0;1;REVISAR (tiene pedidos)
+984;HCR3-X1504-45;"HAPPY HCR3-X1504-45  -Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). -Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. -Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. -Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: - Bastidor portal. - Kit bastidor de gorras - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3161;HCR3-X1504-45;"HAPPY HCR3-X1504-45 
+-Máquina de bordar, de 4 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+-Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+-Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+-Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+- Bastidor portal.
+- Kit bastidor de gorras
+- 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+446;HCR3-X1506 S/G;"HAPPY HCR3-X1506-45 S/G -Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). -Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. -Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. -Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: . Bastidor portal . 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3149;HCR3-X1506 S/G;"HAPPY HCR3-X1506-45 S/G
+-Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+-Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+-Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+-Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+. Bastidor portal
+. 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+447;HCR3-X1506-45;"HAPPY HCR3-X1506-45  -Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z). -Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. -Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. -Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: - Bastidor portal. - Kit bastidor de gorras - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3150;HCR3-X1506-45;"HAPPY HCR3-X1506-45 
+-Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores servo, mayor calidad en el bordado (todos los motores de la máquina son servomotores, X, Y y Z).
+-Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+-Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+-Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+- Bastidor portal.
+- Kit bastidor de gorras
+- 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+450;HCR3-X1508 S/G;"HAPPY HCR3-X1508-45 S/G -Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores Servo, mayor calidad en el bordado (Todos los motores de la Máquina son Servomotores, X, Y y Z. -Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. -Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. -Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: . Bastidor portal . 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3151;HCR3-X1508 S/G;"HAPPY HCR3-X1508-45 S/G
+-Máquina de bordar, de 6 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores Servo, mayor calidad en el bordado (Todos los motores de la Máquina son Servomotores, X, Y y Z.
+-Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+-Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+-Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+. Bastidor portal
+. 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+451;HCR3-X1508-45;"HAPPY HCR3-X1508-45 - Máquina de bordar, de 8 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm. - Nuevos motores Servo, mayor calidad en el bordado (Todos los motores de la Máquina son Servomotores, X, Y y Z. - Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4&quot;, con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet. - Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados. - Bobinador de hilo de canilla con motor independiente. - Puertos usb/lan. - Iluminación led sobre el área de bordado. - Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.  - Equipamiento suministrado con la máquina: . Bastidor portal. - Kit bastidor de gorras. - 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;legacy;0.0;0;REVISAR
+3152;HCR3-X1508-45;"HAPPY HCR3-X1508-45
+- Máquina de bordar, de 8 cabezas y 15 agujas, con una distancia entre cabezales de 500mm, un campo de bordado de 450x500mm en plano y de 420x440mm con bastidor tubular a una velocidad de 1.100rpm.
+- Nuevos motores Servo, mayor calidad en el bordado (Todos los motores de la Máquina son Servomotores, X, Y y Z.
+- Dotada de sujetahilos tipo clip, puntero de posición en el primer cabezal, panel de control táctil de 10,4"", con conexión WIFI incorporada para la transferencia bidireccional entre ordenador y máquina de diseños, sin necesidad de acceso a internet.
+- Desde el panel tenemos la posibilidad, desde crear alfabetos, como combinar 2 diseños en 1, así como una gran cantidad de funciones para la edición y el posicionamiento de los bordados.
+- Bobinador de hilo de canilla con motor independiente.
+- Puertos usb/lan.
+- Iluminación led sobre el área de bordado.
+- Opcionalmente dispone de dispositivos de lentejuela, cordón y punzón, así como una gran variedad de bastidores para trabajos específicos.
+
+- Equipamiento suministrado con la máquina:
+. Bastidor portal.
+- Kit bastidor de gorras.
+- 3 juegos de bastidores tubulares a elegir entre varias medidas.";NO;medio;0.0;0;REVISAR
+2977;HCSU29010;"DISPLAY MODULE 7&quot; HCD3E/HCD2 HAPPY";NO;medio;0.0;0;REVISAR
+3229;HCSU29010;"DISPLAY MODULE 7"" HCD3E/HCD2 HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+979;HCU-1401-40 S/G;"HCU-1401-40W - Máquina de bordar de 1 cabezal y 14 agujas. - Prensatelas con regulación electrónica de altura y ajuste automático de el espesor del genero, que permite al usuario no tener que realizar ajustes manuales, en los bordados 3D, etc. - Equipada con marcador láser en cruz 100% preciso, un campo de trabajo de 400X600 tanto en tubular como en plano. - Campo ampliable a 400X1200. - Pantalla táctil de 7&quot;, con la mayor posibilidad personalizar la configuración, para hacerla aun mas productiva.  - Auto reparación automática de todos lo errores que los fallos humanos puedan producir, o por cortes de luz. - Conexión WIFI y LAN, bidireccional, que permite tanto enviar los diseños desde el ordenador, como obtenerlos desde la máquina. - Iluminación LED sobre el área de bordado. - Velocidad de 1500 r.p.m., que ofrecen la máxima calidad gracias a la incorporación de servomotores en todos sus movimientos.  Incluye, 4 juegos de bastidores tubulares, bancada y accesorios.";NO;legacy;0.0;0;REVISAR
+3160;HCU-1401-40 S/G;"HCU-1401-40W
+- Máquina de bordar de 1 cabezal y 14 agujas.
+- Prensatelas con regulación electrónica de altura y ajuste automático de el espesor del genero, que permite al usuario no tener que realizar ajustes manuales, en los bordados 3D, etc.
+- Equipada con marcador láser en cruz 100% preciso, un campo de trabajo de 400X600 tanto en tubular como en plano.
+- Campo ampliable a 400X1200.
+- Pantalla táctil de 7"", con la mayor posibilidad personalizar la configuración, para hacerla aun mas productiva. 
+- Auto reparación automática de todos lo errores que los fallos humanos puedan producir, o por cortes de luz.
+- Conexión WIFI y LAN, bidireccional, que permite tanto enviar los diseños desde el ordenador, como obtenerlos desde la máquina.
+- Iluminación LED sobre el área de bordado.
+- Velocidad de 1500 r.p.m., que ofrecen la máxima calidad gracias a la incorporación de servomotores en todos sus movimientos.
+
+Incluye, 4 juegos de bastidores tubulares, bancada y accesorios.";NO;medio;0.0;0;REVISAR
+1948;HCU25100;"PLETINA SUJECIÓN CORREA EJE &quot;Y&quot; HAPPY HCU";NO;legacy;0.0;0;REVISAR
+3200;HCU25100;"PLETINA SUJECIÓN CORREA EJE ""Y"" HAPPY HCU";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1947;HCU25110;"PLETINA CONEXIÓN CORREA EJE &quot;Y&quot; HAPPY HCU";NO;legacy;0.0;0;REVISAR
+3199;HCU25110;"PLETINA CONEXIÓN CORREA EJE ""Y"" HAPPY HCU";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+457;HFR-W1502-120;"HAPPY HFR-W1502-120 - Campo de trabajo: 2 cabezales Y1200xX600 mm. - Máquina de 15 Agujas; velocidad máxima 1000rpm. - Panel de control 10,4&quot; LCD color táctil. - HAPPY LAN software. - Cambio de color automático. - Detección rotura de hilo automática. - Ranura para memoria USB. -&quot;Offset&quot; automático/bastidor fuera. - Retorno al origen. - Función trazado, edición de diseños, rotación y repetición de diseños - Posibilidad de colocación de dispositivos para la aplicación de lentejuelas, cordones y cintas.";NO;legacy;0.0;0;REVISAR
+3156;HFR-W1502-120;"HAPPY HFR-W1502-120
+- Campo de trabajo: 2 cabezales Y1200xX600 mm.
+- Máquina de 15 Agujas; velocidad máxima 1000rpm.
+- Panel de control 10,4"" LCD color táctil.
+- HAPPY LAN software.
+- Cambio de color automático.
+- Detección rotura de hilo automática.
+- Ranura para memoria USB.
+-""Offset"" automático/bastidor fuera.
+- Retorno al origen.
+- Función trazado, edición de diseños, rotación y repetición de diseños
+- Posibilidad de colocación de dispositivos para la aplicación de lentejuelas, cordones y cintas.";NO;medio;0.0;0;REVISAR
+456;HFR-W1502A-120;"HAPPY HFR-W1502A-120 - Campo de trabajo: 2 cabezales Y1200xX600 mm.; 1 cabezal Y1200xX1200 mm. - Máquina de 15 Agujas; velocidad máxima 1000rpm. - Panel de control 10,4&quot; LCD color táctil. - HAPPY LAN software. - Cambio de color automático. - Detección rotura de hilo automática. - Ranura para memoria USB. -&quot;Offset&quot; automático/bastidor fuera. - Retorno al origen. - Función trazado, edición de diseños, rotación y repetición de diseños - Posibilidad de colocación de dispositivos para la aplicación de lentejuelas, cordones y cintas.";NO;legacy;0.0;0;REVISAR
+3155;HFR-W1502A-120;"HAPPY HFR-W1502A-120
+- Campo de trabajo: 2 cabezales Y1200xX600 mm.; 1 cabezal Y1200xX1200 mm.
+- Máquina de 15 Agujas; velocidad máxima 1000rpm.
+- Panel de control 10,4"" LCD color táctil.
+- HAPPY LAN software.
+- Cambio de color automático.
+- Detección rotura de hilo automática.
+- Ranura para memoria USB.
+-""Offset"" automático/bastidor fuera.
+- Retorno al origen.
+- Función trazado, edición de diseños, rotación y repetición de diseños
+- Posibilidad de colocación de dispositivos para la aplicación de lentejuelas, cordones y cintas.";NO;medio;0.0;1;REVISAR (tiene pedidos)
+2015;HMG08130;"CUSHION &quot;B&quot; HAPPY BLANCO HCGB/HMF";NO;medio;0.0;0;REVISAR
+3201;HMG08130;"CUSHION ""B"" HAPPY BLANCO HCGB/HMF";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1234;M0483229;"THREAD DETECTING CIRCUIT BOARD ASS&apos;Y HAPPY HCG SERIES";NO;legacy;0.0;0;REVISAR
+3173;M0483229;THREAD DETECTING CIRCUIT BOARD ASS'Y HAPPY HCG SERIES;NO;medio;0.0;0;REVISAR
+3035;MF00A0834-B;"CUCHILLA MOVIL MITSUBISHI &quot;B&quot; LS2-150/180/190";NO;medio;0.0;0;REVISAR
+3232;MF00A0834-B;"CUCHILLA MOVIL MITSUBISHI ""B"" LS2-150/180/190";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1583;MH 9x5;MIGHTY HOOP PARA HAPPY 360;NO;legacy;0.0;0;REVISAR
+3186;MH 9x5;"9""x5"" MIGHTY HOOP PARA HAPPY 360";NO;medio;0.0;0;REVISAR
+1626;NEO10;BOBINA HILO POLYNEON 40 COLOR 1000M C/;NO;legacy;0.0;0;REVISAR
+3187;NEO10;"BOBINA HILO POLYNEON 40 COLOR 1000M
+C/";NO;medio;0.0;0;REVISAR
+1685;PISAIRDES;PISTOLA AIRE;NO;legacy;0.0;0;REVISAR
+2574;PISAIRDES;PISTOLA AIRE;NO;medio;0.0;0;REVISAR
+1202;SBBD03005;"TORNILLO SUJECC. PRENSATELAS HAPPY HCD2/HCR2/HMF &amp; HMG NOISE REDUCTION";NO;legacy;0.0;0;REVISAR
+3172;SBBD03005;TORNILLO SUJECC. PRENSATELAS HAPPY HCD2/HCR2/HMF & HMG NOISE REDUCTION;NO;medio;0.0;0;REVISAR
+1318;SCH134KKD90;AGUJAS 134KKD-90;NO;legacy;0.0;0;REVISAR
+1772;SCH134KKD90;AGUJAS 134KKD-90;NO;legacy;0.0;0;REVISAR
+1725;ST-M0404-HA360;"MIGHTYHOOP 4&quot; X 4&quot; ECO";NO;legacy;0.0;0;REVISAR
+3196;ST-M0404-HA360;"MIGHTYHOOP 4"" X 4"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1722;ST-M0413-HA500;"MIGHTYHOOP 4&quot; X 12,75&quot; ECO";NO;legacy;0.0;0;REVISAR
+3193;ST-M0413-HA500;"MIGHTYHOOP 4"" X 12,75"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+968;ST-M0505-HA360;"MIGHTYHOOP 5,5&quot; ECO";NO;legacy;0.0;0;REVISAR
+3157;ST-M0505-HA360;"MIGHTYHOOP 5,5"" ECO";NO;medio;0.0;1;REVISAR (tiene pedidos)
+2206;ST-M0505-W;MARCO MIGHTYHOOP 5,5 ECO;NO;medio;0.0;0;REVISAR
+3204;ST-M0505-W;"""MARCO"" MIGHTYHOOP 5,5"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1723;ST-M0608-HA360;"MIGHTYHOOP 6&quot; X 8&quot; ECO";NO;legacy;0.0;0;REVISAR
+3194;ST-M0608-HA360;"MIGHTYHOOP 6"" X 8"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1719;ST-M0803-HA360;"MIGHTYHOOP 7,75&quot; X 2,75&quot; ECO";NO;legacy;0.0;0;REVISAR
+3191;ST-M0803-HA360;"MIGHTYHOOP 7,75"" X 2,75"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2991;ST-M0809-HA360;"MIGHTYHOOP 8,5 X 9&quot; ECO";NO;medio;0.0;0;REVISAR
+3231;ST-M0809-HA360;"MIGHTYHOOP 8,5 X 9"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1716;ST-M0813-HA500;"MIGHTYHOOP 8 X 13&quot; ECO";NO;legacy;0.0;0;REVISAR
+3190;ST-M0813-HA500;"MIGHTYHOOP 8 X 13"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2990;ST-M0905-HA360;"MIGHTYHOOP 8,7 X 4,9&quot; ECO";NO;medio;0.0;0;REVISAR
+3230;ST-M0905-HA360;"MIGHTYHOOP 8,7 X 4,9"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2950;ST-M1010;MARCO MIGHTYHOOP 10 ECO;NO;medio;0.0;0;REVISAR
+3228;ST-M1010;"""MARCO"" MIGHTYHOOP 10"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+969;ST-M1010-HA360;"MIGHTYHOOP 10 X 10&quot; ECO";NO;legacy;0.0;0;REVISAR
+3158;ST-M1010-HA360;"MIGHTYHOOP 10 X 10"" ECO";NO;medio;0.0;2;REVISAR (tiene pedidos)
+970;ST-M1113-HA500;"MIGHTYHOOP 11 X 13&quot; ECO";NO;legacy;0.0;0;REVISAR
+3159;ST-M1113-HA500;"MIGHTYHOOP 11 X 13"" ECO";NO;medio;0.0;0;REVISAR
+2948;ST-M1212-HA500;MIDGHTYHOOP 12 X 12 ECO;NO;medio;0.0;0;REVISAR
+3226;ST-M1212-HA500;"MIDGHTYHOOP 12 X 12"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2719;ST-M1304-HA500;"MIGHTYHOOP 12,6&quot; X 3,9&quot; ECO";NO;medio;0.0;0;REVISAR
+3220;ST-M1304-HA500;"MIGHTYHOOP 12,6"" X 3,9"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1721;ST-M1316-HA500;"MIGHTYHOOP 12,5&quot; X 15,5&quot; ECO";NO;legacy;0.0;0;REVISAR
+3192;ST-M1316-HA500;"MIGHTYHOOP 12,5"" X 15,5"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2949;ST-M1716-HA500;"MIGHTYHOOP 17 X 16&quot;";NO;medio;0.0;0;REVISAR
+3227;ST-M1716-HA500;"MIGHTYHOOP 17 X 16""";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1724;ST-M6565-HA360;"MIGHTYHOOP 6,5&quot; X 6,5&quot; ECO";NO;legacy;0.0;0;REVISAR
+3195;ST-M6565-HA360;"MIGHTYHOOP 6,5"" X 6,5"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2720;ST-M7272-HA500;"MIGHTYHOOP 7,25&quot; ECO";NO;medio;0.0;0;REVISAR
+3221;ST-M7272-HA500;"MIGHTYHOOP 7,25"" ECO";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2863;TA-9A0802400012;EXCENTRICO PARTIDO  PRENSATELAS (M) TAJIMA: (TFMX, TFMXII, TFGN,);NO;medio;0.0;0;REVISAR
+3224;TA-9A0802400012;"EXCENTRICO PARTIDO  PRENSATELAS (M) TAJIMA:
+(TFMX, TFMXII, TFGN,)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2862;TA-9A0802500000;EXCENTRICO PARTIDO  PRENSATELAS (F1) TAJIMA: (TFHX, TMFD, TFGN, TMLH-MIX, TMLHII-MIX Y TCMX-MIX);NO;medio;0.0;0;REVISAR
+3223;TA-9A0802500000;"EXCENTRICO PARTIDO  PRENSATELAS (F1) TAJIMA:
+(TFHX, TMFD, TFGN, TMLH-MIX, TMLHII-MIX Y TCMX-MIX)";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+1281;WPAA03000;"ARANDELA PRENSATELAS HAPPY HCD2/HCR2/HMF &amp; HMG NOISE REDUCTION";NO;legacy;0.0;0;REVISAR
+3175;WPAA03000;ARANDELA PRENSATELAS HAPPY HCD2/HCR2/HMF & HMG NOISE REDUCTION;NO;medio;0.0;0;REVISAR
+2432;hcd29582;"FRONT PANEL COVER 7&quot; HAPPY";NO;medio;0.0;0;REVISAR
+3213;hcd29582;"FRONT PANEL COVER 7"" HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)
+2433;hcd29590;"REAR COVER PANEL 7&quot; HAPPY";NO;medio;0.0;0;REVISAR
+3214;hcd29590;"REAR COVER PANEL 7"" HAPPY";NO;import reciente;0.0;0;ARCHIVAR (copia import)

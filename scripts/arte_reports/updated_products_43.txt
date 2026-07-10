@@ -1,0 +1,43 @@
+1336|214|{"en_US": "Aceite linaza purificado Talens 75 ml"}
+1410|433|{"en_US": "Gel bolas de vidrio Liquitex"}
+1411|434|{"en_US": "Gel lava negra Liquitex"}
+1544|788|{"en_US": "Polonesa poney Escoda"}
+1844|2181|{"en_US": "Plumilla Index/Shakespeare"}
+1845|2182|{"en_US": "Plumilla ornamental"}
+1847|2184|{"en_US": "Plumilla tape (oblicua)"}
+2526|4030|{"en_US": "Caja William Mitchell plumillas caligrafía"}
+2549|4069|{"en_US": "Tubo acuarela metalizada Van Gogh"}
+2582|4135|{"en_US": "Set rotuladores Liquitex finos fluorescentes"}
+2635|4220|{"en_US": "Set rotuladores Faber Grip Finepen 30"}
+2652|4245|{"en_US": "Copic activador"}
+3199|5016|{"en_US": "Pack 4 bastidores algodón Talens misma medida"}
+3262|5108|{"en_US": "Bloc marrón Talens A4"}
+3324|5208|{"en_US": "Pack 6 bastidores lino Phoenix"}
+3332|5216|{"en_US": "Barniz mate Winsor and Newton 250 ml"}
+3346|5232|{"en_US": "Gama pinceles serie 7 Winsor"}
+3379|5269|{"en_US": "Multitécnicas set Carand´ache"}
+3408|5308|{"en_US": "Set plumillas sketching Speedball"}
+3416|5316|{"en_US": "Bloc pastel al óleo Sennelier 40 x 30"}
+3430|5332|{"en_US": "Bloc Tombow bristol lettering"}
+3481|5393|{"en_US": "Glazing medium Cobra  250 ml"}
+3489|5404|{"en_US": "Pincel plano Van Gogh"}
+3492|5408|{"en_US": "Caja acuarelas Cesc Farré Schmincke"}
+3514|5432|{"en_US": "Brocha para proyectar Liquitex plana"}
+3567|5500|{"en_US": "Herramienta repujado doble Reig 05"}
+3569|5502|{"en_US": "Herramienta repujado doble Reig 07"}
+3581|5516|{"en_US": "Fimo air light blanco"}
+3592|5532|{"en_US": "Fimo Effect estrellado"}
+3653|5601|{"en_US": "Bol rojo en pasta 300 ml"}
+3667|5620|{"en_US": "Caja acuarelas White Nights 36 pastillas"}
+3887|5908|{"en_US": "Bloc para acrílico Winsor 30 x 40"}
+3977|6016|{"en_US": "Paletina pelo sintético Van Gogh"}
+4059|6116|{"en_US": "Cartón entelado para acuarelas"}
+4213|6304|{"en_US": "Barniz mate Old Holland 250 ml"}
+4387|6508|{"en_US": "Sketch book 120 grs Hahnemühle A5"}
+4431|6560|{"en_US": "Set pinceles Escoda Ceramics"}
+4719|6908|{"en_US": "Trementina veneciana 75 ml."}
+4894|7109|{"en_US": "Rotulador acuarelable Faber Castell"}
+5248|7508|{"en_US": "Caja lápices Derwent Procolour 72"}
+5367|7632|{"en_US": "Pincel de viaje Casaneo redondo"}
+5371|7636|{"en_US": "Gama de óleos Rembrandt 150 ml."}
+5434|7708|{"en_US": "Caja Grip Fine pen 0,4 colores básicos"}

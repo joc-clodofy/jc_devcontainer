@@ -1,0 +1,21 @@
+product_id,ps_code,default_code,display_name,ps_qty,odoo_qty,delta,status
+20276,3820-0,001001204,[001001204] Moleskine acuarela pocket,,0.0,,missing_ps
+21750,4984-0,001001704,[001001704] Moleskine acuarela large,,0.0,,missing_ps
+21751,4985-0,001007102,[001007102] Moleskine acuarela DIN A4,,0.0,,missing_ps
+21753,4987-0,001002334,[001002334] Moleskine dibujo large,,0.0,,missing_ps
+21754,4988-0,001007101,[001007101] Moleskine dibujo DIN A4,,0.0,,missing_ps
+21891,5176-38541,00.006,[00.006] Oleo Old Holland 40 ml (A1 Titanium white),4.0,0.0,4.0,diff
+22287,5318-0,001002737,[001002737] Moleskine cuaderno bocetos rojo,,0.0,,missing_ps
+22713,5752-41949,01007003,[01007003] Pincel Miniature Da Vinci 70 (3),5.0,0.0,5.0,diff
+22714,5752-41950,01007004,[01007004] Pincel Miniature Da Vinci 70 (4),2.0,0.0,2.0,diff
+22723,5753-41951,01007603,[01007603] Pincel Miniatura Da Vinci 76 (3),999.0,0.0,999.0,diff
+23305,5989-0,01001036,[01001036] Pincel Da Vinci Maestro Serie 10 36,,0.0,,missing_ps
+23946,6523-0,002001159,[002001159] Organizador rotuladores Tombow vacío,,0.0,,missing_ps
+23947,6524-0,002001160,[002001160] Organizador rotuladores Tombow con 108 rotuladores,,0.0,,missing_ps
+24296,6787-0,001001701,[001001701] Cuaderno japones Moleskine,,0.0,,missing_ps
+26258,7375-0,00210-14410,[00210-14410] Afilalápices eléctrico,,0.0,,missing_ps
+26488,7609-0,0003.509,[0003.509] Portaminas Fixpencil Caran d´ache 3 mm,,0.0,,missing_ps
+27073,7888-0,0000924-0,[0000924-0] Set acrílicos Golden heavy body mixing,,0.0,,missing_ps
+27074,7889-0,0000925-0,[0000925-0] Set acrílicos Golden Open mixing,,0.0,,missing_ps
+27075,7890-0,0000055-0,[0000055-0] Set 6 acrílicos Golden Open mixing,,0.0,,missing_ps
+27076,7891-0,0000075-0,[0000075-0] Set 6 acrílicos Golden heavy body mixing,,0.0,,missing_ps

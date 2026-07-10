@@ -28,6 +28,9 @@ RUN apt-get update && \
     wget \
     python3-dev \
     libxml2-dev \
+    libxmlsec1-dev \
+    libxmlsec1-openssl \
+    pkg-config \
     libxslt1-dev \
     zlib1g-dev \
     libsasl2-dev \

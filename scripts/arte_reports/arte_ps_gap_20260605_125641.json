@@ -1,0 +1,2556 @@
+{
+  "timestamp": "2026-06-05T12:56:41",
+  "odoo_url": "https://stg20260604-odoo17-jer-bellas-artes.n3.clodofy.cloud",
+  "odoo_db": "odoo_stg20260604_odoo17_jer_bellas_artes",
+  "integration_id": 1,
+  "summary": {
+    "external_variants_cache": 19561,
+    "external_templates_cache": 4498,
+    "variant_mapping_rows": 15454,
+    "variant_mappings_linked_odoo": 13429,
+    "external_variants_sin_mapping": 4107,
+    "variant_mappings_sin_product_id": 2025,
+    "odoo_product_product_activos": 13440,
+    "odoo_product_product_total": 13555,
+    "gap_variantes_vs_cache": 6132,
+    "plantillas_a_revisar": 402,
+    "por_motivo": {
+      "sin_producto_odoo": 118,
+      "import_parcial": 271,
+      "sin_variantes_odoo": 4
+    },
+    "ps_activas_sin_external_odoo": 9
+  },
+  "top_plantillas_parciales": [
+    {
+      "ps_code": "8164",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 99,
+      "external_template_id": 4203
+    },
+    {
+      "ps_code": "5299",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 98,
+      "external_template_id": 1950
+    },
+    {
+      "ps_code": "3077",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 90,
+      "external_template_id": 822
+    },
+    {
+      "ps_code": "7523",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 88,
+      "external_template_id": 3564
+    },
+    {
+      "ps_code": "5826",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 86,
+      "external_template_id": 2354
+    },
+    {
+      "ps_code": "7297",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 82,
+      "external_template_id": 3480
+    },
+    {
+      "ps_code": "5281",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 80,
+      "external_template_id": 1942
+    },
+    {
+      "ps_code": "6767",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 79,
+      "external_template_id": 3003
+    },
+    {
+      "ps_code": "59",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 76,
+      "external_template_id": 41
+    },
+    {
+      "ps_code": "3609",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 70,
+      "external_template_id": 882
+    },
+    {
+      "ps_code": "6768",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 69,
+      "external_template_id": 3016
+    },
+    {
+      "ps_code": "6766",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 67,
+      "external_template_id": 2991
+    },
+    {
+      "ps_code": "7784",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 63,
+      "external_template_id": 3969
+    },
+    {
+      "ps_code": "5250",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 61,
+      "external_template_id": 1916
+    },
+    {
+      "ps_code": "4261",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 59,
+      "external_template_id": 1135
+    }
+  ],
+  "ps_templates_missing_external": [
+    "4564",
+    "8454",
+    "8455",
+    "8456",
+    "8457",
+    "8458",
+    "8459",
+    "8460",
+    "8461"
+  ],
+  "all_targets": {
+    "8164": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 99,
+      "external_template_id": 4203
+    },
+    "5299": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 98,
+      "external_template_id": 1950
+    },
+    "3077": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 90,
+      "external_template_id": 822
+    },
+    "7523": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 88,
+      "external_template_id": 3564
+    },
+    "5826": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 86,
+      "external_template_id": 2354
+    },
+    "7297": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 82,
+      "external_template_id": 3480
+    },
+    "5281": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 80,
+      "external_template_id": 1942
+    },
+    "6767": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 79,
+      "external_template_id": 3003
+    },
+    "59": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 76,
+      "external_template_id": 41
+    },
+    "3609": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 70,
+      "external_template_id": 882
+    },
+    "6768": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 69,
+      "external_template_id": 3016
+    },
+    "6766": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 67,
+      "external_template_id": 2991
+    },
+    "7784": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 63,
+      "external_template_id": 3969
+    },
+    "5250": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 61,
+      "external_template_id": 1916
+    },
+    "4261": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 59,
+      "external_template_id": 1135
+    },
+    "4583": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 57,
+      "external_template_id": 1592
+    },
+    "675": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 56,
+      "external_template_id": 39
+    },
+    "77": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 56,
+      "external_template_id": 46
+    },
+    "5": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 54,
+      "external_template_id": 1
+    },
+    "4581": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 53,
+      "external_template_id": 1575
+    },
+    "4662": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 52,
+      "external_template_id": 1665
+    },
+    "5146": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 52,
+      "external_template_id": 1794
+    },
+    "8044": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 52,
+      "external_template_id": 4135
+    },
+    "6962": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 51,
+      "external_template_id": 3261
+    },
+    "7177": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 50,
+      "external_template_id": 3307
+    },
+    "7195": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 48,
+      "external_template_id": 3320
+    },
+    "5048": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 47,
+      "external_template_id": 1847
+    },
+    "7147": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 47,
+      "external_template_id": 3253
+    },
+    "4859": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 45,
+      "external_template_id": 1598
+    },
+    "1026": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 44,
+      "external_template_id": 327
+    },
+    "1034": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 43,
+      "external_template_id": 333
+    },
+    "1035": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 43,
+      "external_template_id": 343
+    },
+    "1052": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 43,
+      "external_template_id": 367
+    },
+    "702": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 43,
+      "external_template_id": 76
+    },
+    "1030": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 42,
+      "external_template_id": 329
+    },
+    "1082": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 42,
+      "external_template_id": 384
+    },
+    "7157": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 42,
+      "external_template_id": 3270
+    },
+    "6119": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 39,
+      "external_template_id": 2501
+    },
+    "6665": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 39,
+      "external_template_id": 3018
+    },
+    "8092": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 39,
+      "external_template_id": 4233
+    },
+    "2990": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 37,
+      "external_template_id": 765
+    },
+    "703": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 33,
+      "external_template_id": 77
+    },
+    "1031": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 32,
+      "external_template_id": 330
+    },
+    "3072": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 32,
+      "external_template_id": 812
+    },
+    "3857": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 32,
+      "external_template_id": 1060
+    },
+    "7919": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 29,
+      "external_template_id": 4059
+    },
+    "8415": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 28,
+      "external_template_id": 4464
+    },
+    "2792": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 27,
+      "external_template_id": 698
+    },
+    "7121": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 26,
+      "external_template_id": 3232
+    },
+    "2876": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 24,
+      "external_template_id": 726
+    },
+    "4177": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 23,
+      "external_template_id": 1072
+    },
+    "7204": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 23,
+      "external_template_id": 3327
+    },
+    "5016": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 20,
+      "external_template_id": 1821
+    },
+    "7070": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 19,
+      "external_template_id": 3439
+    },
+    "3422": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 18,
+      "external_template_id": 885
+    },
+    "5020": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 18,
+      "external_template_id": 1839
+    },
+    "749": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 18,
+      "external_template_id": 101
+    },
+    "762": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 18,
+      "external_template_id": 147
+    },
+    "766": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 18,
+      "external_template_id": 161
+    },
+    "3926": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 17,
+      "external_template_id": 1206
+    },
+    "7605": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 17,
+      "external_template_id": 3765
+    },
+    "774": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 17,
+      "external_template_id": 186
+    },
+    "3411": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 879
+    },
+    "5018": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 1833
+    },
+    "6055": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 2542
+    },
+    "7098": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 3182
+    },
+    "743": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 95
+    },
+    "752": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 113
+    },
+    "7998": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 16,
+      "external_template_id": 4061
+    },
+    "3410": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 870
+    },
+    "3476": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 991
+    },
+    "5019": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 1837
+    },
+    "7129": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 3238
+    },
+    "750": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 102
+    },
+    "751": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 103
+    },
+    "767": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 162
+    },
+    "773": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 178
+    },
+    "7993": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 4054
+    },
+    "7996": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 15,
+      "external_template_id": 4058
+    },
+    "2056": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 405
+    },
+    "3442": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 894
+    },
+    "747": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 99
+    },
+    "748": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 100
+    },
+    "765": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 154
+    },
+    "7752": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 3933
+    },
+    "7949": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 14,
+      "external_template_id": 4101
+    },
+    "168": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 73
+    },
+    "3222": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 687
+    },
+    "3418": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 884
+    },
+    "3917": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 1201
+    },
+    "4860": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 1618
+    },
+    "5682": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 2157
+    },
+    "6130": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 2551
+    },
+    "753": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 13,
+      "external_template_id": 122
+    },
+    "755": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 12,
+      "external_template_id": 139
+    },
+    "6108": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 11,
+      "external_template_id": 2455
+    },
+    "754": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 11,
+      "external_template_id": 131
+    },
+    "896": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 11,
+      "external_template_id": 306
+    },
+    "5504": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 10,
+      "external_template_id": 1983
+    },
+    "5506": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 10,
+      "external_template_id": 1992
+    },
+    "5631": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 10,
+      "external_template_id": 2126
+    },
+    "7876": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 10,
+      "external_template_id": 3974
+    },
+    "3964": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 9,
+      "external_template_id": 1216
+    },
+    "704": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 9,
+      "external_template_id": 78
+    },
+    "7339": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 9,
+      "external_template_id": 3556
+    },
+    "2697": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 643
+    },
+    "3083": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 635
+    },
+    "3877": {
+      "reason": "import_parcial",
+      "mapped_variants": 89,
+      "unmapped_variants": 8,
+      "external_template_id": 1085
+    },
+    "5707": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 2177
+    },
+    "6972": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 3277
+    },
+    "7658": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 3770
+    },
+    "897": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 8,
+      "external_template_id": 307
+    },
+    "2067": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 414
+    },
+    "2807": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 703
+    },
+    "2809": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 704
+    },
+    "3871": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 1080
+    },
+    "4288": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 1162
+    },
+    "5395": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 2212
+    },
+    "5418": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 2273
+    },
+    "6114": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 2465
+    },
+    "7340": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 3565
+    },
+    "7443": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 3675
+    },
+    "7865": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 3950
+    },
+    "7866": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 3957
+    },
+    "908": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 324
+    },
+    "957": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 7,
+      "external_template_id": 299
+    },
+    "1100": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 404
+    },
+    "1101": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 406
+    },
+    "1102": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 407
+    },
+    "1103": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 412
+    },
+    "1106": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 415
+    },
+    "1328": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 439
+    },
+    "1331": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 448
+    },
+    "1352": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 490
+    },
+    "2041": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 402
+    },
+    "2443": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 531
+    },
+    "2444": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 536
+    },
+    "5817": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 2326
+    },
+    "6118": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 2495
+    },
+    "6152": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 2595
+    },
+    "6556": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 2895
+    },
+    "7829": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 3829
+    },
+    "8002": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 4087
+    },
+    "883": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 6,
+      "external_template_id": 291
+    },
+    "1028": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 328
+    },
+    "1327": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 434
+    },
+    "1350": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 482
+    },
+    "2068": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 416
+    },
+    "3533": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 829
+    },
+    "5194": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 1873
+    },
+    "5390": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 2204
+    },
+    "5536": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 2041
+    },
+    "5952": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 2444
+    },
+    "7544": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 3676
+    },
+    "7568": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 3700
+    },
+    "884": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 296
+    },
+    "902": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 5,
+      "external_template_id": 318
+    },
+    "1349": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 478
+    },
+    "1880": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 346
+    },
+    "1946": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 358
+    },
+    "2856": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 721
+    },
+    "3350": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 826
+    },
+    "3391": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 862
+    },
+    "8429": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 4477
+    },
+    "898": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 4,
+      "external_template_id": 311
+    },
+    "1313": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 425
+    },
+    "2180": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 455
+    },
+    "2359": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 495
+    },
+    "2858": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 723
+    },
+    "2978": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 759
+    },
+    "2979": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 760
+    },
+    "2980": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 761
+    },
+    "3252": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 792
+    },
+    "3351": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 828
+    },
+    "3352": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 830
+    },
+    "3824": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 1045
+    },
+    "4209": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 1101
+    },
+    "5533": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2037
+    },
+    "5639": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2132
+    },
+    "5686": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2160
+    },
+    "5877": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2395
+    },
+    "6032": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2522
+    },
+    "6383": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 2690
+    },
+    "7406": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 3623
+    },
+    "8279": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 3,
+      "external_template_id": 4301
+    },
+    "1575": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 520
+    },
+    "1680": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 552
+    },
+    "1877": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 345
+    },
+    "2080": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 426
+    },
+    "2081": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 427
+    },
+    "2179": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 454
+    },
+    "2182": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 457
+    },
+    "2349": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 489
+    },
+    "2357": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 491
+    },
+    "2396": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 508
+    },
+    "2509": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 560
+    },
+    "2641": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 617
+    },
+    "2857": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 722
+    },
+    "3189": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 666
+    },
+    "3494": {
+      "reason": "import_parcial",
+      "mapped_variants": 136,
+      "unmapped_variants": 2,
+      "external_template_id": 1005
+    },
+    "3532": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 827
+    },
+    "3682": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 937
+    },
+    "3805": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1013
+    },
+    "3968": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1218
+    },
+    "4404": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1306
+    },
+    "4405": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1307
+    },
+    "4406": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1308
+    },
+    "4489": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1402
+    },
+    "462": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 230
+    },
+    "4648": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1651
+    },
+    "465": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 231
+    },
+    "4650": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1653
+    },
+    "466": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 233
+    },
+    "5053": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 1851
+    },
+    "534": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 257
+    },
+    "535": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 258
+    },
+    "546": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2
+    },
+    "5651": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2143
+    },
+    "5930": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2424
+    },
+    "5949": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2437
+    },
+    "6181": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2683
+    },
+    "6581": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 2910
+    },
+    "6894": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 3157
+    },
+    "7141": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 3250
+    },
+    "7242": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 2,
+      "external_template_id": 3379
+    },
+    "1087": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 393
+    },
+    "1097": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 401
+    },
+    "1348": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 477
+    },
+    "1993": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 392
+    },
+    "2082": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 429
+    },
+    "2083": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 430
+    },
+    "2181": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 456
+    },
+    "2186": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 461
+    },
+    "2277": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 481
+    },
+    "2358": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 492
+    },
+    "2526": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 567
+    },
+    "2527": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 569
+    },
+    "2579": {
+      "reason": "sin_variantes_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 603
+    },
+    "2781": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 692
+    },
+    "2816": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 707
+    },
+    "2841": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 717
+    },
+    "3073": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 821
+    },
+    "3084": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 638
+    },
+    "3091": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 644
+    },
+    "3163": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 652
+    },
+    "3397": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 865
+    },
+    "3438": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 891
+    },
+    "3454": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 899
+    },
+    "3463": {
+      "reason": "import_parcial",
+      "mapped_variants": 138,
+      "unmapped_variants": 1,
+      "external_template_id": 930
+    },
+    "3511": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1030
+    },
+    "3519": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1034
+    },
+    "3683": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 938
+    },
+    "3729": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 964
+    },
+    "3772": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 990
+    },
+    "3850": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1053
+    },
+    "3858": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1073
+    },
+    "4079": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1315
+    },
+    "4139": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1343
+    },
+    "4283": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1158
+    },
+    "4436": {
+      "reason": "import_parcial",
+      "mapped_variants": 3,
+      "unmapped_variants": 1,
+      "external_template_id": 1364
+    },
+    "4473": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1385
+    },
+    "4527": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1442
+    },
+    "4590": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1604
+    },
+    "4615": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1620
+    },
+    "4652": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1655
+    },
+    "4653": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1656
+    },
+    "4657": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1660
+    },
+    "4658": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1661
+    },
+    "4691": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1427
+    },
+    "4697": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1435
+    },
+    "4698": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1437
+    },
+    "4720": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1472
+    },
+    "4730": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1479
+    },
+    "4767": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1513
+    },
+    "4795": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1531
+    },
+    "4888": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1676
+    },
+    "4906": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1690
+    },
+    "4993": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1806
+    },
+    "4999": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1816
+    },
+    "5055": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 1853
+    },
+    "5120": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1784
+    },
+    "5127": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1789
+    },
+    "5212": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1887
+    },
+    "5349": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2042
+    },
+    "5354": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2046
+    },
+    "5440": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2299
+    },
+    "5485": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 1962
+    },
+    "5514": {
+      "reason": "sin_variantes_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2013
+    },
+    "5515": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2015
+    },
+    "5520": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2019
+    },
+    "5521": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2021
+    },
+    "5600": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2109
+    },
+    "5644": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2136
+    },
+    "5645": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2137
+    },
+    "5652": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2144
+    },
+    "5663": {
+      "reason": "import_parcial",
+      "mapped_variants": 114,
+      "unmapped_variants": 1,
+      "external_template_id": 2151
+    },
+    "5678": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2155
+    },
+    "5768": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2256
+    },
+    "5814": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2323
+    },
+    "5835": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2364
+    },
+    "5908": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2405
+    },
+    "5965": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2466
+    },
+    "6027": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2516
+    },
+    "6048": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2535
+    },
+    "6065": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2556
+    },
+    "6080": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2574
+    },
+    "6082": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2578
+    },
+    "6091": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2438
+    },
+    "6093": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2441
+    },
+    "6122": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2520
+    },
+    "6150": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2594
+    },
+    "6176": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2673
+    },
+    "6177": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2675
+    },
+    "6188": {
+      "reason": "import_parcial",
+      "mapped_variants": 4,
+      "unmapped_variants": 1,
+      "external_template_id": 2696
+    },
+    "6212": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2716
+    },
+    "6273": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2789
+    },
+    "6279": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2793
+    },
+    "6293": {
+      "reason": "sin_variantes_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2802
+    },
+    "6299": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2805
+    },
+    "6335": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2630
+    },
+    "6360": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2653
+    },
+    "6447": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2818
+    },
+    "6525": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2858
+    },
+    "6543": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2883
+    },
+    "6597": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2922
+    },
+    "6667": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3023
+    },
+    "6683": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3038
+    },
+    "6685": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3040
+    },
+    "6703": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3067
+    },
+    "6708": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3073
+    },
+    "6721": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2925
+    },
+    "6737": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 2941
+    },
+    "6745": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 2957
+    },
+    "6773": {
+      "reason": "import_parcial",
+      "mapped_variants": 5,
+      "unmapped_variants": 1,
+      "external_template_id": 3027
+    },
+    "6909": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3149
+    },
+    "6965": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 3272
+    },
+    "6980": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3285
+    },
+    "7007": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3347
+    },
+    "7037": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 3411
+    },
+    "7052": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3426
+    },
+    "7060": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3434
+    },
+    "7074": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3443
+    },
+    "7140": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3249
+    },
+    "7144": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3252
+    },
+    "7156": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3269
+    },
+    "7217": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3348
+    },
+    "7263": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3458
+    },
+    "7285": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3469
+    },
+    "7304": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3518
+    },
+    "7311": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3521
+    },
+    "7343": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3568
+    },
+    "7365": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3583
+    },
+    "7431": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3661
+    },
+    "7439": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3669
+    },
+    "7512": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3550
+    },
+    "7616": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3785
+    },
+    "7631": {
+      "reason": "sin_variantes_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3722
+    },
+    "7671": {
+      "reason": "import_parcial",
+      "mapped_variants": 3,
+      "unmapped_variants": 1,
+      "external_template_id": 3833
+    },
+    "7701": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3882
+    },
+    "7708": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3889
+    },
+    "7767": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3946
+    },
+    "7768": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3947
+    },
+    "7780": {
+      "reason": "import_parcial",
+      "mapped_variants": 3,
+      "unmapped_variants": 1,
+      "external_template_id": 3961
+    },
+    "7782": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 3965
+    },
+    "7795": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3796
+    },
+    "7819": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3820
+    },
+    "7851": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 3868
+    },
+    "7918": {
+      "reason": "import_parcial",
+      "mapped_variants": 29,
+      "unmapped_variants": 1,
+      "external_template_id": 4055
+    },
+    "7940": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4082
+    },
+    "8003": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4092
+    },
+    "8058": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4197
+    },
+    "8060": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4200
+    },
+    "8096": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4244
+    },
+    "8140": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4166
+    },
+    "8195": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4279
+    },
+    "8232": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4334
+    },
+    "8235": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4337
+    },
+    "8389": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4440
+    },
+    "8390": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4441
+    },
+    "8391": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4442
+    },
+    "8438": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4485
+    },
+    "8450": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 0,
+      "unmapped_variants": 1,
+      "external_template_id": 4496
+    },
+    "906": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 323
+    },
+    "909": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 325
+    },
+    "920": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 1,
+      "external_template_id": 284
+    },
+    "279": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 46,
+      "unmapped_variants": 0,
+      "external_template_id": 160
+    },
+    "389": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 3,
+      "unmapped_variants": 0,
+      "external_template_id": 204
+    },
+    "392": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 3,
+      "unmapped_variants": 0,
+      "external_template_id": 205
+    },
+    "398": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 3,
+      "unmapped_variants": 0,
+      "external_template_id": 207
+    },
+    "401": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 3,
+      "unmapped_variants": 0,
+      "external_template_id": 208
+    },
+    "4564": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "5706": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 40,
+      "unmapped_variants": 0,
+      "external_template_id": 2176
+    },
+    "7211": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 44,
+      "unmapped_variants": 0,
+      "external_template_id": 3332
+    },
+    "7632": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 3,
+      "unmapped_variants": 0,
+      "external_template_id": 3724
+    },
+    "8454": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8455": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8456": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8457": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8458": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8459": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8460": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    },
+    "8461": {
+      "reason": "sin_plantilla_externa",
+      "mapped_variants": 0,
+      "unmapped_variants": 0,
+      "external_template_id": null
+    }
+  }
+}

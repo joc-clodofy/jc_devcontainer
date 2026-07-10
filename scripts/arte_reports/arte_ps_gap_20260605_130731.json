@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-06-05T13:07:31",
+  "odoo_url": "https://stg20260604-odoo17-jer-bellas-artes.n3.clodofy.cloud",
+  "odoo_db": "odoo_stg20260604_odoo17_jer_bellas_artes",
+  "integration_id": 1,
+  "summary": {
+    "external_variants_cache": 19570,
+    "external_templates_cache": 4507,
+    "variant_mapping_rows": 19433,
+    "variant_mappings_linked_odoo": 17086,
+    "external_variants_sin_mapping": 137,
+    "variant_mappings_sin_product_id": 2218,
+    "odoo_product_product_activos": 17088,
+    "odoo_product_product_total": 17203,
+    "gap_variantes_vs_cache": 2484,
+    "plantillas_a_revisar": 3,
+    "por_motivo": {
+      "import_parcial": 2,
+      "sin_producto_odoo": 1
+    },
+    "ps_activas_sin_external_odoo": 0
+  },
+  "top_plantillas_parciales": [
+    {
+      "ps_code": "3609",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 70,
+      "external_template_id": 882
+    },
+    {
+      "ps_code": "6766",
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 67,
+      "external_template_id": 2991
+    },
+    {
+      "ps_code": "7605",
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 17,
+      "unmapped_variants": 0,
+      "external_template_id": 3765
+    }
+  ],
+  "ps_templates_missing_external": [],
+  "all_targets": {
+    "3609": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 70,
+      "external_template_id": 882
+    },
+    "6766": {
+      "reason": "import_parcial",
+      "mapped_variants": 1,
+      "unmapped_variants": 67,
+      "external_template_id": 2991
+    },
+    "7605": {
+      "reason": "sin_producto_odoo",
+      "mapped_variants": 17,
+      "unmapped_variants": 0,
+      "external_template_id": 3765
+    }
+  }
+}

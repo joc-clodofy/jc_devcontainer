@@ -1,0 +1,225 @@
+============================================================
+[12:56:11 +     0s] [*] PS align | DB=odoo_stg20260604_odoo17_jer_bellas_artes | https://stg20260604-odoo17-jer-bellas-artes.n3.clodofy.cloud
+============================================================
+[12:56:13 +     2s] [*] XML-RPC OK uid=14
+[12:56:13 +     2s] [*] Integración: tiendabellasartesjer.com (prestashop)
+[12:56:13 +     2s] [*] Auditoría de huecos Odoo ↔ PrestaShop…
+[12:56:34 +    23s] [*] Consultando plantillas activas en PrestaShop (API)…
+[12:56:41 +    30s] [*] Plantillas activas PS: 4507 | sin external en Odoo: 9
+[12:56:41 +    30s] [*] --- RESUMEN ---
+[12:56:41 +    30s] [*]   external_variants_cache: 19561
+[12:56:41 +    30s] [*]   external_templates_cache: 4498
+[12:56:41 +    30s] [*]   variant_mapping_rows: 15454
+[12:56:41 +    30s] [*]   variant_mappings_linked_odoo: 13429
+[12:56:41 +    30s] [*]   external_variants_sin_mapping: 4107
+[12:56:41 +    30s] [*]   variant_mappings_sin_product_id: 2025
+[12:56:41 +    30s] [*]   odoo_product_product_activos: 13440
+[12:56:41 +    30s] [*]   odoo_product_product_total: 13555
+[12:56:41 +    30s] [*]   gap_variantes_vs_cache: 6132
+[12:56:41 +    30s] [*]   plantillas_a_revisar: 402
+[12:56:41 +    30s] [*]   por_motivo: {'sin_producto_odoo': 118, 'import_parcial': 271, 'sin_variantes_odoo': 4}
+[12:56:41 +    30s] [*]   ps_activas_sin_external_odoo: 9
+[12:56:41 +    30s] [*] Top plantillas con variantes sin mapping:
+[12:56:41 +    30s] [*]   PS 8164: 99 sin mapping, 1 mapeadas (import_parcial)
+[12:56:41 +    30s] [*]   PS 5299: 98 sin mapping, 1 mapeadas (import_parcial)
+[12:56:41 +    30s] [*]   PS 3077: 90 sin mapping, 1 mapeadas (import_parcial)
+[12:56:41 +    30s] [*]   PS 7523: 88 sin mapping, 1 mapeadas (import_parcial)
+[12:56:41 +    30s] [*]   PS 5826: 86 sin mapping, 1 mapeadas (import_parcial)
+[12:56:41 +    30s] [*] Informe guardado: scripts/arte_reports/arte_ps_gap_20260605_125641.json
+[12:56:41 +    30s] [*] Plantillas objetivo: 402
+[12:56:41 +    30s] [*] Refresh externals: 402 plantillas PS
+[12:57:12 +    60s] [!] Error refresh batch (['8164', '5299', '3077']…): <Fault 2: "Mapping conflicts were found between the incoming data and existing records.\n\nManual resolution is required before proceeding with the approval process. Please review the following conflicting records:\n\nIncoming lines:\n[('<id=107095>', '3609', 'M630', False), ('<id=107096>', '3609-31226', 'PS-3609-31226', False), ('<id=107097>', '3609-31227', 'M007', False), ('<id=107098>', '3609-31228', 'M008', False), ('<id=107099>', '3609-31229', 'M610', False), ('<id=107100>', '3609-31230', 'M620', False), ('<id=107101>', '3609-31231', 'M009', False), ('<id=107102>', '3609-31232', 'M022', False), ('<id=107103>', '3609-31233', 'M640', False), ('<id=107104>', '3609-31234', 'M1200-110', False), ('<id=107105>', '3609-31235', 'M010', False), ('<id=107106>', '3609-31236', 'M011', False), ('<id=107107>', '3609-31238', 'M650', False), ('<id=107108>', '3609-31239', 'M660', False), ('<id=107109>', '3609-31241', 'M012', False), ('<id=107110>', '3609-31242', 'M1200-10', False), ('<id=107111>', '3609-31243', 'M013', False), ('<id=107112>', '3609-31244', 'M1200-20', False), ('<id=107113>', '3609-31245', 'M015', False), ('<id=107114>', '3609-31246', 'M1200-40', False), ('<id=107115>', '3609-31247', 'M014', False), ('<id=107116>', '3609-31248', 'M1200-50', False), ('<id=107117>', '3609-31249', 'M016', False), ('<id=107118>', '3609-31250', 'M028', False), ('<id=107119>', '3609-31251', 'M1200-60', False), ('<id=107120>', '3609-31252', 'M1200-70', False), ('<id=107121>', '3609-31253', 'M027', False), ('<id=107122>', '3609-31254', 'M024', False), ('<id=107123>', '3609-31255', 'M005', False), ('<id=107124>', '3609-31256', 'M026', False), ('<id=107125>', '3609-31257', 'M1200-80', False), ('<id=107126>', '3609-31258', 'M1200-90', False), ('<id=107127>', '3609-31259', 'M025', False), ('<id=107128>', '3609-31260', 'M029', False), ('<id=107129>', '3609-31261', 'M1200-100', False), ('<id=107130>', '3609-31263', 'M017', False), ('<id=107131>', '3609-31264', 'M1200-120', False), ('<id=107132>', '3609-31265', 'M001', False), ('<id=107133>', '3609-31266', 'M002', False), ('<id=107134>', '3609-31267', 'M023', False), ('<id=107135>', '3609-31268', 'M018', False), ('<id=107136>', '3609-31269', 'M020', False), ('<id=107137>', '3609-31270', 'M003', False), ('<id=107138>', '3609-34454', 'M004', False), ('<id=107139>', '3609-34455', 'M006', False), ('<id=107140>', '3609-34456', 'M038', False), ('<id=107141>', '3609-34457', 'M037', False), ('<id=107142>', '3609-34458', 'M036', False), ('<id=107143>', '3609-34459', 'M034', False), ('<id=107144>', '3609-34460', 'M033', False), ('<id=107145>', '3609-34520', 'G050', False), ('<id=107146>', '3609-34521', 'G051', False), ('<id=107147>', '3609-34522', 'G052', False), ('<id=107148>', '3609-34523', 'G054', False), ('<id=107149>', '3609-34524', 'G055', False), ('<id=107150>', '3609-34525', 'G053', False), ('<id=107151>', '3609-34550', 'M021', False), ('<id=107152>', '3609-34551', 'M031', False), ('<id=107153>', '3609-51136', 'C074', False), ('<id=107154>', '3609-51138', 'C084', False), ('<id=107155>', '3609-51139', 'C085', False), ('<id=107156>', '3609-51140', 'C081', False), ('<id=107157>', '3609-51141', 'C073', False), ('<id=107158>', '3609-54776', 'C092', False), ('<id=107159>', '3609-54777', 'CL08', False), ('<id=107160>', '3609-54778', 'C087', False), ('<id=107161>', '3609-54779', 'C056', False), ('<id=107162>', '3609-54780', 'C082', False), ('<id=107163>', '3609-54782', 'C086', False), ('<id=107164>', '3609-54783', 'C088', False)]\n\nInternal lines:\n[('<id=107023>', '3609', 'M630', False), ('<id=107024>', '3609-31226', 'PS-3609-31226', False), ('<id=107025>', '3609-31227', 'M007', False), ('<id=107026>', '3609-31228', 'M008', False), ('<id=107027>', '3609-31229', 'M610', False), ('<id=107028>', '3609-31230', 'M620', False), ('<id=107029>', '3609-31231', 'M009', False), ('<id=107030>', '3609-31232', 'M022', False), ('<id=107031>', '3609-31233', 'M640', False), ('<id=107032>', '3609-31234', 'M1200-110', False), ('<id=107033>', '3609-31235', 'M010', False), ('<id=107034>', '3609-31236', 'M011', False), ('<id=107035>', '3609-31238', 'M650', False), ('<id=107036>', '3609-31239', 'M660', False), ('<id=107037>', '3609-31241', 'M012', False), ('<id=107038>', '3609-31242', 'M1200-10', False), ('<id=107039>', '3609-31243', 'M013', False), ('<id=107040>', '3609-31244', 'M1200-20', False), ('<id=107041>', '3609-31245', 'M015', False), ('<id=107042>', '3609-31246', 'M1200-40', False), ('<id=107043>', '3609-31247', 'M014', False), ('<id=107044>', '3609-31248', 'M1200-50', False), ('<id=107045>', '3609-31249', 'M016', False), ('<id=107046>', '3609-31250', 'M028', False), ('<id=107047>', '3609-31251', 'M1200-60', False), ('<id=107048>', '3609-31252', 'M1200-70', False), ('<id=107049>', '3609-31253', 'M027', False), ('<id=107050>', '3609-31254', 'M024', False), ('<id=107051>', '3609-31255', 'M005', False), ('<id=107052>', '3609-31256', 'M026', False), ('<id=107053>', '3609-31257', 'M1200-80', False), ('<id=107054>', '3609-31258', 'M1200-90', False), ('<id=107055>', '3609-31259', 'M025', False), ('<id=107056>', '3609-31260', 'M029', False), ('<id=107057>', '3609-31261', 'M1200-100', False), ('<id=107058>', '3609-31263', 'M017', False), ('<id=107059>', '3609-31264', 'M1200-120', False), ('<id=107060>', '3609-31265', 'M001', False), ('<id=107061>', '3609-31266', 'M002', False), ('<id=107062>', '3609-31267', 'M023', False), ('<id=107063>', '3609-31268', 'M018', False), ('<id=107064>', '3609-31269', 'M020', False), ('<id=107065>', '3609-31270', 'M003', False), ('<id=107066>', '3609-34454', 'M004', False), ('<id=107067>', '3609-34455', 'M006', False), ('<id=107068>', '3609-34456', 'M038', False), ('<id=107069>', '3609-34457', 'M037', False), ('<id=107070>', '3609-34458', 'M036', False), ('<id=107071>', '3609-34459', 'M034', False), ('<id=107072>', '3609-34460', 'M033', False), ('<id=107073>', '3609-34520', 'G050', False), ('<id=107074>', '3609-34521', 'G051', False), ('<id=107075>', '3609-34522', 'G052', False), ('<id=107076>', '3609-34523', 'G054', False), ('<id=107077>', '3609-34524', 'G055', False), ('<id=107078>', '3609-34525', 'G053', False), ('<id=107079>', '3609-34550', 'M021', False), ('<id=107080>', '3609-34551', 'M031', False), ('<id=107081>', '3609-51136', 'C074', False), ('<id=107082>', '3609-51137', 'CR01', False), ('<id=107083>', '3609-51138', 'C084', False), ('<id=107084>', '3609-51139', 'C085', False), ('<id=107085>', '3609-51140', 'C081', False), ('<id=107086>', '3609-51141', 'C073', False), ('<id=107087>', '3609-54776', 'C092', False), ('<id=107088>', '3609-54777', 'CL08', False), ('<id=107089>', '3609-54778', 'C087', False), ('<id=107090>', '3609-54779', 'C056', False), ('<id=107091>', '3609-54780', 'C082', False), ('<id=107092>', '3609-54781', 'CL11', False), ('<id=107093>', '3609-54782', 'C086', False), ('<id=107094>', '3609-54783', 'C088', False)]">
+[12:57:33 +    82s] [!] Batch con avisos: ======SUCCESS======
+integration.product.template.external(230, 231, 233, 257, 258, 2, 296, 311, 318, 393, 401, 425, 477, 478, 520, 552, 345, 346, 358, 392, 426, 427, 429, 430, 454, 455, 456, 457, 461, 481, 489, 491, 492, 495, 508, 560, 567, 569, 603, 617, 692, 707, 717, 721, 722, 723, 759, 760, 761,…
+[12:57:45 +    94s] [!] Batch con avisos: ======SUCCESS======
+integration.product.template.external(160, 204, 205, 207, 208, 323, 325, 284, 4499, 2176, 2405, 2466, 2516, 2535, 2556, 2574, 2578, 2438, 2441, 2520, 2594, 2673, 2675, 2696, 2716, 2789, 2793, 2802, 2805, 2630, 2653, 2818, 2858, 2883, 2922, 3023, 3038, 3040, 3067, 3073, 2925, 2941…
+[12:57:46 +    94s] [*] Refresh externals completado: 252 plantillas
+[12:57:46 +    94s] [*] Re-auditoría rápida tras refresh…
+[12:57:46 +    94s] [*] Auditoría de huecos Odoo ↔ PrestaShop…
+[12:58:07 +   116s] [*] --- RESUMEN ---
+[12:58:07 +   116s] [*]   external_variants_cache: 19570
+[12:58:07 +   116s] [*]   external_templates_cache: 4507
+[12:58:07 +   116s] [*]   variant_mapping_rows: 15830
+[12:58:07 +   116s] [*]   variant_mappings_linked_odoo: 13434
+[12:58:07 +   116s] [*]   external_variants_sin_mapping: 3740
+[12:58:07 +   116s] [*]   variant_mappings_sin_product_id: 2288
+[12:58:07 +   116s] [*]   odoo_product_product_activos: 13440
+[12:58:07 +   116s] [*]   odoo_product_product_total: 13555
+[12:58:07 +   116s] [*]   gap_variantes_vs_cache: 6136
+[12:58:07 +   116s] [*]   plantillas_a_revisar: 166
+[12:58:07 +   116s] [*]   por_motivo: {'import_parcial': 148, 'sin_producto_odoo': 18}
+[12:58:07 +   116s] [*]   ps_activas_sin_external_odoo: 0
+[12:58:07 +   116s] [*] Top plantillas con variantes sin mapping:
+[12:58:07 +   116s] [*]   PS 8164: 99 sin mapping, 1 mapeadas (import_parcial)
+[12:58:07 +   116s] [*]   PS 5299: 98 sin mapping, 1 mapeadas (import_parcial)
+[12:58:07 +   116s] [*]   PS 3077: 90 sin mapping, 1 mapeadas (import_parcial)
+[12:58:07 +   116s] [*]   PS 7523: 88 sin mapping, 1 mapeadas (import_parcial)
+[12:58:07 +   116s] [*]   PS 5826: 86 sin mapping, 1 mapeadas (import_parcial)
+[12:58:13 +   122s] [*] import_product OK external_id=4203 (importado; XML-RPC no devuelve recordset)
+[12:58:20 +   129s] [*] import_product OK external_id=1950 (importado; XML-RPC no devuelve recordset)
+[12:58:27 +   136s] [*] import_product OK external_id=822 (importado; XML-RPC no devuelve recordset)
+[12:58:33 +   142s] [*] import_product OK external_id=3564 (importado; XML-RPC no devuelve recordset)
+[12:58:40 +   148s] [*] import_product OK external_id=2354 (importado; XML-RPC no devuelve recordset)
+[12:58:45 +   154s] [*] import_product OK external_id=3480 (importado; XML-RPC no devuelve recordset)
+[12:58:51 +   160s] [*] import_product OK external_id=1942 (importado; XML-RPC no devuelve recordset)
+[12:58:57 +   166s] [*] import_product OK external_id=3003 (importado; XML-RPC no devuelve recordset)
+[12:59:03 +   172s] [*] import_product OK external_id=41 (importado; XML-RPC no devuelve recordset)
+[12:59:05 +   174s] [!] import_product FAIL external_id=882: <Fault 2: 'Failed to import the product from the external system.\n\nDebug Information:\n\nError: Mapping conflicts were found between the incoming data and existing records.\n\nManual resolution is required before proceeding with the approval process. Please review the following conflicting records:\n\nIncoming lines:\n[(\'<id=111475>\', \'3609\', \'PS-3609\', False), (\'<id=111476>\', \'3609-312
+[12:59:10 +   179s] [*] import_product OK external_id=3016 (importado; XML-RPC no devuelve recordset)
+[12:59:13 +   182s] [!] import_product FAIL external_id=2991: <Fault 2: 'Failed to import the product from the external system.\n\nDebug Information:\n\nError: El número de variantes a generar es mayor que el límite permitido. Evite crear variantes para cada combinación o créelas solo bajo pedido desde el pedido de venta. Para hacerlo, abra la vista de formulario de atributos y cambie el modo de *Crear variantes*.\n\nExternal Template Code: 6766\n\nTemplate 
+[12:59:18 +   187s] [*] import_product OK external_id=3969 (importado; XML-RPC no devuelve recordset)
+[12:59:23 +   192s] [*] import_product OK external_id=1916 (importado; XML-RPC no devuelve recordset)
+[12:59:29 +   197s] [*] import_product OK external_id=1135 (importado; XML-RPC no devuelve recordset)
+[12:59:33 +   202s] [*] import_product OK external_id=1592 (importado; XML-RPC no devuelve recordset)
+[12:59:38 +   207s] [*] import_product OK external_id=39 (importado; XML-RPC no devuelve recordset)
+[12:59:43 +   212s] [*] import_product OK external_id=46 (importado; XML-RPC no devuelve recordset)
+[12:59:48 +   216s] [*] import_product OK external_id=1 (importado; XML-RPC no devuelve recordset)
+[12:59:52 +   221s] [*] import_product OK external_id=1575 (importado; XML-RPC no devuelve recordset)
+[12:59:56 +   225s] [*] import_product OK external_id=1665 (importado; XML-RPC no devuelve recordset)
+[13:00:01 +   230s] [*] import_product OK external_id=1794 (importado; XML-RPC no devuelve recordset)
+[13:00:06 +   235s] [*] import_product OK external_id=4135 (importado; XML-RPC no devuelve recordset)
+[13:00:11 +   240s] [*] import_product OK external_id=3261 (importado; XML-RPC no devuelve recordset)
+[13:00:16 +   245s] [*] import_product OK external_id=3307 (importado; XML-RPC no devuelve recordset)
+[13:00:21 +   249s] [*] import_product OK external_id=3320 (importado; XML-RPC no devuelve recordset)
+[13:00:26 +   255s] [*] import_product OK external_id=1847 (importado; XML-RPC no devuelve recordset)
+[13:00:30 +   259s] [*] import_product OK external_id=3253 (importado; XML-RPC no devuelve recordset)
+[13:00:34 +   263s] [*] import_product OK external_id=1598 (importado; XML-RPC no devuelve recordset)
+[13:00:40 +   269s] [*] import_product OK external_id=327 (importado; XML-RPC no devuelve recordset)
+[13:00:44 +   273s] [*] import_product OK external_id=333 (importado; XML-RPC no devuelve recordset)
+[13:00:48 +   277s] [*] import_product OK external_id=343 (importado; XML-RPC no devuelve recordset)
+[13:00:53 +   281s] [*] import_product OK external_id=367 (importado; XML-RPC no devuelve recordset)
+[13:00:57 +   286s] [*] import_product OK external_id=76 (importado; XML-RPC no devuelve recordset)
+[13:01:01 +   290s] [*] import_product OK external_id=329 (importado; XML-RPC no devuelve recordset)
+[13:01:06 +   295s] [*] import_product OK external_id=384 (importado; XML-RPC no devuelve recordset)
+[13:01:10 +   299s] [*] import_product OK external_id=3270 (importado; XML-RPC no devuelve recordset)
+[13:01:14 +   303s] [*] import_product OK external_id=2501 (importado; XML-RPC no devuelve recordset)
+[13:01:18 +   307s] [*] import_product OK external_id=3018 (importado; XML-RPC no devuelve recordset)
+[13:01:22 +   311s] [*] import_product OK external_id=4233 (importado; XML-RPC no devuelve recordset)
+[13:01:26 +   315s] [*] import_product OK external_id=765 (importado; XML-RPC no devuelve recordset)
+[13:01:30 +   318s] [*] import_product OK external_id=77 (importado; XML-RPC no devuelve recordset)
+[13:01:33 +   322s] [*] import_product OK external_id=330 (importado; XML-RPC no devuelve recordset)
+[13:01:36 +   325s] [*] import_product OK external_id=812 (importado; XML-RPC no devuelve recordset)
+[13:01:40 +   329s] [*] import_product OK external_id=1060 (importado; XML-RPC no devuelve recordset)
+[13:01:43 +   332s] [*] import_product OK external_id=4059 (importado; XML-RPC no devuelve recordset)
+[13:01:47 +   335s] [*] import_product OK external_id=4464 (importado; XML-RPC no devuelve recordset)
+[13:01:50 +   338s] [*] import_product OK external_id=698 (importado; XML-RPC no devuelve recordset)
+[13:01:52 +   341s] [*] import_product OK external_id=3232 (importado; XML-RPC no devuelve recordset)
+[13:01:55 +   344s] [*] import_product OK external_id=726 (importado; XML-RPC no devuelve recordset)
+[13:01:58 +   347s] [*] import_product OK external_id=1072 (importado; XML-RPC no devuelve recordset)
+[13:02:01 +   350s] [*] import_product OK external_id=3327 (importado; XML-RPC no devuelve recordset)
+[13:02:04 +   353s] [*] import_product OK external_id=1821 (importado; XML-RPC no devuelve recordset)
+[13:02:07 +   356s] [*] import_product OK external_id=3439 (importado; XML-RPC no devuelve recordset)
+[13:02:09 +   358s] [*] import_product OK external_id=885 (importado; XML-RPC no devuelve recordset)
+[13:02:12 +   361s] [*] import_product OK external_id=1839 (importado; XML-RPC no devuelve recordset)
+[13:02:15 +   364s] [*] import_product OK external_id=101 (importado; XML-RPC no devuelve recordset)
+[13:02:17 +   366s] [*] import_product OK external_id=147 (importado; XML-RPC no devuelve recordset)
+[13:02:20 +   369s] [*] import_product OK external_id=161 (importado; XML-RPC no devuelve recordset)
+[13:02:23 +   371s] [*] import_product OK external_id=1206 (importado; XML-RPC no devuelve recordset)
+[13:02:25 +   374s] [*] import_product OK external_id=3765 (importado; XML-RPC no devuelve recordset)
+[13:02:28 +   377s] [*] import_product OK external_id=186 (importado; XML-RPC no devuelve recordset)
+[13:02:30 +   379s] [*] import_product OK external_id=879 (importado; XML-RPC no devuelve recordset)
+[13:02:33 +   382s] [*] import_product OK external_id=1833 (importado; XML-RPC no devuelve recordset)
+[13:02:35 +   384s] [*] import_product OK external_id=2542 (importado; XML-RPC no devuelve recordset)
+[13:02:38 +   386s] [*] import_product OK external_id=3182 (importado; XML-RPC no devuelve recordset)
+[13:02:40 +   389s] [*] import_product OK external_id=95 (importado; XML-RPC no devuelve recordset)
+[13:02:42 +   391s] [*] import_product OK external_id=113 (importado; XML-RPC no devuelve recordset)
+[13:02:45 +   394s] [*] import_product OK external_id=4061 (importado; XML-RPC no devuelve recordset)
+[13:02:47 +   396s] [*] import_product OK external_id=870 (importado; XML-RPC no devuelve recordset)
+[13:02:50 +   398s] [*] import_product OK external_id=991 (importado; XML-RPC no devuelve recordset)
+[13:02:52 +   401s] [*] import_product OK external_id=1837 (importado; XML-RPC no devuelve recordset)
+[13:02:54 +   403s] [*] import_product OK external_id=3238 (importado; XML-RPC no devuelve recordset)
+[13:02:56 +   405s] [*] import_product OK external_id=102 (importado; XML-RPC no devuelve recordset)
+[13:02:59 +   408s] [*] import_product OK external_id=103 (importado; XML-RPC no devuelve recordset)
+[13:03:01 +   410s] [*] import_product OK external_id=162 (importado; XML-RPC no devuelve recordset)
+[13:03:04 +   412s] [*] import_product OK external_id=178 (importado; XML-RPC no devuelve recordset)
+[13:03:06 +   415s] [*] import_product OK external_id=4054 (importado; XML-RPC no devuelve recordset)
+[13:03:09 +   417s] [*] import_product OK external_id=4058 (importado; XML-RPC no devuelve recordset)
+[13:03:11 +   420s] [*] import_product OK external_id=405 (importado; XML-RPC no devuelve recordset)
+[13:03:13 +   422s] [*] import_product OK external_id=894 (importado; XML-RPC no devuelve recordset)
+[13:03:16 +   425s] [*] import_product OK external_id=99 (importado; XML-RPC no devuelve recordset)
+[13:03:18 +   427s] [*] import_product OK external_id=100 (importado; XML-RPC no devuelve recordset)
+[13:03:21 +   429s] [*] import_product OK external_id=154 (importado; XML-RPC no devuelve recordset)
+[13:03:23 +   432s] [*] import_product OK external_id=3933 (importado; XML-RPC no devuelve recordset)
+[13:03:25 +   434s] [*] import_product OK external_id=4101 (importado; XML-RPC no devuelve recordset)
+[13:03:28 +   436s] [*] import_product OK external_id=73 (importado; XML-RPC no devuelve recordset)
+[13:03:30 +   439s] [*] import_product OK external_id=687 (importado; XML-RPC no devuelve recordset)
+[13:03:32 +   441s] [*] import_product OK external_id=884 (importado; XML-RPC no devuelve recordset)
+[13:03:35 +   444s] [*] import_product OK external_id=1201 (importado; XML-RPC no devuelve recordset)
+[13:03:37 +   446s] [*] import_product OK external_id=1618 (importado; XML-RPC no devuelve recordset)
+[13:03:40 +   448s] [*] import_product OK external_id=2157 (importado; XML-RPC no devuelve recordset)
+[13:03:42 +   451s] [*] import_product OK external_id=2551 (importado; XML-RPC no devuelve recordset)
+[13:03:44 +   453s] [*] import_product OK external_id=122 (importado; XML-RPC no devuelve recordset)
+[13:03:47 +   455s] [*] import_product OK external_id=139 (importado; XML-RPC no devuelve recordset)
+[13:03:49 +   458s] [*] import_product OK external_id=2455 (importado; XML-RPC no devuelve recordset)
+[13:03:51 +   460s] [*] import_product OK external_id=131 (importado; XML-RPC no devuelve recordset)
+[13:03:53 +   462s] [*] import_product OK external_id=306 (importado; XML-RPC no devuelve recordset)
+[13:03:55 +   464s] [*] import_product OK external_id=1983 (importado; XML-RPC no devuelve recordset)
+[13:03:57 +   466s] [*] import_product OK external_id=1992 (importado; XML-RPC no devuelve recordset)
+[13:04:00 +   468s] [*] import_product OK external_id=2126 (importado; XML-RPC no devuelve recordset)
+[13:04:02 +   470s] [*] import_product OK external_id=3974 (importado; XML-RPC no devuelve recordset)
+[13:04:04 +   473s] [*] import_product OK external_id=1216 (importado; XML-RPC no devuelve recordset)
+[13:04:06 +   475s] [*] import_product OK external_id=78 (importado; XML-RPC no devuelve recordset)
+[13:04:08 +   477s] [*] import_product OK external_id=3556 (importado; XML-RPC no devuelve recordset)
+[13:04:10 +   479s] [*] import_product OK external_id=643 (importado; XML-RPC no devuelve recordset)
+[13:04:12 +   481s] [*] import_product OK external_id=635 (importado; XML-RPC no devuelve recordset)
+[13:04:18 +   487s] [*] import_product OK external_id=1085 (importado; XML-RPC no devuelve recordset)
+[13:04:21 +   489s] [*] import_product OK external_id=2177 (importado; XML-RPC no devuelve recordset)
+[13:04:23 +   492s] [*] import_product OK external_id=3277 (importado; XML-RPC no devuelve recordset)
+[13:04:25 +   493s] [*] import_product OK external_id=3770 (importado; XML-RPC no devuelve recordset)
+[13:04:27 +   495s] [*] import_product OK external_id=307 (importado; XML-RPC no devuelve recordset)
+[13:04:29 +   497s] [*] import_product OK external_id=414 (importado; XML-RPC no devuelve recordset)
+[13:04:31 +   500s] [*] import_product OK external_id=703 (importado; XML-RPC no devuelve recordset)
+[13:04:33 +   501s] [*] import_product OK external_id=704 (importado; XML-RPC no devuelve recordset)
+[13:04:35 +   503s] [*] import_product OK external_id=1080 (importado; XML-RPC no devuelve recordset)
+[13:04:37 +   505s] [*] import_product OK external_id=1162 (importado; XML-RPC no devuelve recordset)
+[13:04:39 +   507s] [*] import_product OK external_id=2212 (importado; XML-RPC no devuelve recordset)
+[13:04:40 +   509s] [*] import_product OK external_id=2273 (importado; XML-RPC no devuelve recordset)
+[13:04:43 +   511s] [*] import_product OK external_id=2465 (importado; XML-RPC no devuelve recordset)
+[13:04:45 +   513s] [*] import_product OK external_id=3565 (importado; XML-RPC no devuelve recordset)
+[13:04:47 +   515s] [*] import_product OK external_id=3675 (importado; XML-RPC no devuelve recordset)
+[13:04:49 +   517s] [*] import_product OK external_id=3950 (importado; XML-RPC no devuelve recordset)
+[13:04:50 +   519s] [*] import_product OK external_id=3957 (importado; XML-RPC no devuelve recordset)
+[13:04:52 +   521s] [*] import_product OK external_id=324 (importado; XML-RPC no devuelve recordset)
+[13:04:54 +   523s] [*] import_product OK external_id=299 (importado; XML-RPC no devuelve recordset)
+[13:04:56 +   525s] [*] import_product OK external_id=404 (importado; XML-RPC no devuelve recordset)
+[13:04:58 +   527s] [*] import_product OK external_id=406 (importado; XML-RPC no devuelve recordset)
+[13:05:00 +   529s] [*] import_product OK external_id=407 (importado; XML-RPC no devuelve recordset)
+[13:05:02 +   531s] [*] import_product OK external_id=412 (importado; XML-RPC no devuelve recordset)
+[13:05:04 +   533s] [*] import_product OK external_id=415 (importado; XML-RPC no devuelve recordset)
+[13:05:07 +   535s] [*] import_product OK external_id=439 (importado; XML-RPC no devuelve recordset)
+[13:05:09 +   537s] [*] import_product OK external_id=448 (importado; XML-RPC no devuelve recordset)
+[13:05:10 +   539s] [*] import_product OK external_id=490 (importado; XML-RPC no devuelve recordset)
+[13:05:12 +   541s] [*] import_product OK external_id=402 (importado; XML-RPC no devuelve recordset)
+[13:05:14 +   543s] [*] import_product OK external_id=531 (importado; XML-RPC no devuelve recordset)
+[13:05:16 +   545s] [*] import_product OK external_id=536 (importado; XML-RPC no devuelve recordset)
+[13:05:18 +   547s] [*] import_product OK external_id=2326 (importado; XML-RPC no devuelve recordset)
+[13:05:20 +   549s] [*] import_product OK external_id=2495 (importado; XML-RPC no devuelve recordset)
+[13:05:22 +   551s] [*] import_product OK external_id=2595 (importado; XML-RPC no devuelve recordset)
+[13:05:24 +   553s] [*] import_product OK external_id=2895 (importado; XML-RPC no devuelve recordset)
+[13:05:26 +   555s] [*] import_product OK external_id=3829 (importado; XML-RPC no devuelve recordset)
+[13:05:28 +   557s] [*] import_product OK external_id=4087 (importado; XML-RPC no devuelve recordset)
+[13:05:30 +   559s] [*] import_product OK external_id=291 (importado; XML-RPC no devuelve recordset)
+[13:05:32 +   560s] [*] import_product OK external_id=328 (importado; XML-RPC no devuelve recordset)
+[13:05:33 +   562s] [*] import_product OK external_id=434 (importado; XML-RPC no devuelve recordset)
+[13:05:35 +   564s] [*] import_product OK external_id=482 (importado; XML-RPC no devuelve recordset)
+[13:05:37 +   566s] [*] import_product OK external_id=416 (importado; XML-RPC no devuelve recordset)
+[13:05:39 +   568s] [*] import_product OK external_id=829 (importado; XML-RPC no devuelve recordset)
+[13:05:41 +   570s] [*] import_product OK external_id=1873 (importado; XML-RPC no devuelve recordset)
+[13:05:46 +   575s] [*] import_product OK external_id=160 (importado; XML-RPC no devuelve recordset)
+[13:05:48 +   577s] [*] import_product OK external_id=204 (importado; XML-RPC no devuelve recordset)
+[13:05:50 +   579s] [*] import_product OK external_id=205 (importado; XML-RPC no devuelve recordset)
+[13:05:53 +   581s] [*] import_product OK external_id=207 (importado; XML-RPC no devuelve recordset)
+[13:05:54 +   583s] [*] import_product OK external_id=208 (importado; XML-RPC no devuelve recordset)
+[13:05:56 +   585s] [*] import_product OK external_id=4499 (importado; XML-RPC no devuelve recordset)
+[13:05:58 +   587s] [*] import_product OK external_id=2015 (importado; XML-RPC no devuelve recordset)
+[13:06:00 +   589s] [*] import_product OK external_id=3250 (importado; XML-RPC no devuelve recordset)
+[13:06:02 +   591s] [*] import_product OK external_id=4500 (importado; XML-RPC no devuelve recordset)
+[13:06:04 +   592s] [*] import_product OK external_id=4501 (importado; XML-RPC no devuelve recordset)
+[13:06:05 +   594s] [*] import_product OK external_id=4502 (importado; XML-RPC no devuelve recordset)
+[13:06:07 +   596s] [*] import_product OK external_id=4503 (importado; XML-RPC no devuelve recordset)
+[13:06:09 +   597s] [*] import_product OK external_id=4504 (importado; XML-RPC no devuelve recordset)
+[13:06:10 +   599s] [*] import_product OK external_id=4505 (importado; XML-RPC no devuelve recordset)
+[13:06:12 +   600s] [*] import_product OK external_id=4506 (importado; XML-RPC no devuelve recordset)
+[13:06:13 +   602s] [*] import_product OK external_id=4507 (importado; XML-RPC no devuelve recordset)
+[13:06:14 +   602s] [*] Import stats: {'ok': 0, 'fail': 2, 'queued': 0, 'flow_ok': 0, 'flow_fail': 0, 'ok_xmlrpc': 164}
+[13:06:14 +   602s] [*] TERMINADO. Tiempo total: 10m 2s

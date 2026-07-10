@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Manual Amazon SP-API + Odoo (amazon_wiap)</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 800px; margin: 2em auto; padding: 0 1.5em; line-height: 1.5; color: #111; }
+    h1 { font-size: 1.4em; border-bottom: 1px solid #ccc; padding-bottom: 0.3em; }
+    h2 { font-size: 1.15em; margin-top: 1.5em; }
+    h3 { font-size: 1em; margin-top: 1.2em; }
+    table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 0.95em; }
+    th, td { border: 1px solid #999; padding: 0.4em 0.6em; text-align: left; vertical-align: top; }
+    th { background: #f5f5f5; }
+    blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #ccc; color: #333; }
+    pre { background: #f8f8f8; border: 1px solid #ddd; padding: 0.8em; overflow-x: auto; font-size: 0.9em; }
+    ul, ol { padding-left: 1.5em; }
+    li { margin: 0.3em 0; }
+    .meta { color: #555; font-size: 0.95em; margin-bottom: 2em; }
+    @media print { body { max-width: none; margin: 1cm; } }
+  </style>
+</head>
+<body>
+
+<h1>Manual: Registro Amazon SP-API (Solution Provider Portal) + Odoo con amazon_wiap</h1>
+
+<p class="meta">
+  <strong>Objetivo:</strong> Integrar la cuenta vendedor de Amazon con Odoo 17 usando <code>sale_amazon</code> + <code>amazon_wiap</code>,
+  sin el proxy IAP de Odoo Enterprise, con datos reales de la propia empresa.<br>
+  <strong>Tipo de integración:</strong> App privada, auto-autorizada, en estado Draft (no requiere publicación en el Appstore).
+</p>
+
+<h2>Requisitos previos</h2>
+<table>
+  <tr><th>Requisito</th><th>Detalle</th></tr>
+  <tr><td>Cuenta Amazon</td><td>Professional Seller en Seller Central (no Individual)</td></tr>
+  <tr><td>Usuario</td><td>Primary User de la cuenta vendedor</td></tr>
+  <tr><td>Odoo</td><td>Módulos <code>sale_amazon</code> (Enterprise) + <code>amazon_wiap</code> instalados</td></tr>
+  <tr><td>URL pública</td><td>Odoo accesible por HTTPS; callback: <code>https://tu-dominio.com/amazon/return</code></td></tr>
+  <tr><td>Perfil desarrollador</td><td>Aprobado por Amazon antes de usar la API con datos reales</td></tr>
+</table>
+
+<h2>FASE 1 — Perfil de desarrollador (Developer Profile)</h2>
+
+<h3>1.1 Acceso al portal</h3>
+<ol>
+  <li>Entrar en <a href="https://solutionproviderportal.amazon.com/">Solution Provider Portal</a> con las credenciales de Seller Central.<br>
+      (Si aún no habéis migrado: Seller Central → Apps and Services → Develop Apps.)</li>
+  <li>Ir a <strong>Settings → Developer Profile</strong> (o completar el formulario al entrar en Develop Apps).</li>
+</ol>
+
+<h3>1.2 Datos del formulario</h3>
+<table>
+  <tr><th>Campo</th><th>Valor recomendado</th></tr>
+  <tr><td>Data Access</td><td>Private Developer: I build application(s) that integrate my own company with Amazon Services APIs</td></tr>
+  <tr><td>Contact Information</td><td>Datos reales de la empresa</td></tr>
+  <tr><td>Use Cases</td><td>Gestión interna de pedidos, inventario FBM/FBA y catálogo de nuestra cuenta vendedor en nuestro ERP (Odoo). Integración exclusiva para uso propio.</td></tr>
+  <tr><td>Security Controls</td><td>Respuestas honestas sobre almacenamiento seguro, acceso restringido, cifrado, etc.</td></tr>
+</table>
+
+<h3>1.3 Roles en el perfil de desarrollador (sección Sellers)</h3>
+<p>Marcar los mismos que usará la app:</p>
+<ul>
+  <li>Inventory and Order Tracking</li>
+  <li>Amazon Fulfillment</li>
+  <li>Product Listing</li>
+  <li>Pricing</li>
+</ul>
+
+<h3>1.4 Envío y espera</h3>
+<ol>
+  <li>Aceptar Solution Provider Agreement, AUP y Data Protection Policy.</li>
+  <li>Pulsar <strong>Register</strong>.</li>
+  <li>Esperar aprobación por email (responder en 5 días si piden más información).</li>
+</ol>
+<blockquote>Sin perfil aprobado, la app puede crearse pero las llamadas API pueden devolver 403.</blockquote>
+
+<h2>FASE 2 — Crear la aplicación SP-API</h2>
+
+<h3>2.1 Registrar la app</h3>
+<ol>
+  <li>En Solution Provider Portal: <strong>Add new app client</strong> (o Registrar nueva aplicación).</li>
+  <li>Completar el formulario:</li>
+</ol>
+<table>
+  <tr><th>Campo</th><th>Valor</th></tr>
+  <tr><td>Nombre</td><td>Ej.: Odoo 17 Integración</td></tr>
+  <tr><td>API type</td><td>Selling Partner API (SP-API)</td></tr>
+  <tr><td>Application type</td><td><strong>Production</strong> (no Sandbox)</td></tr>
+</table>
+<blockquote>
+  <strong>Importante:</strong> Sandbox sirve para datos de prueba ficticios y endpoints distintos.
+  Odoo usa endpoints de producción; para pedidos y stock reales hay que elegir Production.
+</blockquote>
+
+<h3>2.2 Business entities supported</h3>
+<p>Marcar solo: <strong>Sellers</strong></p>
+<p>No marcar: Amazon Business, Freight, Shipping, Vendors (salvo que el cliente sea vendor en Vendor Central, caso excepcional).</p>
+
+<h3>2.3 Roles de la aplicación (sección Sellers)</h3>
+<table>
+  <tr><th>Rol</th><th>Marcar</th></tr>
+  <tr><td>Inventory and Order Tracking</td><td>Sí</td></tr>
+  <tr><td>Amazon Fulfillment</td><td>Sí</td></tr>
+  <tr><td>Product Listing</td><td>Sí</td></tr>
+  <tr><td>Pricing</td><td>Sí</td></tr>
+</table>
+<p>No marcar: Selling Partner Insights, Buyer Communication, Buyer Solicitation, AWD (salvo uso explícito de AWD).</p>
+
+<h3>2.4 Delegación PII (RDT)</h3>
+<p>Pregunta: <em>Will you delegate access to PII to another developer's application?</em></p>
+<p><strong>Respuesta: No</strong></p>
+<p>Odoo consume el PII directamente; no se delega a otra app de un tercero.</p>
+
+<h3>2.5 Campo IAM Role ARN</h3>
+<p>No aparece en el formulario actual — es normal. La guía antigua que decía “dejarlo vacío” ya no aplica; Amazon usa autenticación LWA sin IAM en este flujo.</p>
+
+<h3>2.6 Guardar</h3>
+<ol>
+  <li><strong>Save and exit</strong>.</li>
+  <li>La app queda en estado <strong>Draft</strong> — correcto para integración privada.</li>
+</ol>
+
+<h2>FASE 3 — Obtener credenciales</h2>
+<ol>
+  <li>En la lista de aplicaciones, localizar la app creada.</li>
+  <li>Pulsar <strong>View credentials</strong> / Ver credenciales.</li>
+  <li>Guardar en lugar seguro:</li>
+</ol>
+<table>
+  <tr><th>Credencial Amazon</th><th>Uso en Odoo (amazon_wiap)</th></tr>
+  <tr><td>Application ID (amzn1.sp.solution.xxx...)</td><td>Amazon Application ID</td></tr>
+  <tr><td>Client ID (LWA)</td><td>LWA Client ID</td></tr>
+  <tr><td>Client Secret (LWA)</td><td>LWA Client Secret</td></tr>
+</table>
+<blockquote>No hace falta publicar la app en el Appstore ni solicitar listing público.</blockquote>
+
+<h2>FASE 4 — Configuración en Odoo</h2>
+
+<h3>4.1 Ajustes generales</h3>
+<p><strong>Ajustes → Ventas → Amazon Connector → Amazon WIAP</strong></p>
+<table>
+  <tr><th>Campo Odoo</th><th>Valor</th></tr>
+  <tr><td>Amazon Application ID</td><td>Application ID de Amazon</td></tr>
+  <tr><td>LWA Client ID</td><td>Client ID</td></tr>
+  <tr><td>LWA Client Secret</td><td>Client Secret</td></tr>
+  <tr><td>Authorize in Beta (Draft app)</td><td><strong>Activado</strong></td></tr>
+</table>
+<p>El flag Beta añade <code>version=beta</code> en la URL OAuth mientras la app esté en Draft.</p>
+
+<h3>4.2 Crear cuenta Amazon en Odoo</h3>
+<ol>
+  <li><strong>Ventas → Amazon → Cuentas Amazon</strong> (o menú del módulo WIAP).</li>
+  <li>Nueva cuenta: nombre, marketplace base (ej. España → EU), empresa, almacén FBA si aplica.</li>
+  <li>Guardar.</li>
+</ol>
+
+<h2>FASE 5 — Autorización OAuth</h2>
+<ol>
+  <li>En la ficha de la cuenta, pulsar <strong>Autorizar</strong> / Connect with Amazon.</li>
+  <li>Redirección a Seller Central → iniciar sesión como Primary User → aceptar permisos.</li>
+  <li>Vuelta a Odoo en <code>https://tu-dominio.com/amazon/return</code>.</li>
+  <li>Si todo va bien: refresh_token guardado y marketplaces disponibles para sincronizar.</li>
+</ol>
+
+<h3>Qué hace amazon_wiap en este paso</h3>
+<ul>
+  <li>Usa vuestra Application ID (no la de Odoo S.A.).</li>
+  <li>Intercambia el código OAuth directamente con Amazon LWA (sin iap-services.odoo.com).</li>
+  <li>Con app en Draft, envía version=beta si el checkbox está activo.</li>
+</ul>
+
+<h2>Qué NO hacer</h2>
+<table>
+  <tr><th>Acción</th><th>Motivo</th></tr>
+  <tr><td>Elegir Sandbox como tipo de app</td><td>No sirve para datos reales en Odoo</td></tr>
+  <tr><td>Publicar en el Selling Partner Appstore</td><td>Solo apps públicas; no hace falta para privadas</td></tr>
+  <tr><td>Marcar Yes en delegación PII</td><td>Implica integración con app de otro desarrollador</td></tr>
+  <tr><td>Desactivar Authorize in Beta con app en Draft</td><td>Falla la autorización OAuth</td></tr>
+  <tr><td>Mencionar “conector para terceros” en el perfil</td><td>Amazon puede derivar a Enterprise IAP</td></tr>
+</table>
+
+<h2>Verificación de éxito</h2>
+<table>
+  <tr><th>Comprobación</th><th>Resultado esperado</th></tr>
+  <tr><td>Cuenta Amazon en Odoo</td><td>Campo refresh token relleno (oculto)</td></tr>
+  <tr><td>Marketplaces</td><td>Botón para actualizar marketplaces disponibles funciona</td></tr>
+  <tr><td>Sincronización pedidos</td><td>Cron/manual importa pedidos Amazon</td></tr>
+  <tr><td>Logs Odoo</td><td>Sin errores LWA ni 403 por roles</td></tr>
+</table>
+
+<h2>Errores frecuentes y solución</h2>
+<table>
+  <tr><th>Error</th><th>Causa probable</th><th>Solución</th></tr>
+  <tr><td>Error OAuth / MD1000</td><td>App Draft sin version=beta</td><td>Activar Authorize in Beta</td></tr>
+  <tr><td>Amazon LWA error: invalid_client</td><td>Client ID/Secret incorrectos</td><td>Revisar credenciales en Ajustes</td></tr>
+  <tr><td>HTTP 403 en SP-API</td><td>Rol no aprobado en perfil desarrollador</td><td>Revisar estado del Developer Profile</td></tr>
+  <tr><td>Forbidden en /amazon/return</td><td>URL Odoo incorrecta o sesión perdida</td><td>HTTPS, mismo dominio, reintentar autorización</td></tr>
+  <tr><td>“Use Odoo Enterprise connector”</td><td>Perfil presentado como app pública/terceros</td><td>Reformular como Private Developer uso propio</td></tr>
+</table>
+
+<h2>Checklist final</h2>
+<pre>
+AMAZON
+[ ] Perfil desarrollador aprobado (Private Developer)
+[ ] App Production creada (NO Sandbox)
+[ ] Business entity: Sellers
+[ ] Roles: Inventory, Fulfillment, Listing, Pricing
+[ ] PII delegation: No
+[ ] App en Draft (no publicada en Appstore)
+[ ] Credenciales guardadas (App ID, Client ID, Secret)
+
+ODOO
+[ ] sale_amazon + amazon_wiap instalados
+[ ] Credenciales pegadas en Ajustes → Amazon WIAP
+[ ] Authorize in Beta = activado
+[ ] Cuenta Amazon creada y autorizada
+[ ] Marketplaces activos configurados
+[ ] Primera sincronización de pedidos probada
+</pre>
+
+<h2>Resumen ejecutivo</h2>
+<p>
+  El cliente necesita una app privada de tipo <strong>Production</strong> en <strong>Draft</strong>,
+  con perfil de desarrollador aprobado como Private Developer y los cuatro roles de Sellers.
+  Con las credenciales en Odoo y una autorización OAuth con beta activado, el conector funciona
+  con datos reales sin pasar por el proxy IAP de Odoo ni publicar en el Appstore de Amazon.
+</p>
+
+<h2>Documentación oficial de referencia</h2>
+<ul>
+  <li><a href="https://developer-docs.amazon.com/sp-api/docs/register-as-a-private-developer">Register as a Private SP-API Developer</a></li>
+  <li><a href="https://developer-docs.amazon.com/sp-api/docs/self-authorization">Authorize Private Applications</a></li>
+  <li><a href="https://solutionproviderportal.amazon.com/">Solution Provider Portal</a></li>
+</ul>
+
+</body>
+</html>

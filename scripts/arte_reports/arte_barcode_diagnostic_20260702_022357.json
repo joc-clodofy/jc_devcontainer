@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-07-02T02:23:57",
+  "odoo_url": "http://localhost:8069",
+  "odoo_db": "arte",
+  "integration_id": 1,
+  "integration": {
+    "id": 1,
+    "name": "tiendabellasartesjer.com",
+    "state": "draft",
+    "validate_barcode": false,
+    "prestashop_validate_barcode": false,
+    "prestashop_skip_invalid_barcodes": true
+  },
+  "metrics": {
+    "mapped_variants_total": 18751,
+    "mapped_variants_active": 18751,
+    "with_external_barcode": 10837,
+    "with_odoo_barcode": 10882,
+    "external_barcode_no_odoo": 0,
+    "no_external_barcode": 7914,
+    "pos_scan_ready": 188,
+    "invalid_odoo_barcode": 7871,
+    "duplicate_external_ean_groups": 22,
+    "duplicate_odoo_barcode_groups": 126,
+    "top_duplicate_external": [
+      {
+        "barcode": "0",
+        "count": 2
+      },
+      {
+        "barcode": "8712079410605",
+        "count": 2
+      },
+      {
+        "barcode": "3329681447025",
+        "count": 2
+      },
+      {
+        "barcode": "014173368621",
+        "count": 2
+      },
+      {
+        "barcode": "757063117892",
+        "count": 2
+      },
+      {
+        "barcode": "4061947061413",
+        "count": 2
+      },
+      {
+        "barcode": "4250278600259",
+        "count": 2
+      },
+      {
+        "barcode": "4250278625085",
+        "count": 2
+      },
+      {
+        "barcode": "017342101029",
+        "count": 2
+      },
+      {
+        "barcode": "3046451898992",
+        "count": 2
+      },
+      {
+        "barcode": "3188550270092",
+        "count": 2
+      },
+      {
+        "barcode": "4014519789390",
+        "count": 2
+      },
+      {
+        "barcode": "4017505222284",
+        "count": 2
+      },
+      {
+        "barcode": "4017505222277",
+        "count": 2
+      },
+      {
+        "barcode": "8429551722018",
+        "count": 2
+      },
+      {
+        "barcode": "757063395689",
+        "count": 2
+      },
+      {
+        "barcode": "8429551262316",
+        "count": 2
+      },
+      {
+        "barcode": "884851060174",
+        "count": 2
+      },
+      {
+        "barcode": "8712079466992",
+        "count": 2
+      },
+      {
+        "barcode": "3037921941577",
+        "count": 2
+      }
+    ],
+    "top_duplicate_odoo": [
+      {
+        "barcode": "8429551722070",
+        "count": 4
+      },
+      {
+        "barcode": "094376931372",
+        "count": 3
+      },
+      {
+        "barcode": "4005401857129",
+        "count": 3
+      },
+      {
+        "barcode": "3700417134929",
+        "count": 3
+      },
+      {
+        "barcode": "8712079408305",
+        "count": 3
+      },
+      {
+        "barcode": "3046451961481",
+        "count": 3
+      },
+      {
+        "barcode": "884851033093",
+        "count": 3
+      },
+      {
+        "barcode": "3329681447025",
+        "count": 3
+      },
+      {
+        "barcode": "014173368621",
+        "count": 3
+      },
+      {
+        "barcode": "0",
+        "count": 2
+      },
+      {
+        "barcode": "5012572003384",
+        "count": 2
+      },
+      {
+        "barcode": "8712079410339",
+        "count": 2
+      },
+      {
+        "barcode": "094376936704",
+        "count": 2
+      },
+      {
+        "barcode": "3148950115737",
+        "count": 2
+      },
+      {
+        "barcode": "8422714010007",
+        "count": 2
+      },
+      {
+        "barcode": "3700417102669",
+        "count": 2
+      },
+      {
+        "barcode": "44974102001",
+        "count": 2
+      },
+      {
+        "barcode": "3700417114570",
+        "count": 2
+      },
+      {
+        "barcode": "8422714006970",
+        "count": 2
+      },
+      {
+        "barcode": "8712079339500",
+        "count": 2
+      }
+    ]
+  }
+}

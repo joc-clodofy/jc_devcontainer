@@ -1,0 +1,476 @@
+{
+  "source": {
+    "orders_file": "/workspace/soldufer_woocommerce_orders_last_month_raw.json",
+    "customers_file": "/workspace/eny_woocommerce_customers_from_order_links_last_month_raw.json",
+    "integration_id": 2,
+    "integration_name": "Eny",
+    "note": "Pedido completo de WooCommerce con _links.customer resuelto desde customers/{customer_id}."
+  },
+  "order": {
+    "id": 319081,
+    "parent_id": 0,
+    "status": "delivered",
+    "currency": "EUR",
+    "version": "10.7.0",
+    "prices_include_tax": true,
+    "date_created": "2026-04-28T08:04:58",
+    "date_modified": "2026-04-30T16:01:13",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "5.57",
+    "shipping_tax": "1.17",
+    "cart_tax": "0.00",
+    "total": "89.37",
+    "total_tax": "1.17",
+    "customer_id": 10804,
+    "order_key": "wc_order_69f0564cf0377",
+    "billing": {
+      "first_name": "Marco",
+      "last_name": "Antonio Fernández Crespo",
+      "company": "",
+      "address_1": "CALLE SAN PEDRO 22",
+      "address_2": "",
+      "city": "SOBARZO",
+      "state": "S",
+      "postcode": "39627",
+      "country": "ES",
+      "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+      "phone": "636905002"
+    },
+    "shipping": {
+      "first_name": "MARCO",
+      "last_name": "ANTONIO FERNANDEZ CRESPO",
+      "company": "",
+      "address_1": "CALLE SAN PEDRO 22",
+      "address_2": "",
+      "city": "SOBARZO",
+      "state": "S",
+      "postcode": "39627",
+      "country": "ES",
+      "phone": "636905002"
+    },
+    "payment_method": "Amazon",
+    "payment_method_title": "Amazon",
+    "transaction_id": "",
+    "customer_ip_address": "185.14.56.108",
+    "customer_user_agent": "WordPress/6.9.4; https://eny.es",
+    "created_via": "amazon",
+    "customer_note": "",
+    "date_completed": "2026-04-29T09:56:13",
+    "date_paid": "2026-04-28T08:04:58",
+    "cart_hash": "",
+    "number": "171-8076080-7330702",
+    "meta_data": [
+      {
+        "id": 9963197,
+        "key": "wpml_language",
+        "value": "es"
+      },
+      {
+        "id": 9963198,
+        "key": "_phone_international",
+        "value": "636905002"
+      },
+      {
+        "id": 9963199,
+        "key": "_phone_international_shipping",
+        "value": "636905002"
+      },
+      {
+        "id": 9963200,
+        "key": "_phone_digits_only",
+        "value": "636905002"
+      },
+      {
+        "id": 9963201,
+        "key": "_phone_digits_only_shipping",
+        "value": "636905002"
+      },
+      {
+        "id": 9963202,
+        "key": "_wpla_amazon_order_id",
+        "value": "171-8076080-7330702"
+      },
+      {
+        "id": 9963203,
+        "key": "_wpla_amazon_fulfillment_channel",
+        "value": "MFN"
+      },
+      {
+        "id": 9963204,
+        "key": "_wpla_amazon_prime_order",
+        "value": ""
+      },
+      {
+        "id": 9963205,
+        "key": "_wpla_amazon_business_order",
+        "value": "1"
+      },
+      {
+        "id": 9963206,
+        "key": "_wc_order_attribution_source_type",
+        "value": "utm"
+      },
+      {
+        "id": 9963207,
+        "key": "_wc_order_attribution_utm_source",
+        "value": "Amazon"
+      },
+      {
+        "id": 9963208,
+        "key": "_wc_order_attribution_utm_medium",
+        "value": "WP-Lister"
+      },
+      {
+        "id": 9963209,
+        "key": "_wpla_amazon_account",
+        "value": "Amazon ES"
+      },
+      {
+        "id": 9963212,
+        "key": "_wpla_earliest_ship_date",
+        "value": "2026-04-30 00:00:00"
+      },
+      {
+        "id": 9963213,
+        "key": "_wpla_latest_ship_date",
+        "value": "2026-04-30 23:59:59"
+      },
+      {
+        "id": 9963236,
+        "key": "billing_phone",
+        "value": "636905002"
+      },
+      {
+        "id": 9963238,
+        "key": "shipping_phone",
+        "value": "636905002"
+      },
+      {
+        "id": 9963240,
+        "key": "_wpml_word_count",
+        "value": "4"
+      },
+      {
+        "id": 10005434,
+        "key": "_wpla_date_shipped",
+        "value": "2026-04-29"
+      },
+      {
+        "id": 10005435,
+        "key": "_wpla_time_shipped",
+        "value": "07:56:13"
+      },
+      {
+        "id": 10005436,
+        "key": "_wpla_tracking_provider",
+        "value": "MRW"
+      },
+      {
+        "id": 10005437,
+        "key": "_wpla_tracking_service_name",
+        "value": "MRW"
+      },
+      {
+        "id": 10005438,
+        "key": "_wpla_tracking_ship_method",
+        "value": "MRW Urgente 19"
+      },
+      {
+        "id": 10005439,
+        "key": "_wpla_tracking_ship_from_name",
+        "value": "Eny Compras y Logistica Industrial, S.L."
+      },
+      {
+        "id": 10005440,
+        "key": "_wpla_tracking_ship_from_line_1",
+        "value": "Avenida Jose Montoya Garcia 11/12"
+      },
+      {
+        "id": 10005441,
+        "key": "_wpla_tracking_ship_from_line_2",
+        "value": ""
+      },
+      {
+        "id": 10005442,
+        "key": "_wpla_tracking_ship_from_city",
+        "value": "Lorca"
+      },
+      {
+        "id": 10005443,
+        "key": "_wpla_tracking_ship_from_state",
+        "value": "Murcia"
+      },
+      {
+        "id": 10005444,
+        "key": "_wpla_tracking_ship_from_postcode",
+        "value": "30817"
+      },
+      {
+        "id": 10005445,
+        "key": "_wpla_tracking_ship_from_country",
+        "value": "ES"
+      },
+      {
+        "id": 10005934,
+        "key": "_wpla_submission_result",
+        "value": "success"
+      },
+      {
+        "id": 10022532,
+        "key": "_wc_shipment_tracking_items",
+        "value": [
+          {
+            "tracking_number": "PQ4GEC0752171890139627Z",
+            "shipping_note": "",
+            "tracking_provider": "correos-spain",
+            "custom_tracking_link": "",
+            "tracking_product_code": "",
+            "date_shipped": "1777420800",
+            "source": "orders",
+            "products_list": [
+              {
+                "product": "54509",
+                "item_id": "97288",
+                "qty": "1"
+              }
+            ],
+            "status_shipped": "1",
+            "tracking_id": "2e0f1cb517476f4909d1f481dc528219",
+            "user_id": 20839
+          }
+        ]
+      }
+    ],
+    "line_items": [
+      {
+        "id": 97288,
+        "name": "Pack Disco Lija Fibra Cubitron II 982CX 115 K36 83323 25UND 7100242885 3M",
+        "product_id": 54509,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "68.29",
+        "subtotal_tax": "14.34",
+        "total": "68.29",
+        "total_tax": "14.34",
+        "taxes": [
+          {
+            "id": 1,
+            "total": "14.34",
+            "subtotal": "14.34"
+          }
+        ],
+        "meta_data": [
+          {
+            "id": 732957,
+            "key": "_reduced_stock",
+            "value": "1",
+            "display_key": "_reduced_stock",
+            "display_value": "1"
+          }
+        ],
+        "sku": "0638060833230",
+        "global_unique_id": "",
+        "price": 68.29,
+        "image": {
+          "id": "266216",
+          "src": "https://eny.es/wp-content/uploads/2026/01/241495-0638060833230-PACK-DISCO-LIJA-FIBRA-CUBITRON-II-982CX-115-K36-83323-25UND-REF-7100242885-3M.jpg"
+        },
+        "parent_name": null
+      }
+    ],
+    "tax_lines": [
+      {
+        "id": 97287,
+        "rate_code": "ES-TAX ES-1",
+        "rate_id": 1,
+        "label": "Tax ES",
+        "compound": false,
+        "tax_total": "14.34",
+        "shipping_tax_total": "1.17",
+        "rate_percent": 21,
+        "meta_data": []
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 97289,
+        "method_title": "Std ES Dom_6",
+        "method_id": "Std ES Dom_6",
+        "instance_id": "0",
+        "total": "5.57",
+        "total_tax": "1.17",
+        "taxes": [
+          {
+            "id": 1,
+            "total": "1.17",
+            "subtotal": ""
+          }
+        ],
+        "tax_status": "taxable",
+        "meta_data": []
+      }
+    ],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://eny.es/finalizar-compra/pagar/319081/?pay_for_order=true&key=wc_order_69f0564cf0377",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2026-04-28T06:04:58",
+    "date_modified_gmt": "2026-04-30T14:01:13",
+    "date_completed_gmt": "2026-04-29T07:56:13",
+    "date_paid_gmt": "2026-04-28T06:04:58",
+    "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+    "final_amount": "89.37",
+    "amazon_account": "Amazon ES",
+    "amazon_merchant_id": "A2IW787E1N626W",
+    "currency_symbol": "€",
+    "_links": {
+      "self": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders/319081",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders"
+        }
+      ],
+      "email_templates": [
+        {
+          "embeddable": true,
+          "href": "https://eny.es/wp-json/wc/v3/orders/319081/actions/email_templates"
+        }
+      ],
+      "customer": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/customers/10804"
+        }
+      ]
+    }
+  },
+  "resolved_links": {
+    "customer": {
+      "href": "https://eny.es/wp-json/wc/v3/customers/10804",
+      "raw_customer": {
+        "id": 10804,
+        "date_created": "2023-11-14T23:24:21",
+        "date_created_gmt": "2023-11-14T22:24:21",
+        "date_modified": null,
+        "date_modified_gmt": null,
+        "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+        "first_name": "MARCO",
+        "last_name": "ANTONIO FERNANDEZ CRESPO",
+        "role": "customer",
+        "username": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+        "billing": {
+          "first_name": "MARCO",
+          "last_name": "ANTONIO FERNANDEZ CRESPO",
+          "company": "",
+          "address_1": "CALLE SAN PEDRO 22",
+          "address_2": "",
+          "city": "SOBARZO",
+          "postcode": "39627",
+          "country": "ES",
+          "state": "CANTABRIA",
+          "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+          "phone": "636905002"
+        },
+        "shipping": {
+          "first_name": "MARCO",
+          "last_name": "ANTONIO FERNANDEZ CRESPO",
+          "company": "",
+          "address_1": "CALLE SAN PEDRO 22",
+          "address_2": "",
+          "city": "SOBARZO",
+          "postcode": "39627",
+          "country": "ES",
+          "state": "CANTABRIA",
+          "phone": "636905002"
+        },
+        "is_paying_customer": true,
+        "avatar_url": "https://eny.es/wp-content/litespeed/avatar/796ca37114dd91c9e05535bb014a34cd.jpg?ver=1779797690",
+        "meta_data": [
+          {
+            "id": 422196,
+            "key": "wc_last_active",
+            "value": "1777358413"
+          },
+          {
+            "id": 868870,
+            "key": "additional_profile_urls",
+            "value": ""
+          }
+        ],
+        "_links": {
+          "self": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers/10804",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers"
+            }
+          ]
+        }
+      },
+      "odoo_parsed": {
+        "customer": {
+          "id": "10804",
+          "person_name": "MARCO ANTONIO FERNANDEZ CRESPO",
+          "email": "hztvbn6n7b2dhw7@marketplace.amazon.es"
+        },
+        "billing": {
+          "id": "",
+          "person_name": "MARCO ANTONIO FERNANDEZ CRESPO",
+          "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+          "company_name": "",
+          "street": "CALLE SAN PEDRO 22",
+          "street2": "",
+          "city": "SOBARZO",
+          "country_code": "ES",
+          "state_code": "CANTABRIA",
+          "zip": "39627",
+          "phone": "636905002",
+          "type": "invoice"
+        },
+        "shipping": {
+          "id": "",
+          "person_name": "MARCO ANTONIO FERNANDEZ CRESPO",
+          "email": "hztvbn6n7b2dhw7@marketplace.amazon.es",
+          "company_name": "",
+          "street": "CALLE SAN PEDRO 22",
+          "street2": "",
+          "city": "SOBARZO",
+          "country_code": "ES",
+          "state_code": "CANTABRIA",
+          "zip": "39627",
+          "phone": "636905002",
+          "type": "delivery"
+        }
+      }
+    }
+  }
+}

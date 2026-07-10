@@ -1,0 +1,156 @@
+============================================================
+[11:48:11 +     0s] [*] Inicio (solo Odoo/mapping) | DB=arte | http://localhost:8069 | scope=prestashop
+============================================================
+[11:48:12 +     0s] [*] XML-RPC OK uid=2
+[11:48:12 +     0s] [*] Integración: tiendabellasartesjer.com (prestashop)
+[11:48:12 +     0s] [!] Omitiendo árbol de categorías (--skip-categories)
+[11:48:12 +     0s] [*] Reconstruyendo mapeo por nombre+jerarquía desde categorías públicas…
+[11:48:25 +    13s] [*] [dedupe] grupos tpl=0, elim tpl=0, grupos var=0, elim var=0
+[11:48:26 +    15s] [!] [consolidate code] 24308116: keep tpl 17379 (24308116) drop=[17380]
+[11:48:26 +    15s] [!] [consolidate code] 975811: keep tpl 18618 (975811) drop=[18619]
+[11:48:26 +    15s] [!] [consolidate code] 9314132M: keep tpl 20213 (9314132M) drop=[20214]
+[11:48:26 +    15s] [!] [consolidate code] CD6901-476: keep tpl 16703 (CD6901-476) drop=[16704]
+[11:48:26 +    15s] [!] [consolidate code] CD3888-312: keep tpl 16177 (CD3888-312) drop=[16179]
+[11:48:26 +    15s] [!] [consolidate code] BR 49 229 002: keep tpl 19358 (BR 49 229 002) drop=[19359]
+[11:48:26 +    15s] [!] [consolidate code] 3167865241119: keep tpl 20035 (3167865241119) drop=[20036]
+[11:48:26 +    15s] [!] [consolidate code] 105332: keep tpl 18451 (105332) drop=[18452]
+[11:48:26 +    15s] [!] [consolidate code] SKU001965: keep tpl 17686 (SKU001965) drop=[17687]
+[11:48:26 +    15s] [!] [consolidate code] 36565: keep tpl 19099 (36565) drop=[19100]
+[11:48:26 +    15s] [!] [consolidate code] 4014519052654: keep tpl 19764 (4014519052654) drop=[19765]
+[11:48:26 +    15s] [!] [consolidate code] 167158: keep tpl 18793 (167158) drop=[18794]
+[11:48:26 +    15s] [!] [consolidate code] CD776-714: keep tpl 18880 (CD776-714) drop=[18881]
+[11:48:26 +    15s] [!] [consolidate code] 9561998M: keep tpl 18526 (9561998M) drop=[18527]
+[11:48:26 +    15s] [!] [consolidate code] 014173368621: keep tpl 18814 (014173368621) drop=[18815]
+[11:48:26 +    15s] [!] [purge] error en chunk ([17380, 18619, 20214, 16704, 16179]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:26 +    15s] [*] [consolidate] grupos=15, keepers=15, eliminados=0, omitidos_sin_mapping=0, omitidos_stock=0
+[11:48:27 +    16s] [*] [purge-unmapped] candidatos=14782 (mapped conservados=4379)
+[11:48:27 +    16s] [!] [purge] error en chunk ([14398, 3906, 10073, 11682, 5522]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:27 +    16s] [!] [purge] error en chunk ([8938, 2770, 7103, 13263, 12803]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:27 +    16s] [!] [purge] error en chunk ([9372, 3204, 9373, 13698, 3205]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    16s] [!] [purge] error en chunk ([10134, 4450, 10612, 14937, 14376]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    16s] [!] [purge] error en chunk ([9858, 8717, 2548, 6882, 13042]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    16s] [!] [purge] error en chunk ([8913, 7078, 13238, 2745, 10775]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    16s] [!] [purge] error en chunk ([7282, 9117, 13442, 2949, 13443]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    16s] [!] [purge] error en chunk ([11034, 4873, 4053, 10220, 14545]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([2733, 13226, 8901, 7066, 8808]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([7180, 4154, 10320, 14645, 5923]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([6977, 2643, 8812, 2647, 8816]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([5301, 15786, 8893, 2725, 13218]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([12151, 1653, 8258, 2086, 12583]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([1578, 7751, 10875, 4713, 15200]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([6140, 1803, 7975, 15126, 4639]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([2966, 13459, 7287, 9122, 2954]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([4181, 10347, 4180, 14671, 10346]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([14740, 9209, 3041, 7374, 13534]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([14629, 10304, 4138, 4145, 10311]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([2668, 14226, 3734, 9901, 9902]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([11766, 5606, 16091, 10187, 14512]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([9415, 13740, 3247, 9416, 3248]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([2979, 9147, 7312, 13472, 12707]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([6600, 2263, 4691, 15178, 10853]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([9254, 13579, 7420, 13580, 3087]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([2938, 9106, 7271, 12230, 6070]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([16096, 10171, 4004, 14496, 10818]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([7008, 2675, 8843, 13733, 3240]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([11144, 15469, 11143, 15468, 4982]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:28 +    17s] [!] [purge] error en chunk ([11433, 15758, 9966, 14291, 3799]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    17s] [!] [purge] error en chunk ([10440, 4276, 14765, 4275, 10439]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    17s] [!] [purge] error en chunk ([13912, 2368, 8538, 6703, 12863]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    17s] [!] [purge] error en chunk ([7138, 13298, 2805, 8973, 6963]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    17s] [!] [purge] error en chunk ([8343, 12668, 2171, 6508, 14301]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    17s] [!] [purge] error en chunk ([14122, 11625, 15950, 5465, 10530]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([7091, 8926, 8927, 7092, 13252]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([1658, 12156, 5996, 12157, 7832]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([14913, 1637, 5975, 7810, 12135]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([12714, 7811, 1638, 12136, 5976]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([7226, 9061, 13386, 2893, 12154]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:29 +    18s] [!] [purge] error en chunk ([11026, 4865, 15351, 8525, 6690]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:48:36 +    25s] [!] [purge] error en chunk ([4512, 14999, 10674, 13234, 7074]…): Para eliminar un producto, asegúrese de que todas las sesiones del punto de venta están cerradas.
+
+Eliminar un producto disponible en una sesión sería como intentar arrebatar una hamburguesa de la mano de un cliente a mitad de bocado; ¡se desatará el caos mientras el ketchup y la mayonesa salen volando por todas partes!
+[11:49:10 +    59s] [*] [purge-unmapped] eliminados=10582, protegidos=9, stock_omitido=0
+[11:49:10 +    59s] [*] TERMINADO. Tiempo total: 59s

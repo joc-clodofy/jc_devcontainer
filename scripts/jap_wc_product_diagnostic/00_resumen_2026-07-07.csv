@@ -1,0 +1,12 @@
+﻿Integracion;Fecha diagnostico;Metrica;Valor
+latiendadelbordado;2026-07-07;Productos Odoo (plantillas activas);3210
+latiendadelbordado;2026-07-07;Variantes Odoo;3244
+latiendadelbordado;2026-07-07;Productos WooCommerce (externos);688
+latiendadelbordado;2026-07-07;Enlazados Odoo <-> WC (OK);662
+latiendadelbordado;2026-07-07;WC sin producto Odoo;26
+latiendadelbordado;2026-07-07;Odoo sin enlace WC;2537
+latiendadelbordado;2026-07-07;Grupos default_code duplicado;94
+latiendadelbordado;2026-07-07;Productos en grupos duplicados;188.0
+latiendadelbordado;2026-07-07;Candidatos archivar (seguros);2238
+latiendadelbordado;2026-07-07;Duplicados import archivable (id>=3188);40
+latiendadelbordado;2026-07-07;Jobs import fallidos;26

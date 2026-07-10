@@ -1,5 +1,6 @@
 {
   "name": "odoo",
+  "initializeCommand": "docker network inspect shared-net >/dev/null 2>&1 || docker network create shared-net",
   "dockerComposeFile": "docker-compose.yml",
   "service": "odoo-dev",
   "workspaceFolder": "/workspace",

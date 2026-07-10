@@ -1,0 +1,11 @@
+============================================================
+[06:51:43 +     0s] [*] Inicio (solo Odoo/mapping) | DB=arte | http://localhost:8069 | scope=prestashop
+============================================================
+[06:51:43 +     0s] [*] XML-RPC OK uid=2
+[06:51:43 +     1s] [*] Integración: tiendabellasartesjer.com (prestashop)
+[06:51:43 +     1s] [*] Sincronizando 588 categorías públicas → product.category + pos.category
+[06:52:04 +    22s] [*] product.category: +0 creadas, ~0 actualizadas, 588 sin cambios
+[06:52:04 +    22s] [*] pos.category: +0 creadas, ~0 actualizadas, 588 sin cambios
+[06:52:05 +    22s] [*] Productos a procesar: 4379
+[06:52:06 +    23s] [*] Productos: 4379 procesados, 43 actualizados, 43 sin categoría pública (solo TPV/venta/compra si aplica), 0 errores
+[06:52:06 +    23s] [*] TERMINADO. Tiempo total: 23s

@@ -1,0 +1,27 @@
+﻿Job;Estado;Fecha;Error
+"latiendadelbordado: Import External Product """"MARCO"" MIGHTYHOOP 10"" ECO"" [1192096]";failed;2026-06-22 05:30:41.981098;raise ValidationError(_(
+"latiendadelbordado: Import External Product """"MARCO"" MIGHTYHOOP 5,5"" ECO"" [1192091]";failed;2026-06-22 05:30:41.988426;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""AGUJAS 134D 10 uds"" [1190942]";failed;2026-06-22 05:24:27.324814;raise ApiImportError(
+"latiendadelbordado: Import External Product ""CAJA DE CANILLAS PREBOBINADAS PREMIUM ROYAL 70D/2 L"" [7986]";failed;2026-06-22 05:24:27.311927;raise ApiImportError(
+"latiendadelbordado: Import External Product ""ESPUMA 3D"" [287248]";failed;2026-06-22 05:24:27.441345;raise ApiImportError(
+"latiendadelbordado: Import External Product ""EXCENTRICO PARTIDO  PRENSATELAS (M) TAJIMA: (TFMX, TFMXII, TFGN,)"" [1192083]";failed;2026-06-22 05:30:42.005634;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""HILO DE CANILLA ANZEL SUPER 10.000MT"" [8342]";failed;2026-06-22 05:24:27.886575;raise ApiImportError(
+"latiendadelbordado: Import External Product ""HILO DE ESPUMA 10.000"" [1191055]";failed;2026-06-22 05:24:27.285714;raise ApiImportError(
+"latiendadelbordado: Import External Product ""HILO MERROW 10.000MT"" [1191063]";failed;2026-06-22 05:24:27.255362;raise ApiImportError(
+"latiendadelbordado: Import External Product ""MIDGHTYHOOP 12 X 12"" ECO"" [1190014]";failed;2026-06-22 05:24:27.513067;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 12,5&quot; X 15,5&quot; ECO"" [393712]";failed;2026-06-22 05:24:28.223278;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 12,6"" X 3,9"" ECO"" [1189760]";failed;2026-06-22 05:24:27.905828;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 4&quot; X 12,75&quot; ECO"" [393715]";failed;2026-06-22 05:24:28.210130;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 4&quot; X 4&quot; ECO"" [393967]";failed;2026-06-22 05:24:28.175299;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 6&quot; X 8&quot; ECO"" [410409]";failed;2026-06-22 05:24:28.137810;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 6,5&quot; X 6,5&quot; ECO"" [393964]";failed;2026-06-22 05:24:28.192551;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 7,25"" ECO"" [1189765]";failed;2026-06-22 05:24:27.889874;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 7,75&quot; X 2,75&quot; ECO"" [393709]";failed;2026-06-22 05:24:27.330085;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 8 X 13&quot; ECO"" [393466]";failed;2026-06-22 05:24:27.342678;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""MIGHTYHOOP 8,5 X 9"" ECO"" [1191141]";failed;2026-06-22 05:24:28.255963;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""PLÁSTICO HIDROSOLUBLE"" [1189918]";failed;2026-06-22 05:24:27.791980;raise ApiImportError(
+"latiendadelbordado: Import External Product ""PRO-NYLON PARA EL BORDADO"" [1189943]";failed;2026-06-22 05:24:27.554452;raise ApiImportError(
+"latiendadelbordado: Import External Product ""RASOTEX"" [329538]";failed;2026-06-22 05:24:27.420404;raise ApiImportError(
+"latiendadelbordado: Import External Product ""ST-M1716-HA500"" [1190016]";failed;2026-06-22 05:24:27.505355;raise ApiImportError(_(
+"latiendadelbordado: Import External Product ""TACO SALTO (RECIPROCADOR) TAJIMA TMFX/TFGN"" [1192087]";failed;2026-06-22 05:30:41.996358;raise ValidationError(_(
+"latiendadelbordado: Import External Product ""VELCRO 107"" [1189796]";failed;2026-06-22 05:24:27.829638;raise ApiImportError(

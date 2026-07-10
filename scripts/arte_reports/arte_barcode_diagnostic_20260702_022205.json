@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-07-02T02:22:05",
+  "odoo_url": "http://localhost:8069",
+  "odoo_db": "arte",
+  "integration_id": 1,
+  "integration": {
+    "id": 1,
+    "name": "tiendabellasartesjer.com",
+    "state": "draft",
+    "validate_barcode": false,
+    "prestashop_validate_barcode": false,
+    "prestashop_skip_invalid_barcodes": true
+  },
+  "metrics": {
+    "mapped_variants_total": 18751,
+    "mapped_variants_active": 18751,
+    "with_external_barcode": 10837,
+    "with_odoo_barcode": 10882,
+    "external_barcode_no_odoo": 0,
+    "no_external_barcode": 7914,
+    "pos_scan_ready": 0,
+    "invalid_odoo_barcode": 7871,
+    "duplicate_external_ean_groups": 22,
+    "duplicate_odoo_barcode_groups": 126,
+    "top_duplicate_external": [
+      {
+        "barcode": "0",
+        "count": 2
+      },
+      {
+        "barcode": "8712079410605",
+        "count": 2
+      },
+      {
+        "barcode": "3329681447025",
+        "count": 2
+      },
+      {
+        "barcode": "014173368621",
+        "count": 2
+      },
+      {
+        "barcode": "757063117892",
+        "count": 2
+      },
+      {
+        "barcode": "4061947061413",
+        "count": 2
+      },
+      {
+        "barcode": "4250278600259",
+        "count": 2
+      },
+      {
+        "barcode": "4250278625085",
+        "count": 2
+      },
+      {
+        "barcode": "017342101029",
+        "count": 2
+      },
+      {
+        "barcode": "3046451898992",
+        "count": 2
+      },
+      {
+        "barcode": "3188550270092",
+        "count": 2
+      },
+      {
+        "barcode": "4014519789390",
+        "count": 2
+      },
+      {
+        "barcode": "4017505222284",
+        "count": 2
+      },
+      {
+        "barcode": "4017505222277",
+        "count": 2
+      },
+      {
+        "barcode": "8429551722018",
+        "count": 2
+      },
+      {
+        "barcode": "757063395689",
+        "count": 2
+      },
+      {
+        "barcode": "8429551262316",
+        "count": 2
+      },
+      {
+        "barcode": "884851060174",
+        "count": 2
+      },
+      {
+        "barcode": "8712079466992",
+        "count": 2
+      },
+      {
+        "barcode": "3037921941577",
+        "count": 2
+      }
+    ],
+    "top_duplicate_odoo": [
+      {
+        "barcode": "8429551722070",
+        "count": 4
+      },
+      {
+        "barcode": "094376931372",
+        "count": 3
+      },
+      {
+        "barcode": "4005401857129",
+        "count": 3
+      },
+      {
+        "barcode": "3700417134929",
+        "count": 3
+      },
+      {
+        "barcode": "8712079408305",
+        "count": 3
+      },
+      {
+        "barcode": "3046451961481",
+        "count": 3
+      },
+      {
+        "barcode": "884851033093",
+        "count": 3
+      },
+      {
+        "barcode": "3329681447025",
+        "count": 3
+      },
+      {
+        "barcode": "014173368621",
+        "count": 3
+      },
+      {
+        "barcode": "0",
+        "count": 2
+      },
+      {
+        "barcode": "5012572003384",
+        "count": 2
+      },
+      {
+        "barcode": "8712079410339",
+        "count": 2
+      },
+      {
+        "barcode": "094376936704",
+        "count": 2
+      },
+      {
+        "barcode": "3148950115737",
+        "count": 2
+      },
+      {
+        "barcode": "8422714010007",
+        "count": 2
+      },
+      {
+        "barcode": "3700417102669",
+        "count": 2
+      },
+      {
+        "barcode": "44974102001",
+        "count": 2
+      },
+      {
+        "barcode": "3700417114570",
+        "count": 2
+      },
+      {
+        "barcode": "8422714006970",
+        "count": 2
+      },
+      {
+        "barcode": "8712079339500",
+        "count": 2
+      }
+    ]
+  },
+  "pilot_candidates": [
+    {
+      "product_id": 21891,
+      "template_id": 17886,
+      "external_id": 9869,
+      "ps_code": "5176-38541",
+      "external_barcode": "8715046090015",
+      "odoo_barcode": "8715046090015",
+      "default_code": "00.006",
+      "display_name": "[00.006] Oleo Old Holland 40 ml (A1 Titanium white)",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "8715046090015"
+    },
+    {
+      "product_id": 27075,
+      "template_id": 19930,
+      "external_id": 18450,
+      "ps_code": "7890-0",
+      "external_barcode": "738797990555",
+      "odoo_barcode": "738797990555",
+      "default_code": "0000055-0",
+      "display_name": "[0000055-0] Set 6 acrílicos Golden Open mixing",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "738797990555"
+    },
+    {
+      "product_id": 27076,
+      "template_id": 19931,
+      "external_id": 18451,
+      "ps_code": "7891-0",
+      "external_barcode": "738797992443",
+      "odoo_barcode": "738797992443",
+      "default_code": "0000075-0",
+      "display_name": "[0000075-0] Set 6 acrílicos Golden heavy body mixing",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "738797992443"
+    },
+    {
+      "product_id": 27073,
+      "template_id": 19928,
+      "external_id": 18448,
+      "ps_code": "7888-0",
+      "external_barcode": "738797092402",
+      "odoo_barcode": "738797092402",
+      "default_code": "0000924-0",
+      "display_name": "[0000924-0] Set acrílicos Golden heavy body mixing",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "738797092402"
+    },
+    {
+      "product_id": 27074,
+      "template_id": 19929,
+      "external_id": 18449,
+      "ps_code": "7889-0",
+      "external_barcode": "738797092501",
+      "odoo_barcode": "738797092501",
+      "default_code": "0000925-0",
+      "display_name": "[0000925-0] Set acrílicos Golden Open mixing",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "738797092501"
+    },
+    {
+      "product_id": 26488,
+      "template_id": 19728,
+      "external_id": 17337,
+      "ps_code": "7609-0",
+      "external_barcode": "7630002354691",
+      "odoo_barcode": "7630002354691",
+      "default_code": "0003.509",
+      "display_name": "[0003.509] Portaminas Fixpencil Caran d´ache 3 mm",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "7630002354691"
+    },
+    {
+      "product_id": 20276,
+      "template_id": 17165,
+      "external_id": 7167,
+      "ps_code": "3820-0",
+      "external_barcode": "9788883705601",
+      "odoo_barcode": "9788883705601",
+      "default_code": "001001204",
+      "display_name": "[001001204] Moleskine acuarela pocket",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788883705601"
+    },
+    {
+      "product_id": 24296,
+      "template_id": 19022,
+      "external_id": 14057,
+      "ps_code": "6787-0",
+      "external_barcode": "9788862933094",
+      "odoo_barcode": "9788862933094",
+      "default_code": "001001701",
+      "display_name": "[001001701] Cuaderno japones Moleskine",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788862933094"
+    },
+    {
+      "product_id": 21750,
+      "template_id": 17849,
+      "external_id": 9618,
+      "ps_code": "4984-0",
+      "external_barcode": "9788883705625",
+      "odoo_barcode": "9788883705625",
+      "default_code": "001001704",
+      "display_name": "[001001704] Moleskine acuarela large",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788883705625"
+    },
+    {
+      "product_id": 21753,
+      "template_id": 17852,
+      "external_id": 9621,
+      "ps_code": "4987-0",
+      "external_barcode": "9788883701153",
+      "odoo_barcode": "9788883701153",
+      "default_code": "001002334",
+      "display_name": "[001002334] Moleskine dibujo large",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788883701153"
+    },
+    {
+      "product_id": 22287,
+      "template_id": 18024,
+      "external_id": 10824,
+      "ps_code": "5318-0",
+      "external_barcode": "9788862930345",
+      "odoo_barcode": "9788862930345",
+      "default_code": "001002737",
+      "display_name": "[001002737] Moleskine cuaderno bocetos rojo",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788862930345"
+    },
+    {
+      "product_id": 21754,
+      "template_id": 17853,
+      "external_id": 9622,
+      "ps_code": "4988-0",
+      "external_barcode": "9788862931939",
+      "odoo_barcode": "9788862931939",
+      "default_code": "001007101",
+      "display_name": "[001007101] Moleskine dibujo DIN A4",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788862931939"
+    },
+    {
+      "product_id": 21751,
+      "template_id": 17850,
+      "external_id": 9619,
+      "ps_code": "4985-0",
+      "external_barcode": "9788862931946",
+      "odoo_barcode": "9788862931946",
+      "default_code": "001007102",
+      "display_name": "[001007102] Moleskine acuarela DIN A4",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "9788862931946"
+    },
+    {
+      "product_id": 23946,
+      "template_id": 18853,
+      "external_id": 13271,
+      "ps_code": "6523-0",
+      "external_barcode": "4003198106000",
+      "odoo_barcode": "4003198106000",
+      "default_code": "002001159",
+      "display_name": "[002001159] Organizador rotuladores Tombow vacío",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4003198106000"
+    },
+    {
+      "product_id": 23947,
+      "template_id": 18854,
+      "external_id": 13272,
+      "ps_code": "6524-0",
+      "external_barcode": "4003198106024",
+      "odoo_barcode": "4003198106024",
+      "default_code": "002001160",
+      "display_name": "[002001160] Organizador rotuladores Tombow con 108 rotuladores",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4003198106024"
+    },
+    {
+      "product_id": 26258,
+      "template_id": 19549,
+      "external_id": 17059,
+      "ps_code": "7375-0",
+      "external_barcode": "4009729066317",
+      "odoo_barcode": "4009729066317",
+      "default_code": "00210-14410",
+      "display_name": "[00210-14410] Afilalápices eléctrico",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4009729066317"
+    },
+    {
+      "product_id": 23305,
+      "template_id": 18518,
+      "external_id": 12485,
+      "ps_code": "5989-0",
+      "external_barcode": "4017505000509",
+      "odoo_barcode": "4017505000509",
+      "default_code": "01001036",
+      "display_name": "[01001036] Pincel Da Vinci Maestro Serie 10 36",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4017505000509"
+    },
+    {
+      "product_id": 22713,
+      "template_id": 18265,
+      "external_id": 11767,
+      "ps_code": "5752-41949",
+      "external_barcode": "4017505218331",
+      "odoo_barcode": "4017505218331",
+      "default_code": "01007003",
+      "display_name": "[01007003] Pincel Miniature Da Vinci 70 (3)",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4017505218331"
+    },
+    {
+      "product_id": 22714,
+      "template_id": 18265,
+      "external_id": 11768,
+      "ps_code": "5752-41950",
+      "external_barcode": "4017505218348",
+      "odoo_barcode": "4017505218348",
+      "default_code": "01007004",
+      "display_name": "[01007004] Pincel Miniature Da Vinci 70 (4)",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4017505218348"
+    },
+    {
+      "product_id": 22723,
+      "template_id": 18267,
+      "external_id": 11771,
+      "ps_code": "5753-41951",
+      "external_barcode": "4017505218362",
+      "odoo_barcode": "4017505218362",
+      "default_code": "01007603",
+      "display_name": "[01007603] Pincel Miniatura Da Vinci 76 (3)",
+      "active": true,
+      "tracking": "none",
+      "available_in_pos": false,
+      "sale_ok": true,
+      "pilot_score": 4,
+      "pilot_barcode": "4017505218362"
+    }
+  ]
+}

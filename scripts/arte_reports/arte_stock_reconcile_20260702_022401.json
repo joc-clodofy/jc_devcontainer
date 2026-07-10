@@ -1,0 +1,1017 @@
+{
+  "generated_at": "2026-07-02T02:24:01",
+  "meta": {
+    "integration_id": 1,
+    "location_lines": [],
+    "location_ids": [],
+    "pilot_only": false
+  },
+  "summary": {
+    "total_compared": 100,
+    "match": 0,
+    "diff": 87,
+    "missing_ps": 13
+  },
+  "rows": [
+    {
+      "product_id": 16120,
+      "ps_code": "5-28156",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 46.0,
+      "odoo_qty": 0.0,
+      "delta": 46.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28157",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28159",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28160",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28161",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28163",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28164",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28165",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28166",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28167",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28168",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28169",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28170",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28171",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28172",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28173",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28174",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28175",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28176",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28177",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28178",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28179",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28180",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28181",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28182",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 7.0,
+      "odoo_qty": 0.0,
+      "delta": 7.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28183",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28184",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28185",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28186",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 1.0,
+      "odoo_qty": 0.0,
+      "delta": 1.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28187",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28188",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28189",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-28190",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-34293",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-34294",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-34295",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 7.0,
+      "odoo_qty": 0.0,
+      "delta": 7.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-34296",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-34297",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35366",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35367",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16124,
+      "ps_code": "546-24684",
+      "display_name": "[M33ENVIOMONTADO] Mabef 33 caballete reclinable mesa (Recogida en tienda)",
+      "default_code": "M33ENVIOMONTADO",
+      "ps_qty": 1.0,
+      "odoo_qty": 0.0,
+      "delta": 1.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35368",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16124,
+      "ps_code": "546-24685",
+      "display_name": "[M33ENVIOMONTADO] Mabef 33 caballete reclinable mesa (Recogida en tienda)",
+      "default_code": "M33ENVIOMONTADO",
+      "ps_qty": 998.0,
+      "odoo_qty": 0.0,
+      "delta": 998.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35369",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16124,
+      "ps_code": "546-37012",
+      "display_name": "[M33ENVIOMONTADO] Mabef 33 caballete reclinable mesa (Recogida en tienda)",
+      "default_code": "M33ENVIOMONTADO",
+      "ps_qty": 999.0,
+      "odoo_qty": 0.0,
+      "delta": 999.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35370",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35371",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35372",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-35373",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41627",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41628",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41629",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41630",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41631",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41632",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41633",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41634",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16120,
+      "ps_code": "5-41754",
+      "display_name": "[1437107] Oleo Winton 200 ml (Blanco Titanio)",
+      "default_code": "1437107",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16127,
+      "ps_code": "553-0",
+      "display_name": "[M24] Caja caballete sobremesa Mabef 24",
+      "default_code": "M24",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16129,
+      "ps_code": "556-0",
+      "display_name": "[9105015M] Talens modelo Callisto",
+      "default_code": "9105015M",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16133,
+      "ps_code": "558-0",
+      "display_name": "[M28] Mabef modelo 28",
+      "default_code": "M28",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16135,
+      "ps_code": "564-0",
+      "display_name": "[SKU000564] Funda caballete Reig",
+      "default_code": "SKU000564",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16137,
+      "ps_code": "570-0",
+      "display_name": "[91055551] Talens caballete Formentera",
+      "default_code": "91055551",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16139,
+      "ps_code": "572-0",
+      "display_name": "[9105101M] Atril básico modelo Mira",
+      "default_code": "9105101M",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16141,
+      "ps_code": "573-0",
+      "display_name": "[9105111M] Talens sobremesa adorno Elara",
+      "default_code": "9105111M",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16142,
+      "ps_code": "574-0",
+      "display_name": "[9105110M] Talens sobremesa adorno Leda",
+      "default_code": "9105110M",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16145,
+      "ps_code": "577-0",
+      "display_name": "[9105116M] Caballete sobremesa Ananke",
+      "default_code": "9105116M",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16150,
+      "ps_code": "579-0",
+      "display_name": "[91055559] Atril Sardegna",
+      "default_code": "91055559",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16152,
+      "ps_code": "580-5077",
+      "display_name": "[PS-580-5077] Lápiz Pierre Noire Conté (Lápiz piedra negra 3B)",
+      "default_code": "PS-580-5077",
+      "ps_qty": 12.0,
+      "odoo_qty": 0.0,
+      "delta": 12.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16153,
+      "ps_code": "580-5078",
+      "display_name": "[2271] Lápiz Pierre Noire Conté (Lápiz piedra negra B)",
+      "default_code": "2271",
+      "ps_qty": 35.0,
+      "odoo_qty": 0.0,
+      "delta": 35.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16154,
+      "ps_code": "580-35509",
+      "display_name": "[2286] Lápiz Pierre Noire Conté (Lápiz piedra negra H)",
+      "default_code": "2286",
+      "ps_qty": 999.0,
+      "odoo_qty": 0.0,
+      "delta": 999.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16155,
+      "ps_code": "580-35510",
+      "display_name": "[2272] Lápiz Pierre Noire Conté (Lápiz piedra negra HB)",
+      "default_code": "2272",
+      "ps_qty": 21.0,
+      "odoo_qty": 0.0,
+      "delta": 21.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16156,
+      "ps_code": "580-35511",
+      "display_name": "[2270] Lápiz Pierre Noire Conté (Lápiz piedra negra 2B)",
+      "default_code": "2270",
+      "ps_qty": 10.0,
+      "odoo_qty": 0.0,
+      "delta": 10.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16159,
+      "ps_code": "582-35640",
+      "display_name": "[PS-582-35640] Lápiz de dibujo graso negro Faber (Lápiz graso negro blando)",
+      "default_code": "PS-582-35640",
+      "ps_qty": 9975.0,
+      "odoo_qty": 0.0,
+      "delta": 9975.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16160,
+      "ps_code": "582-35641",
+      "display_name": "[112603] Lápiz de dibujo graso negro Faber (Lápiz graso negro medio)",
+      "default_code": "112603",
+      "ps_qty": 9985.0,
+      "odoo_qty": 0.0,
+      "delta": 9985.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16161,
+      "ps_code": "582-35642",
+      "display_name": "[112601] Lápiz de dibujo graso negro Faber (Lápiz graso negro extrablando)",
+      "default_code": "112601",
+      "ps_qty": 9984.0,
+      "odoo_qty": 0.0,
+      "delta": 9984.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16162,
+      "ps_code": "582-35643",
+      "display_name": "[112604] Lápiz de dibujo graso negro Faber (Lápiz graso negro duro)",
+      "default_code": "112604",
+      "ps_qty": 9991.0,
+      "odoo_qty": 0.0,
+      "delta": 9991.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16163,
+      "ps_code": "582-35644",
+      "display_name": "[112605] Lápiz de dibujo graso negro Faber (Lápiz graso extraduro)",
+      "default_code": "112605",
+      "ps_qty": 9993.0,
+      "odoo_qty": 0.0,
+      "delta": 9993.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16166,
+      "ps_code": "7-28339",
+      "display_name": "[884955089279] Oleo al agua Artisan Winsor Newton (Blanco Titanio)",
+      "default_code": "884955089279",
+      "ps_qty": 5.0,
+      "odoo_qty": 0.0,
+      "delta": 5.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16168,
+      "ps_code": "7-28340",
+      "display_name": "[094376896015] Oleo al agua Artisan Winsor Newton (Púrpura dioxadina)",
+      "default_code": "094376896015",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16170,
+      "ps_code": "7-28341",
+      "display_name": "[094376896039] Oleo al agua Artisan Winsor Newton (Azul cerúleo tono)",
+      "default_code": "094376896039",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16171,
+      "ps_code": "7-28342",
+      "display_name": "[884955089286] Oleo al agua Artisan Winsor Newton (Blanco zinc)",
+      "default_code": "884955089286",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16172,
+      "ps_code": "7-28343",
+      "display_name": "[094376895889] Oleo al agua Artisan Winsor Newton (Amarillo cadmio claro tono)",
+      "default_code": "094376895889",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16173,
+      "ps_code": "7-28344",
+      "display_name": "[884955094587] Oleo al agua Artisan Winsor Newton (Verde esmeralda viridian)",
+      "default_code": "884955094587",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16188,
+      "ps_code": "585-0",
+      "display_name": "[112970] Caja madera dibujo Faber Castell",
+      "default_code": "112970",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16174,
+      "ps_code": "7-28345",
+      "display_name": "[094376895902] Oleo al agua Artisan Winsor Newton (Amarillo cadmio tono)",
+      "default_code": "094376895902",
+      "ps_qty": 1.0,
+      "odoo_qty": 0.0,
+      "delta": 1.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16175,
+      "ps_code": "7-28346",
+      "display_name": "[094376896091] Oleo al agua Artisan Winsor Newton (Verde phtalo amarillo)",
+      "default_code": "094376896091",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16176,
+      "ps_code": "7-28347",
+      "display_name": "[094376896138] Oleo al agua Artisan Winsor Newton (Verde oliva)",
+      "default_code": "094376896138",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16177,
+      "ps_code": "7-28348",
+      "display_name": "[094376895919] Oleo al agua Artisan Winsor Newton (Amarillo cadmio medio)",
+      "default_code": "094376895919",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16178,
+      "ps_code": "7-28349",
+      "display_name": "[094376895940] Oleo al agua Artisan Winsor Newton (Rojo cadmio medio)",
+      "default_code": "094376895940",
+      "ps_qty": 5.0,
+      "odoo_qty": 0.0,
+      "delta": 5.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16180,
+      "ps_code": "7-28350",
+      "display_name": "[094376896145] Oleo al agua Artisan Winsor Newton (Amarillo de Nápoles tono)",
+      "default_code": "094376896145",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16181,
+      "ps_code": "7-28351",
+      "display_name": "[094376895933] Oleo al agua Artisan Winsor Newton (Rojo cadmio claro)",
+      "default_code": "094376895933",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16206,
+      "ps_code": "589-0",
+      "display_name": "[119065] Caja lápices grafito Faber Art Set",
+      "default_code": "119065",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16182,
+      "ps_code": "7-28352",
+      "display_name": "[094376896121] Oleo al agua Artisan Winsor Newton (Verde vejiga permanente)",
+      "default_code": "094376896121",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16183,
+      "ps_code": "7-28353",
+      "display_name": "[094376895926] Oleo al agua Artisan Winsor Newton (Naranja de cadmio tono)",
+      "default_code": "094376895926",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16184,
+      "ps_code": "7-28354",
+      "display_name": "[094376896213] Oleo al agua Artisan Winsor Newton (Gris Payne)",
+      "default_code": "094376896213",
+      "ps_qty": 2.0,
+      "odoo_qty": 0.0,
+      "delta": 2.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16185,
+      "ps_code": "7-28355",
+      "display_name": "[094376895971] Oleo al agua Artisan Winsor Newton (Rojo de cadmio oscuro tono)",
+      "default_code": "094376895971",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16186,
+      "ps_code": "7-28356",
+      "display_name": "[094376896152] Oleo al agua Artisan Winsor Newton (Ocre amarillo)",
+      "default_code": "094376896152",
+      "ps_qty": 4.0,
+      "odoo_qty": 0.0,
+      "delta": 4.0,
+      "status": "diff"
+    },
+    {
+      "product_id": 16211,
+      "ps_code": "641-0",
+      "display_name": "[CD666-312] Caja 12 lápices Caran d´ache Pablo",
+      "default_code": "CD666-312",
+      "ps_qty": "",
+      "odoo_qty": 0.0,
+      "delta": "",
+      "status": "missing_ps"
+    },
+    {
+      "product_id": 16187,
+      "ps_code": "7-28357",
+      "display_name": "[094376895995] Oleo al agua Artisan Winsor Newton (Carmesí alizarina permanente)",
+      "default_code": "094376895995",
+      "ps_qty": 3.0,
+      "odoo_qty": 0.0,
+      "delta": 3.0,
+      "status": "diff"
+    }
+  ]
+}

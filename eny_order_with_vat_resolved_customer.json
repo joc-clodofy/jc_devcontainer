@@ -1,0 +1,565 @@
+{
+  "source": {
+    "orders_file": "/workspace/soldufer_woocommerce_orders_last_month_raw.json",
+    "customers_file": "/workspace/eny_woocommerce_customers_from_order_links_last_month_raw.json",
+    "integration_id": 2,
+    "integration_name": "Eny",
+    "note": "Pedido completo de WooCommerce que contiene VAT en meta_data, con _links.customer resuelto."
+  },
+  "vat_candidates": [
+    {
+      "id": 9964137,
+      "key": "_wcpdf_invoice_settings",
+      "value": {
+        "header_logo": "",
+        "header_logo_height": "",
+        "vat_number": "",
+        "coc_number": "",
+        "shop_name": "",
+        "shop_phone_number": "",
+        "shop_email_address": "",
+        "shop_address_line_1": "",
+        "shop_address_line_2": "",
+        "shop_address_country": "",
+        "shop_address_state": "",
+        "shop_address_city": "",
+        "shop_address_postcode": "",
+        "shop_address_additional": "",
+        "footer": "",
+        "extra_1": "",
+        "extra_2": "",
+        "extra_3": ""
+      }
+    }
+  ],
+  "order": {
+    "id": 319082,
+    "parent_id": 0,
+    "status": "delivered",
+    "currency": "EUR",
+    "version": "10.7.0",
+    "prices_include_tax": true,
+    "date_created": "2026-04-28T08:35:46",
+    "date_modified": "2026-05-13T14:33:41",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "20.08",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "152.56",
+    "total_tax": "0.00",
+    "customer_id": 25441,
+    "order_key": "wc_order_69f05d6b38e9c",
+    "billing": {
+      "first_name": "Frank",
+      "last_name": "Hoberg",
+      "company": "",
+      "address_1": "Wagrienring 23",
+      "address_2": "",
+      "city": "Sierksdorf",
+      "state": "",
+      "postcode": "23730",
+      "country": "DE",
+      "email": "7bydt9812kw259d@marketplace.amazon.de",
+      "phone": "04216966180"
+    },
+    "shipping": {
+      "first_name": "Frank",
+      "last_name": "Hoberg",
+      "company": "",
+      "address_1": "Wagrienring 23",
+      "address_2": "",
+      "city": "Sierksdorf",
+      "state": "",
+      "postcode": "23730",
+      "country": "DE",
+      "phone": "04216966180"
+    },
+    "payment_method": "Amazon",
+    "payment_method_title": "Amazon",
+    "transaction_id": "",
+    "customer_ip_address": "185.14.56.108",
+    "customer_user_agent": "WordPress/6.9.4; https://eny.es",
+    "created_via": "amazon",
+    "customer_note": "",
+    "date_completed": "2026-04-29T09:58:58",
+    "date_paid": "2026-04-28T08:35:46",
+    "cart_hash": "",
+    "number": "028-3626269-2017929",
+    "meta_data": [
+      {
+        "id": 9963547,
+        "key": "wpml_language",
+        "value": "es"
+      },
+      {
+        "id": 9963548,
+        "key": "_phone_international",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963549,
+        "key": "_phone_international_shipping",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963550,
+        "key": "_phone_digits_only",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963551,
+        "key": "_phone_digits_only_shipping",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963552,
+        "key": "_wpla_amazon_order_id",
+        "value": "028-3626269-2017929"
+      },
+      {
+        "id": 9963553,
+        "key": "_wpla_amazon_fulfillment_channel",
+        "value": "MFN"
+      },
+      {
+        "id": 9963554,
+        "key": "_wpla_amazon_prime_order",
+        "value": ""
+      },
+      {
+        "id": 9963555,
+        "key": "_wpla_amazon_business_order",
+        "value": "1"
+      },
+      {
+        "id": 9963556,
+        "key": "_wc_order_attribution_source_type",
+        "value": "utm"
+      },
+      {
+        "id": 9963557,
+        "key": "_wc_order_attribution_utm_source",
+        "value": "Amazon"
+      },
+      {
+        "id": 9963558,
+        "key": "_wc_order_attribution_utm_medium",
+        "value": "WP-Lister"
+      },
+      {
+        "id": 9963559,
+        "key": "_wpla_amazon_account",
+        "value": "Amazon ES"
+      },
+      {
+        "id": 9963562,
+        "key": "_wpla_earliest_ship_date",
+        "value": "2026-04-30 00:00:00"
+      },
+      {
+        "id": 9963563,
+        "key": "_wpla_latest_ship_date",
+        "value": "2026-04-30 23:59:59"
+      },
+      {
+        "id": 9963584,
+        "key": "billing_phone",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963586,
+        "key": "shipping_phone",
+        "value": "04216966180"
+      },
+      {
+        "id": 9963587,
+        "key": "_wpml_word_count",
+        "value": "4"
+      },
+      {
+        "id": 9964137,
+        "key": "_wcpdf_invoice_settings",
+        "value": {
+          "header_logo": "",
+          "header_logo_height": "",
+          "vat_number": "",
+          "coc_number": "",
+          "shop_name": "",
+          "shop_phone_number": "",
+          "shop_email_address": "",
+          "shop_address_line_1": "",
+          "shop_address_line_2": "",
+          "shop_address_country": "",
+          "shop_address_state": "",
+          "shop_address_city": "",
+          "shop_address_postcode": "",
+          "shop_address_additional": "",
+          "footer": "",
+          "extra_1": "",
+          "extra_2": "",
+          "extra_3": ""
+        }
+      },
+      {
+        "id": 9964138,
+        "key": "_wcpdf_invoice_display_date",
+        "value": "document_date"
+      },
+      {
+        "id": 9964139,
+        "key": "_wcpdf_invoice_creation_trigger",
+        "value": "single"
+      },
+      {
+        "id": 9964140,
+        "key": "_wcpdf_invoice_date",
+        "value": "1777362874"
+      },
+      {
+        "id": 9964141,
+        "key": "_wcpdf_invoice_date_formatted",
+        "value": "2026-04-28 09:54:34"
+      },
+      {
+        "id": 9964142,
+        "key": "_wcpdf_invoice_number",
+        "value": "1"
+      },
+      {
+        "id": 9964143,
+        "key": "_wcpdf_invoice_number_data",
+        "value": {
+          "number": 1,
+          "formatted_number": "1",
+          "document_type": "invoice",
+          "order_id": 319082
+        }
+      },
+      {
+        "id": 9964146,
+        "key": "_wcpdf_packing_slip_creation_trigger",
+        "value": "single"
+      },
+      {
+        "id": 9964147,
+        "key": "_wcpdf_packing_slip_date",
+        "value": "1777362884"
+      },
+      {
+        "id": 9964148,
+        "key": "_wcpdf_packing_slip_date_formatted",
+        "value": "2026-04-28 09:54:44"
+      },
+      {
+        "id": 10005520,
+        "key": "_wpla_date_shipped",
+        "value": "2026-04-29"
+      },
+      {
+        "id": 10005521,
+        "key": "_wpla_time_shipped",
+        "value": "07:58:58"
+      },
+      {
+        "id": 10005522,
+        "key": "_wpla_tracking_provider",
+        "value": "MRW"
+      },
+      {
+        "id": 10005523,
+        "key": "_wpla_tracking_service_name",
+        "value": "MRW"
+      },
+      {
+        "id": 10005524,
+        "key": "_wpla_tracking_ship_method",
+        "value": "MRW Urgente 19"
+      },
+      {
+        "id": 10005525,
+        "key": "_wpla_tracking_ship_from_name",
+        "value": "Eny Compras y Logistica Industrial, S.L."
+      },
+      {
+        "id": 10005526,
+        "key": "_wpla_tracking_ship_from_line_1",
+        "value": "Avenida Jose Montoya Garcia 11/12"
+      },
+      {
+        "id": 10005527,
+        "key": "_wpla_tracking_ship_from_line_2",
+        "value": ""
+      },
+      {
+        "id": 10005528,
+        "key": "_wpla_tracking_ship_from_city",
+        "value": "Lorca"
+      },
+      {
+        "id": 10005529,
+        "key": "_wpla_tracking_ship_from_state",
+        "value": "Murcia"
+      },
+      {
+        "id": 10005530,
+        "key": "_wpla_tracking_ship_from_postcode",
+        "value": "30817"
+      },
+      {
+        "id": 10005531,
+        "key": "_wpla_tracking_ship_from_country",
+        "value": "ES"
+      },
+      {
+        "id": 10005849,
+        "key": "_wc_shipment_tracking_items",
+        "value": [
+          {
+            "tracking_number": "07834000397069",
+            "tracking_provider": "seur",
+            "custom_tracking_link": "",
+            "tracking_product_code": "",
+            "date_shipped": "1777420800",
+            "shipping_note": "",
+            "source": "REST_API",
+            "products_list": "",
+            "status_shipped": "1",
+            "tracking_id": "4b1068d6e5fea758f82a8853e81e87b2",
+            "user_id": 19820
+          }
+        ]
+      },
+      {
+        "id": 10005935,
+        "key": "_wpla_submission_result",
+        "value": "success"
+      }
+    ],
+    "line_items": [
+      {
+        "id": 97291,
+        "name": "Lubricante alto rendimiento 500ml REF 1031711 (32697-AA) MULTILUBE CRC",
+        "product_id": 52857,
+        "variation_id": 0,
+        "quantity": 12,
+        "tax_class": "",
+        "subtotal": "132.48",
+        "subtotal_tax": "0.00",
+        "total": "132.48",
+        "total_tax": "0.00",
+        "taxes": [
+          {
+            "id": 3,
+            "total": "0.00",
+            "subtotal": "0.00"
+          }
+        ],
+        "meta_data": [
+          {
+            "id": 732978,
+            "key": "_reduced_stock",
+            "value": "12",
+            "display_key": "_reduced_stock",
+            "display_value": "12"
+          }
+        ],
+        "sku": "5412386063107",
+        "global_unique_id": "",
+        "price": 11.04,
+        "image": {
+          "id": "251544",
+          "src": "https://eny.es/wp-content/uploads/2025/12/211977-5412386063107-MULTILUBE-PRO-LUBRICANTE-ALTO-RENDIMIENTO-500ML-REF-1031711-32697-AA-CRC.jpg"
+        },
+        "parent_name": null
+      }
+    ],
+    "tax_lines": [
+      {
+        "id": 97290,
+        "rate_code": "DE-TAX DE-1",
+        "rate_id": 3,
+        "label": "Tax DE",
+        "compound": false,
+        "tax_total": "0.00",
+        "shipping_tax_total": "0.00",
+        "rate_percent": 19,
+        "meta_data": []
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 97292,
+        "method_title": "Std DE Dom_3",
+        "method_id": "Std DE Dom_3",
+        "instance_id": "0",
+        "total": "20.08",
+        "total_tax": "0.00",
+        "taxes": [
+          {
+            "id": 3,
+            "total": "0.00",
+            "subtotal": ""
+          }
+        ],
+        "tax_status": "taxable",
+        "meta_data": []
+      }
+    ],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://eny.es/finalizar-compra/pagar/319082/?pay_for_order=true&key=wc_order_69f05d6b38e9c",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2026-04-28T06:35:46",
+    "date_modified_gmt": "2026-05-13T12:33:41",
+    "date_completed_gmt": "2026-04-29T07:58:58",
+    "date_paid_gmt": "2026-04-28T06:35:46",
+    "email": "7bydt9812kw259d@marketplace.amazon.de",
+    "final_amount": "152.56",
+    "amazon_account": "Amazon ES",
+    "amazon_merchant_id": "A2IW787E1N626W",
+    "currency_symbol": "€",
+    "_links": {
+      "self": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders/319082",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders"
+        }
+      ],
+      "email_templates": [
+        {
+          "embeddable": true,
+          "href": "https://eny.es/wp-json/wc/v3/orders/319082/actions/email_templates"
+        }
+      ],
+      "customer": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/customers/25441"
+        }
+      ]
+    }
+  },
+  "resolved_links": {
+    "customer": {
+      "href": "https://eny.es/wp-json/wc/v3/customers/25441",
+      "raw_customer": {
+        "id": 25441,
+        "date_created": "2026-04-28T09:10:35",
+        "date_created_gmt": "2026-04-28T07:10:35",
+        "date_modified": "2026-04-28T09:10:35",
+        "date_modified_gmt": "2026-04-28T07:10:35",
+        "email": "7bydt9812kw259d@marketplace.amazon.de",
+        "first_name": "Frank",
+        "last_name": "Hoberg",
+        "role": "customer",
+        "username": "7bydt9812kw259d@marketplace.amazon.de",
+        "billing": {
+          "first_name": "Frank",
+          "last_name": "Hoberg",
+          "company": "",
+          "address_1": "Wagrienring 23",
+          "address_2": "",
+          "city": "Sierksdorf",
+          "postcode": "23730",
+          "country": "DE",
+          "state": "",
+          "email": "7bydt9812kw259d@marketplace.amazon.de",
+          "phone": "04216966180"
+        },
+        "shipping": {
+          "first_name": "Frank",
+          "last_name": "Hoberg",
+          "company": "",
+          "address_1": "Wagrienring 23",
+          "address_2": "",
+          "city": "Sierksdorf",
+          "postcode": "23730",
+          "country": "DE",
+          "state": "",
+          "phone": ""
+        },
+        "is_paying_customer": true,
+        "avatar_url": "https://eny.es/wp-content/litespeed/avatar/991aa465e2af0e5e65f1e9f2a393cc51.jpg?ver=1779797690",
+        "meta_data": [
+          {
+            "id": 1058000,
+            "key": "wc_last_active",
+            "value": "1777360235"
+          }
+        ],
+        "_links": {
+          "self": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers/25441",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers"
+            }
+          ]
+        }
+      },
+      "odoo_parsed": {
+        "customer": {
+          "id": "25441",
+          "person_name": "Frank Hoberg",
+          "email": "7bydt9812kw259d@marketplace.amazon.de"
+        },
+        "billing": {
+          "id": "",
+          "person_name": "Frank Hoberg",
+          "email": "7bydt9812kw259d@marketplace.amazon.de",
+          "company_name": "",
+          "street": "Wagrienring 23",
+          "street2": "",
+          "city": "Sierksdorf",
+          "country_code": "DE",
+          "state_code": "",
+          "zip": "23730",
+          "phone": "04216966180",
+          "type": "invoice"
+        },
+        "shipping": {
+          "id": "",
+          "person_name": "Frank Hoberg",
+          "email": "7bydt9812kw259d@marketplace.amazon.de",
+          "company_name": "",
+          "street": "Wagrienring 23",
+          "street2": "",
+          "city": "Sierksdorf",
+          "country_code": "DE",
+          "state_code": "",
+          "zip": "23730",
+          "phone": "",
+          "type": "delivery"
+        }
+      }
+    }
+  }
+}

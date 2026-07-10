@@ -1,0 +1,16 @@
+Pager usage is off.
+Output format is unaligned.
+Field separator is "|".
+tpl_total|19170
+tpl_sin_mapping|14791
+tpl_mapping_total|4391
+tpl_mapping_mapped|4379
+tpl_dup_mapping_groups|0
+var_total|27278
+var_sin_mapping|14951
+var_mapping_total|12385
+var_mapping_mapped|12327
+var_dup_mapping_groups|0
+var_mapping_null_product|58
+var_con_mas_de_10_mappings|0
+tpl_mapped_sin_public_categ|43

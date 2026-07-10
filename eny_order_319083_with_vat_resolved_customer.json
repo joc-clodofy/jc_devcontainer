@@ -1,0 +1,733 @@
+{
+  "source": {
+    "orders_file": "/workspace/soldufer_woocommerce_orders_last_month_raw.json",
+    "customers_file": "/workspace/eny_woocommerce_customers_from_order_links_last_month_raw.json",
+    "integration_id": 2,
+    "integration_name": "Eny",
+    "note": "Pedido completo de WooCommerce que contiene VAT real B25820432 en meta_data, con _links.customer resuelto."
+  },
+  "vat_candidates": [
+    {
+      "id": 9964901,
+      "key": "_billing_eu_vat_number",
+      "value": "ESB25820432"
+    },
+    {
+      "id": 9964915,
+      "key": "billing_eu_vat_number_details",
+      "value": {
+        "business_name": {
+          "label": "Business Name",
+          "data": "---"
+        },
+        "business_address": {
+          "label": "Business Address",
+          "data": "---"
+        },
+        "country_code": {
+          "label": "Country Code",
+          "data": "ES"
+        },
+        "vat_number": {
+          "label": "VAT Number",
+          "data": "B25820432"
+        }
+      }
+    },
+    {
+      "id": 9965521,
+      "key": "is_vat_exempt",
+      "value": "no"
+    }
+  ],
+  "order": {
+    "id": 319085,
+    "parent_id": 0,
+    "status": "delivered",
+    "currency": "EUR",
+    "version": "10.7.0",
+    "prices_include_tax": false,
+    "date_created": "2026-04-28T10:16:51",
+    "date_modified": "2026-05-05T16:32:26",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "4.75",
+    "shipping_tax": "1.00",
+    "cart_tax": "14.36",
+    "total": "88.47",
+    "total_tax": "15.35",
+    "customer_id": 24876,
+    "order_key": "wc_order_uT2hgcD0Sn0Iy",
+    "billing": {
+      "first_name": "RICARD",
+      "last_name": "TORRENT VIDAL",
+      "company": "OB 3003 SLU",
+      "address_1": "C/ Industria 10",
+      "address_2": "",
+      "city": "BELLVER DE CERDANYA",
+      "state": "L",
+      "postcode": "25720",
+      "country": "ES",
+      "email": "fila@fila.cat",
+      "phone": "+34638814109"
+    },
+    "shipping": {
+      "first_name": "RICARD",
+      "last_name": "TORRENT VIDAL",
+      "company": "OB 3003 SL - GRUP FILA",
+      "address_1": "C/ Industria 10",
+      "address_2": "",
+      "city": "BELLVER DE CERDANYA",
+      "state": "L",
+      "postcode": "25720",
+      "country": "ES",
+      "phone": "+34638814109"
+    },
+    "payment_method": "bacs",
+    "payment_method_title": "Transferencia bancaria",
+    "transaction_id": "",
+    "customer_ip_address": "217.65.139.204",
+    "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "created_via": "checkout",
+    "customer_note": "Horario de L a V de 7h a 15:30h",
+    "date_completed": "2026-04-29T16:31:39",
+    "date_paid": "2026-04-29T09:43:42",
+    "cart_hash": "38ebd32637c3925d9258d8d776165a90",
+    "number": "319085",
+    "meta_data": [
+      {
+        "id": 9964900,
+        "key": "_billing_wooccm11",
+        "value": "B-25820432"
+      },
+      {
+        "id": 9964901,
+        "key": "_billing_eu_vat_number",
+        "value": "ESB25820432"
+      },
+      {
+        "id": 9964902,
+        "key": "_shipping_wooccm9",
+        "value": "638814109"
+      },
+      {
+        "id": 9964904,
+        "key": "eny_gclid",
+        "value": "EAIaIQobChMImeSpt6qSkwMVLZKDBx0FOhCQEAQYBCABEgLyYvD_BwE"
+      },
+      {
+        "id": 9964905,
+        "key": "eny_gbraid",
+        "value": "0AAAAAos-pbYeykM3SaX7XAoz2ihl-bUNx"
+      },
+      {
+        "id": 9964906,
+        "key": "wpml_language",
+        "value": "es"
+      },
+      {
+        "id": 9964907,
+        "key": "billing_phone",
+        "value": "+34638814109"
+      },
+      {
+        "id": 9964909,
+        "key": "shipping_phone",
+        "value": "+34638814109"
+      },
+      {
+        "id": 9964910,
+        "key": "_phone_international",
+        "value": "+34638814109"
+      },
+      {
+        "id": 9964911,
+        "key": "_phone_international_shipping",
+        "value": "+34638814109"
+      },
+      {
+        "id": 9964912,
+        "key": "_phone_digits_only",
+        "value": "34638814109"
+      },
+      {
+        "id": 9964913,
+        "key": "_phone_digits_only_shipping",
+        "value": "34638814109"
+      },
+      {
+        "id": 9964915,
+        "key": "billing_eu_vat_number_details",
+        "value": {
+          "business_name": {
+            "label": "Business Name",
+            "data": "---"
+          },
+          "business_address": {
+            "label": "Business Address",
+            "data": "---"
+          },
+          "country_code": {
+            "label": "Country Code",
+            "data": "ES"
+          },
+          "vat_number": {
+            "label": "VAT Number",
+            "data": "B25820432"
+          }
+        }
+      },
+      {
+        "id": 9964916,
+        "key": "ws_opt_in",
+        "value": ""
+      },
+      {
+        "id": 9964917,
+        "key": "_wc_order_attribution_source_type",
+        "value": "utm"
+      },
+      {
+        "id": 9964918,
+        "key": "_wc_order_attribution_utm_campaign",
+        "value": "google_cpc"
+      },
+      {
+        "id": 9964919,
+        "key": "_wc_order_attribution_utm_source",
+        "value": "google"
+      },
+      {
+        "id": 9964920,
+        "key": "_wc_order_attribution_utm_medium",
+        "value": "cpc"
+      },
+      {
+        "id": 9964921,
+        "key": "_wc_order_attribution_session_entry",
+        "value": "https://eny.es/producto/hoja-sierra-circular-chapa-metal-203x15-87x1-8-z50-ref48404520-milwaukee/?gad_source=1&gad_campaignid=22825009138&gbraid=0AAAAAos-pbYeykM3SaX7XAoz2ihl-bUNx&gclid=EAIaIQobChMImeSpt6qSkwMVLZKDBx0FOhCQEAQYBCABEgLyYvD_BwE"
+      },
+      {
+        "id": 9964922,
+        "key": "_wc_order_attribution_session_start_time",
+        "value": "2026-04-28 08:12:11"
+      },
+      {
+        "id": 9964923,
+        "key": "_wc_order_attribution_session_pages",
+        "value": "7"
+      },
+      {
+        "id": 9964924,
+        "key": "_wc_order_attribution_session_count",
+        "value": "1"
+      },
+      {
+        "id": 9964925,
+        "key": "_wc_order_attribution_user_agent",
+        "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+      },
+      {
+        "id": 9964926,
+        "key": "_wc_order_attribution_device_type",
+        "value": "Desktop"
+      },
+      {
+        "id": 9964930,
+        "key": "_wpml_word_count",
+        "value": "8"
+      },
+      {
+        "id": 9965521,
+        "key": "is_vat_exempt",
+        "value": "no"
+      },
+      {
+        "id": 9965522,
+        "key": "_wdr_discounts",
+        "value": {
+          "free_shipping": false,
+          "cart_discounts": {
+            "applied_as": "fee",
+            "combine_all_discounts": false,
+            "applied_coupons": [
+              {
+                "name": "Descuento Verano 10%",
+                "value": 7.596,
+                "rules": [
+                  {
+                    "id": 31,
+                    "title": "Verano &gt; 80",
+                    "discount": {
+                      "discount_label": "Descuento Verano 10%",
+                      "discount_value": 7.596
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Descuento Verano 10%",
+                "value": 7.596,
+                "rules": [
+                  {
+                    "id": 31,
+                    "title": "Verano &gt; 80",
+                    "discount": {
+                      "discount_label": "Descuento Verano 10%",
+                      "discount_value": 7.596
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "saved_amount": {
+            "product_level": 0,
+            "product_level_based_on_tax_settings": 0,
+            "cart_level": 15.192,
+            "total": 15.192,
+            "total_based_on_tax_settings": 15.192
+          }
+        }
+      },
+      {
+        "id": 9965532,
+        "key": "_ga_tracked",
+        "value": "1"
+      },
+      {
+        "id": 9965533,
+        "key": "_thankyou_action_done",
+        "value": "1"
+      },
+      {
+        "id": 10021152,
+        "key": "_wc_shipment_tracking_items",
+        "value": [
+          {
+            "tracking_number": "32300029613279801257204",
+            "tracking_provider": "correos-express",
+            "custom_tracking_link": "",
+            "tracking_product_code": "",
+            "date_shipped": "1777420800",
+            "shipping_note": "",
+            "source": "REST_API",
+            "products_list": "",
+            "status_shipped": "1",
+            "tracking_id": "8b2b191e8f745134924a3232e22dc00e",
+            "user_id": 19820
+          }
+        ]
+      }
+    ],
+    "line_items": [
+      {
+        "id": 97300,
+        "name": "Hoja sierra circular chapa metal 203x15.87x1.8 Z50 REF 48404520 MILWAUKEE",
+        "product_id": 300594,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "75.96",
+        "subtotal_tax": "15.95",
+        "total": "75.96",
+        "total_tax": "15.95",
+        "taxes": [
+          {
+            "id": 1,
+            "total": "15.95",
+            "subtotal": "15.95"
+          }
+        ],
+        "meta_data": [
+          {
+            "id": 733042,
+            "key": "_advanced_woo_discount_item_total_discount",
+            "value": {
+              "initial_price": 75.96,
+              "discounted_price": 75.96,
+              "total_discount_details": [],
+              "cart_discount_details": {
+                "31": {
+                  "cart_discount": "10",
+                  "cart_shipping": "no",
+                  "cart_discount_type": "percentage",
+                  "cart_discount_label": "Descuento Verano 10%",
+                  "cart_discount_price": 7.596,
+                  "cart_discount_product_price": 7.596
+                }
+              },
+              "apply_as_cart_rule": [
+                "yes"
+              ],
+              "discount_lines": {
+                "non_applied": {
+                  "quantity": 1,
+                  "discount": 0,
+                  "price": 75.96,
+                  "calculate_discount_from": 75.96
+                }
+              },
+              "cart_quantity": 1,
+              "product_id": 300594,
+              "initial_price_based_on_tax_settings": 91.91,
+              "discounted_price_based_on_tax_settings": 91.91
+            },
+            "display_key": "_advanced_woo_discount_item_total_discount",
+            "display_value": {
+              "initial_price": 75.96,
+              "discounted_price": 75.96,
+              "total_discount_details": [],
+              "cart_discount_details": {
+                "31": {
+                  "cart_discount": "10",
+                  "cart_shipping": "no",
+                  "cart_discount_type": "percentage",
+                  "cart_discount_label": "Descuento Verano 10%",
+                  "cart_discount_price": 7.596,
+                  "cart_discount_product_price": 7.596
+                }
+              },
+              "apply_as_cart_rule": [
+                "yes"
+              ],
+              "discount_lines": {
+                "non_applied": {
+                  "quantity": 1,
+                  "discount": 0,
+                  "price": 75.96,
+                  "calculate_discount_from": 75.96
+                }
+              },
+              "cart_quantity": 1,
+              "product_id": 300594,
+              "initial_price_based_on_tax_settings": 91.91,
+              "discounted_price_based_on_tax_settings": 91.91
+            }
+          },
+          {
+            "id": 733043,
+            "key": "_wdr_discounts",
+            "value": {
+              "initial_price": 75.96,
+              "discounted_price": 75.96,
+              "initial_price_based_on_tax_settings": 91.91,
+              "discounted_price_based_on_tax_settings": 91.91,
+              "applied_rules": [
+                {
+                  "id": 31,
+                  "title": "Verano &gt; 80",
+                  "type": "cart_discount",
+                  "discount": {
+                    "applied_in": "cart_level",
+                    "discount_type": "percentage",
+                    "discount_value": 10,
+                    "discount_label": "Descuento Verano 10%",
+                    "discount_price": 7.596
+                  }
+                }
+              ],
+              "saved_amount": 0,
+              "saved_amount_based_on_tax_settings": 0,
+              "is_free_product": false
+            },
+            "display_key": "_wdr_discounts",
+            "display_value": {
+              "initial_price": 75.96,
+              "discounted_price": 75.96,
+              "initial_price_based_on_tax_settings": 91.91,
+              "discounted_price_based_on_tax_settings": 91.91,
+              "applied_rules": [
+                {
+                  "id": 31,
+                  "title": "Verano &gt; 80",
+                  "type": "cart_discount",
+                  "discount": {
+                    "applied_in": "cart_level",
+                    "discount_type": "percentage",
+                    "discount_value": 10,
+                    "discount_label": "Descuento Verano 10%",
+                    "discount_price": 7.596
+                  }
+                }
+              ],
+              "saved_amount": 0,
+              "saved_amount_based_on_tax_settings": 0,
+              "is_free_product": false
+            }
+          },
+          {
+            "id": 733061,
+            "key": "_reduced_stock",
+            "value": "1",
+            "display_key": "_reduced_stock",
+            "display_value": "1"
+          }
+        ],
+        "sku": "0045242134472",
+        "global_unique_id": "",
+        "price": 75.96,
+        "image": {
+          "id": "305139",
+          "src": "https://eny.es/wp-content/uploads/2026/03/260787-45242134472-HOJA-SIERRA-CIRCULAR-CHAPA-METAL-203X15-87X1-8-Z50-REF-48404520-MILWAUKEE.jpg"
+        },
+        "parent_name": null
+      }
+    ],
+    "tax_lines": [
+      {
+        "id": 97303,
+        "rate_code": "ES-TAX ES-1",
+        "rate_id": 1,
+        "label": "Tax ES",
+        "compound": false,
+        "tax_total": "14.36",
+        "shipping_tax_total": "1.00",
+        "rate_percent": 21,
+        "meta_data": []
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 97302,
+        "method_title": "Envío",
+        "method_id": "apg_shipping",
+        "instance_id": "22",
+        "total": "4.75",
+        "total_tax": "1.00",
+        "taxes": [
+          {
+            "id": 1,
+            "total": "1.00",
+            "subtotal": ""
+          }
+        ],
+        "tax_status": "taxable",
+        "meta_data": []
+      }
+    ],
+    "fee_lines": [
+      {
+        "id": 97301,
+        "name": "Descuento Verano 10%",
+        "tax_class": "0",
+        "tax_status": "taxable",
+        "amount": "-7.596",
+        "total": "-7.60",
+        "total_tax": "-1.60",
+        "taxes": [
+          {
+            "id": 1,
+            "total": "-1.60",
+            "subtotal": ""
+          }
+        ],
+        "meta_data": []
+      }
+    ],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://eny.es/finalizar-compra/pagar/319085/?pay_for_order=true&key=wc_order_uT2hgcD0Sn0Iy",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2026-04-28T08:16:51",
+    "date_modified_gmt": "2026-05-05T14:32:26",
+    "date_completed_gmt": "2026-04-29T14:31:39",
+    "date_paid_gmt": "2026-04-29T07:43:42",
+    "email": "fila@fila.cat",
+    "final_amount": "88.47",
+    "currency_symbol": "€",
+    "_links": {
+      "self": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders/319085",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/orders"
+        }
+      ],
+      "email_templates": [
+        {
+          "embeddable": true,
+          "href": "https://eny.es/wp-json/wc/v3/orders/319085/actions/email_templates"
+        }
+      ],
+      "customer": [
+        {
+          "href": "https://eny.es/wp-json/wc/v3/customers/24876"
+        }
+      ]
+    }
+  },
+  "resolved_links": {
+    "customer": {
+      "href": "https://eny.es/wp-json/wc/v3/customers/24876",
+      "raw_customer": {
+        "id": 24876,
+        "date_created": "2026-03-09T14:39:17",
+        "date_created_gmt": "2026-03-09T13:39:17",
+        "date_modified": "2026-04-28T10:25:52",
+        "date_modified_gmt": "2026-04-28T08:25:52",
+        "email": "fila@fila.cat",
+        "first_name": "RICARD",
+        "last_name": "TORRENT VIDAL",
+        "role": "customer",
+        "username": "ricard.torrent vidal",
+        "billing": {
+          "first_name": "RICARD",
+          "last_name": "TORRENT VIDAL",
+          "company": "OB 3003 SLU",
+          "address_1": "C/ Industria 10",
+          "address_2": "",
+          "city": "BELLVER DE CERDANYA",
+          "postcode": "25720",
+          "country": "ES",
+          "state": "L",
+          "email": "fila@fila.cat",
+          "phone": "+34638814109"
+        },
+        "shipping": {
+          "first_name": "RICARD",
+          "last_name": "TORRENT VIDAL",
+          "company": "OB 3003 SL - GRUP FILA",
+          "address_1": "C/ Industria 10",
+          "address_2": "",
+          "city": "BELLVER DE CERDANYA",
+          "postcode": "25720",
+          "country": "ES",
+          "state": "L",
+          "phone": "+34638814109"
+        },
+        "is_paying_customer": true,
+        "avatar_url": "https://eny.es/wp-content/litespeed/avatar/60084012bb9f8553e18a9f1cf68f7e95.jpg",
+        "meta_data": [
+          {
+            "id": 1034388,
+            "key": "icl_admin_language",
+            "value": "es"
+          },
+          {
+            "id": 1034390,
+            "key": "billing_eu_vat_number",
+            "value": "ESB25820432"
+          },
+          {
+            "id": 1034410,
+            "key": "shipping_method",
+            "value": [
+              "apg_shipping:22"
+            ]
+          },
+          {
+            "id": 1034412,
+            "key": "shipping_wooccm9",
+            "value": "638814109"
+          },
+          {
+            "id": 1034413,
+            "key": "wc_last_active",
+            "value": "1778065147"
+          },
+          {
+            "id": 1034416,
+            "key": "itsec_user_activity_last_seen",
+            "value": "1778065150"
+          },
+          {
+            "id": 1034424,
+            "key": "icl_admin_language_migrated_to_wp47",
+            "value": "1"
+          },
+          {
+            "id": 1046681,
+            "key": "itsec-password-strength",
+            "value": "4"
+          },
+          {
+            "id": 1046686,
+            "key": "wfls-last-login",
+            "value": "1778065147"
+          },
+          {
+            "id": 1058040,
+            "key": "billing_wooccm11",
+            "value": "B-25820432"
+          },
+          {
+            "id": 1060910,
+            "key": "wc_order_count_ey",
+            "value": "3"
+          }
+        ],
+        "_links": {
+          "self": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers/24876",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://eny.es/wp-json/wc/v3/customers"
+            }
+          ]
+        }
+      },
+      "odoo_parsed": {
+        "customer": {
+          "id": "24876",
+          "person_name": "RICARD TORRENT VIDAL",
+          "email": "fila@fila.cat"
+        },
+        "billing": {
+          "id": "",
+          "person_name": "RICARD TORRENT VIDAL",
+          "email": "fila@fila.cat",
+          "company_name": "OB 3003 SLU",
+          "street": "C/ Industria 10",
+          "street2": "",
+          "city": "BELLVER DE CERDANYA",
+          "country_code": "ES",
+          "state_code": "L",
+          "zip": "25720",
+          "phone": "+34638814109",
+          "type": "invoice"
+        },
+        "shipping": {
+          "id": "",
+          "person_name": "RICARD TORRENT VIDAL",
+          "email": "fila@fila.cat",
+          "company_name": "OB 3003 SL - GRUP FILA",
+          "street": "C/ Industria 10",
+          "street2": "",
+          "city": "BELLVER DE CERDANYA",
+          "country_code": "ES",
+          "state_code": "L",
+          "zip": "25720",
+          "phone": "+34638814109",
+          "type": "delivery"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿WC ID;SKU WC;Nombre WC;Estado Odoo;Causa probable;Accion recomendada;Duplicados Odoo con mismo SKU;IDs Odoo duplicados
+1192096;ST-M1010w;"""MARCO"" MIGHTYHOOP 10"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1192091;ST-M0505-W;"""MARCO"" MIGHTYHOOP 5,5"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2206, 3204
+1190942;;AGUJAS 134D 10 uds;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+7986;;CAJA DE CANILLAS PREBOBINADAS PREMIUM ROYAL 70D/2 L;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+287248;;ESPUMA 3D;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1192083;TA-9A0802400012;EXCENTRICO PARTIDO  PRENSATELAS (M) TAJIMA: (TFMX, TFMXII, TFGN,);Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2863, 3224
+8342;;HILO DE CANILLA ANZEL SUPER 10.000MT;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1191055;;HILO DE ESPUMA 10.000;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1191063;;HILO MERROW 10.000MT;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1190014;ST-M1212-HA500;"MIDGHTYHOOP 12 X 12"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2948, 3226
+393712;ST-M1316-HA500;"MIGHTYHOOP 12,5&quot; X 15,5&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1721, 3192
+1189760;ST-M1304-HA500;"MIGHTYHOOP 12,6"" X 3,9"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2719, 3220
+393715;ST-M0413-HA500;"MIGHTYHOOP 4&quot; X 12,75&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1722, 3193
+393967;ST-M0404-HA360;"MIGHTYHOOP 4&quot; X 4&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1725, 3196
+410409;ST-M0608-HA360;"MIGHTYHOOP 6&quot; X 8&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1723, 3194
+393964;ST-M6565-HA360;"MIGHTYHOOP 6,5&quot; X 6,5&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1724, 3195
+1189765;ST-M7272-HA500;"MIGHTYHOOP 7,25"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2720, 3221
+393709;ST-M0803-HA360;"MIGHTYHOOP 7,75&quot; X 2,75&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1719, 3191
+393466;ST-M0813-HA500;"MIGHTYHOOP 8 X 13&quot; ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;1716, 3190
+1191141;ST-M0809-HA360;"MIGHTYHOOP 8,5 X 9"" ECO";Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2991, 3231
+1189918;;PLÁSTICO HIDROSOLUBLE;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1189943;;PRO-NYLON PARA EL BORDADO;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+329538;;RASOTEX;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1190016;ST-M1716-HA500;ST-M1716-HA500;Sin producto Odoo;SKU duplicado en Odoo;Unificar referencia interna duplicada en Odoo y reintentar import/link;2;2949, 3227
+1192087;;TACO SALTO (RECIPROCADOR) TAJIMA TMFX/TFGN;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
+1189796;;VELCRO 107;Sin producto Odoo;SKU vacio en WC;Unificar referencia interna duplicada en Odoo y reintentar import/link;0;
